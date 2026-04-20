@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Telegram session files (contains auth tokens)
+*.session
+*.session-journal
+
+# Raw export data (large files)
+telegram_raw_messages.json
+
+# Build & export scripts (contain credentials)
+build_data.py
+export_telegram.py
+telegram_names_detailed.json
+
+# OS files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+build_data_js.py
+build_data.py

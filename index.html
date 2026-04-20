@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interactive guide to Sri Rudram - Rudra Prashna from Krishna Yajurveda. 22 anuvakas with Sanskrit, IAST transliteration, meaning, and precise Ghanapathi chanting.">
+  <meta name="theme-color" content="#0f0f0f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta property="og:title" content="Sri Rudram - Rudra Prashna">
+  <meta property="og:description" content="22 anuvakas from Krishna Yajurveda. Namakam & Chamakam with Sanskrit, transliteration, and Ghanapathi chanting.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shri-rudram.vercel.app/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sri Rudram - Rudra Prashna">
+  <meta name="twitter:description" content="22 anuvakas from Krishna Yajurveda - interactive chanting companion">
+  <title>Sri Rudram - Rudra Prashna</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-title">
+      <h1 class="title-sanskrit">श्री रुद्रम्</h1>
+      <p class="title-english">Sri Rudram - Rudra Prashna</p>
+      <div class="header-controls">
+        <button class="theme-btn" id="theme-toggle" aria-label="Toggle theme">System</button>
+        <div class="font-controls" id="font-controls"></div>
+      </div>
+    </div>
+    <nav class="nav-tabs" role="tablist">
+      <a href="#home" class="nav-tab active" role="tab" data-view="home">Home</a>
+      <a href="#namakam" class="nav-tab" role="tab" data-view="namakam">Namakam</a>
+      <a href="#chamakam" class="nav-tab" role="tab" data-view="chamakam">Chamakam</a>
+      <a href="#chant" class="nav-tab" role="tab" data-view="chant">Chant</a>
+      <a href="#about" class="nav-tab" role="tab" data-view="about">About</a>
+    </nav>
+  </header>
+
+  <main id="app">
+    <!-- Home View -->
+    <section id="view-home" class="view">
+      <div class="welcome-section">
+        <p class="welcome-text">Sri Rudram (also known as Rudra Prashna or Shatarudriya) is the most revered hymn to Lord Rudra-Shiva, drawn from the Krishna Yajurveda (Taittiriya Samhita, Kanda 4). Composed of 22 anuvakas across two sections - Namakam and Chamakam - it has been chanted for thousands of years for atonement, grace, and the unveiling of Shiva's all-pervading presence.</p>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-number">22</span>
+          <span class="stat-label">Anuvakas</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">11</span>
+          <span class="stat-label">Namakam</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">11</span>
+          <span class="stat-label">Chamakam</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" id="stat-completed">0</span>
+          <span class="stat-label">Learned</span>
+        </div>
+      </div>
+
+      <div class="sadhana-section">
+        <h2 class="section-title">Sadhana Tracker</h2>
+        <div class="sadhana-card">
+          <div class="sadhana-stats">
+            <div class="sadhana-stat">
+              <span class="sadhana-stat-number" id="sadhana-total">0</span>
+              <span class="sadhana-stat-label">Total Recitations</span>
+            </div>
+            <div class="sadhana-stat">
+              <span class="sadhana-stat-number" id="sadhana-streak">0</span>
+              <span class="sadhana-stat-label">Day Streak</span>
+            </div>
+            <div class="sadhana-stat">
+              <span class="sadhana-stat-number" id="sadhana-month">0</span>
+              <span class="sadhana-stat-label">This Month</span>
+            </div>
+          </div>
+          <div class="sadhana-actions">
+            <button class="sadhana-log-btn" id="sadhana-log">Log Recitation</button>
+            <div class="sadhana-last" id="sadhana-last"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="audio-section">
+        <h2 class="section-title">Chanting Audio</h2>
+        <div class="youtube-wrapper">
+          <iframe id="home-youtube"
+                  src="https://www.youtube-nocookie.com/embed/L4yT_UpfJdw?rel=0"
+                  title="Sri Rudram With Lyrics - Perfect Chanting with Correct Swaras"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <div class="audio-links">
+          <a href="https://youtu.be/L4yT_UpfJdw" target="_blank" rel="noopener" class="audio-link">
+            <span class="audio-title">Sri Rudram - Perfect Chanting with Correct Swaras</span>
+            <span class="audio-artist">Produced by Om Swami Ji - Chanted by 7 Ghanapathi Vedabrahmas</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="significance-section">
+        <h2>Why Sri Rudram Is Chanted</h2>
+        <p>Considered the very heart of the Yajurveda, Sri Rudram is chanted for the grace of Mahayogi Shiva and is regarded as the singular most important hymn for atonement in the Vedic tradition. It is the central chant of Rudra Abhishekam and Maha Rudra Yagna.</p>
+        <ul>
+          <li>Invokes Rudra in every form - fierce and auspicious, cosmic and intimate</li>
+          <li>Namakam surrenders salutations; Chamakam seeks divine blessings</li>
+          <li>Contains the Maha Mrityunjaya mantra (Anuvaka 11 of Namakam)</li>
+          <li>Considered one of the oldest prayers in recorded human history</li>
+          <li>Chanted for protection, healing, and self-purification</li>
+        </ul>
+      </div>
+
+      <div class="significance-section">
+        <h2>Credits</h2>
+        <div class="credits-card">
+          <p><strong>Executive Producer:</strong> Om Swami Ji</p>
+          <p><strong>Chanted by:</strong> 7 Ghanapathi Vedabrahmas (precise swara-correct recitation)</p>
+          <p><strong>Source:</strong> Krishna Yajurveda, Taittiriya Samhita, Kanda 4, Prapathaka 5</p>
+          <p>May this offering please Lord Rudra and purify all who encounter it.</p>
+        </div>
+      </div>
+
+      <div class="quick-actions">
+        <a href="#namakam" class="action-btn">Read Namakam</a>
+        <a href="#chamakam" class="action-btn">Read Chamakam</a>
+        <a href="#chant" class="action-btn">Chant Along</a>
+      </div>
+    </section>
+
+    <!-- Namakam View -->
+    <section id="view-namakam" class="view" hidden>
+      <div class="section-intro">
+        <h2>Namakam - Salutations to Rudra</h2>
+        <p>The first half of Sri Rudram. Across 11 anuvakas, it offers "namo namah" - bowing down - to every form and aspect of Rudra. From His wrath and weapons to His auspicious Shiva form, from lord of thieves to lord of sages, Namakam declares that nothing exists outside Him.</p>
+      </div>
+      <div class="anuvakas-stats">
+        <div id="namakam-counter">11 anuvakas</div>
+        <div class="progress-pill" id="namakam-progress">0 / 11 learned</div>
+      </div>
+      <div class="anuvakas-list" id="namakam-list"></div>
+    </section>
+
+    <!-- Chamakam View -->
+    <section id="view-chamakam" class="view" hidden>
+      <div class="section-intro">
+        <h2>Chamakam - Prayer for Blessings</h2>
+        <p>The second half of Sri Rudram. Across 11 anuvakas, it asks Rudra "cha me" - may it be granted to me - for every blessing worth desiring: food and progeny, health and long life, cosmic powers and inner knowledge, culminating in the sacred numerical sequences and the final peace invocation.</p>
+      </div>
+      <div class="anuvakas-stats">
+        <div id="chamakam-counter">11 anuvakas</div>
+        <div class="progress-pill" id="chamakam-progress">0 / 11 learned</div>
+      </div>
+      <div class="anuvakas-list" id="chamakam-list"></div>
+    </section>
+
+    <!-- Chant View -->
+    <section id="view-chant" class="view" hidden>
+      <div class="chant-controls">
+        <button class="chant-btn" id="chant-fullscreen">Full Screen</button>
+        <div class="chant-verse-info" id="chant-anuvaka-info">Anuvaka 1 of 22</div>
+        <button class="chant-btn" id="chant-settings-toggle">Settings</button>
+      </div>
+
+      <div class="chant-top">
+        <div class="chant-player">
+          <iframe id="chant-youtube"
+                  src="https://www.youtube-nocookie.com/embed/L4yT_UpfJdw?enablejsapi=1&rel=0"
+                  title="Sri Rudram - Chant Along"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+
+        <div class="chant-current-info">
+          <div class="chant-anuvaka-selector">
+            <select id="chant-select" class="chant-select" aria-label="Jump to anuvaka"></select>
+            <button class="chant-btn" id="chant-jump">Play from Here</button>
+            <button class="chant-btn" id="chant-sync-toggle" aria-pressed="true">Auto-sync: On</button>
+          </div>
+          <div class="chant-toggle-row">
+            <label><input type="checkbox" id="chant-show-iast" checked> Show IAST transliteration</label>
+            <label><input type="checkbox" id="chant-show-meaning"> Show meaning</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="chant-text-stage" id="chant-text-stage">
+        <div class="anuvaka-block-label" id="chant-section-label">Namakam - Anuvaka 1</div>
+        <div class="chant-current-theme" id="chant-theme"></div>
+        <div class="anuvaka-sanskrit" id="chant-sanskrit"></div>
+        <div class="anuvaka-iast" id="chant-iast"></div>
+        <div class="anuvaka-meaning" id="chant-meaning" hidden></div>
+      </div>
+
+      <div class="chant-nav">
+        <button class="chant-nav-btn" id="chant-prev">Prev</button>
+        <div class="chant-progress-dots" id="chant-dots"></div>
+        <button class="chant-nav-btn" id="chant-next">Next</button>
+      </div>
+    </section>
+
+    <!-- About View -->
+    <section id="view-about" class="view" hidden>
+      <div class="about-section">
+        <h2>What is Sri Rudram</h2>
+        <p>Sri Rudram (श्री रुद्रम्), also known as Rudra Prashna or Shatarudriya, is an ancient Vedic hymn addressed to Lord Rudra (an early form of Shiva). It appears in the Krishna Yajurveda in the Taittiriya Samhita (Kanda 4), and a closely parallel version exists in the Shukla Yajurveda. Many regard it as the oldest continuously chanted hymn to Shiva in recorded history.</p>
+        <ul>
+          <li><strong>Source:</strong> Krishna Yajurveda, Taittiriya Samhita, Kanda 4</li>
+          <li><strong>Prapathaka 5 = Namakam</strong> - 11 anuvakas of salutations</li>
+          <li><strong>Prapathaka 7 = Chamakam</strong> - 11 anuvakas of invocations</li>
+          <li>Considered the heart of the Yajurveda</li>
+          <li>Central hymn in Rudrabhishekam</li>
+        </ul>
+      </div>
+
+      <div class="about-section">
+        <h2>Namakam vs Chamakam</h2>
+        <p><strong>Namakam</strong> (the first 11 anuvakas) is a torrent of salutations. Every anuvaka repeats "namo" ("salutations") or "namah" - to Rudra in every conceivable form. He is saluted as lord of armies and lord of thieves, dwelling in mountains and in medicines, in the dust and in the hearts of the gods. The salutations declare that nothing in creation is outside Him.</p>
+        <p><strong>Chamakam</strong> (the next 11 anuvakas) turns the prayer outward into request. Each line ends with "cha me" - "and may this be granted to me." The devotee asks for food, offspring, vitality, longevity, wisdom, all ritual instruments, the grace of every Vedic deity, and finally all the sacred numbers - a complete offering-list for a complete human life.</p>
+      </div>
+
+      <div class="about-section">
+        <h2>Rudra Gayatri</h2>
+        <p>A sacred short mantra, traditionally chanted before and after Sri Rudram. It distills the essence of the hymn into a single invocation for inspiration and inner light.</p>
+        <div class="mantra-card">
+          <div class="mantra-sanskrit">तत्पुरुषाय विद्महे महादेवाय धीमहि ।
+तन्नो रुद्रः प्रचोदयात् ॥</div>
+          <div class="mantra-iast">tatpuruṣāya vidmahe mahādevāya dhīmahi | tanno rudraḥ pracodayāt ||</div>
+          <div class="mantra-meaning">We meditate on Tatpurusha (the Supreme Person). We contemplate Mahadeva (the Great God). May that Rudra inspire and illuminate us.</div>
+          <div class="mantra-source"><strong>Source:</strong> Mahanarayana Upanishad</div>
+        </div>
+      </div>
+
+      <div class="about-section">
+        <h2>Maha Mrityunjaya Mantra</h2>
+        <p>The most powerful Shiva mantra - the great "victory over death" mantra - is embedded within Anuvaka 11 of Namakam. Traditionally recited 108 times for healing, protection, and removal of fear of death.</p>
+        <div class="mantra-card">
+          <div class="mantra-sanskrit">त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् ।
+उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात् ॥</div>
+          <div class="mantra-iast">tryambakaṃ yajāmahe sugandhiṃ puṣṭivardhanam | urvārukamiva bandhanānmṛtyormukṣīya mā'mṛtāt ||</div>
+          <div class="mantra-meaning">We worship the three-eyed One (Shiva), who is fragrant and who nourishes all. Like the ripe cucumber is freed from its stem, may we be freed from death - not from immortality.</div>
+          <div class="word-breakdown">
+            <div class="word-breakdown-label">Word by Word</div>
+            <ul>
+              <li><span class="word-sanskrit">त्र्यम्बकं</span> <span class="word-iast">(tryambakaṃ)</span> - the three-eyed one</li>
+              <li><span class="word-sanskrit">यजामहे</span> <span class="word-iast">(yajāmahe)</span> - we worship</li>
+              <li><span class="word-sanskrit">सुगन्धिं</span> <span class="word-iast">(sugandhiṃ)</span> - the fragrant</li>
+              <li><span class="word-sanskrit">पुष्टिवर्धनम्</span> <span class="word-iast">(puṣṭivardhanam)</span> - nourisher, enhancer of wellbeing</li>
+              <li><span class="word-sanskrit">उर्वारुकमिव</span> <span class="word-iast">(urvārukamiva)</span> - like a ripe cucumber</li>
+              <li><span class="word-sanskrit">बन्धनात्</span> <span class="word-iast">(bandhanāt)</span> - from the bondage (stem)</li>
+              <li><span class="word-sanskrit">मृत्योर्मुक्षीय</span> <span class="word-iast">(mṛtyormukṣīya)</span> - may I be liberated from death</li>
+              <li><span class="word-sanskrit">मा अमृतात्</span> <span class="word-iast">(mā amṛtāt)</span> - not from immortality</li>
+            </ul>
+          </div>
+          <div class="mantra-source"><strong>Source:</strong> Rig Veda 7.59.12, also in Yajur Veda</div>
+        </div>
+      </div>
+
+      <div class="about-section">
+        <h2>Traditional Practice Flow</h2>
+        <p>The complete traditional sequence of recitation, as followed in orthodox Vedic practice:</p>
+        <ol class="practice-flow-list">
+          <li><strong>Achamana &amp; Pranayama</strong><span>Purification through sipping water and breath control</span></li>
+          <li><strong>Sankalpa</strong><span>Statement of intent with date, place, purpose</span></li>
+          <li><strong>Ganapati Prarthana</strong><span>Invocation of Lord Ganesha to remove obstacles</span></li>
+          <li><strong>Guru Vandana</strong><span>Salutations to the Guru</span></li>
+          <li><strong>Shivasankalpa Suktam</strong><span>Purvanga (preliminary invocation)</span></li>
+          <li><strong>Sri Rudram Namakam</strong><span>11 anuvakas of salutations</span></li>
+          <li><strong>Chamakam</strong><span>11 anuvakas invoking blessings</span></li>
+          <li><strong>Purusha Suktam</strong><span>Vedic hymn to the Cosmic Being</span></li>
+          <li><strong>Maha Mrityunjaya Japa</strong><span>Recitation of the Mrityunjaya mantra</span></li>
+          <li><strong>Rudra Gayatri</strong><span>Rudra Gayatri recitation</span></li>
+          <li><strong>Mantra Pushpam</strong><span>Offering of flowers with mantras</span></li>
+          <li><strong>Shanti Mantra</strong><span>Peace invocation</span></li>
+        </ol>
+        <div class="practice-flow-note">Different traditions follow slightly different sequences. This represents the most common order.</div>
+      </div>
+
+      <div class="about-section">
+        <h2>Beginner's Path</h2>
+        <p>Guidance for those new to Sri Rudram - a gradual, sustainable way to build the practice:</p>
+        <div class="stages-grid">
+          <div class="stage-card">
+            <div class="stage-label">Stage 1</div>
+            <div class="stage-title">Start Small</div>
+            <div class="stage-desc">Begin with just Namakam Anuvaka 1. Chant daily until familiar with the words and rhythm.</div>
+          </div>
+          <div class="stage-card">
+            <div class="stage-label">Stage 2</div>
+            <div class="stage-title">Build Gradually</div>
+            <div class="stage-desc">Add one anuvaka at a time. Take your time - depth over speed. Aim to complete all 11 Namakam anuvakas over weeks or months.</div>
+          </div>
+          <div class="stage-card">
+            <div class="stage-label">Stage 3</div>
+            <div class="stage-title">Add Chamakam</div>
+            <div class="stage-desc">Once Namakam is comfortable, begin adding Chamakam anuvakas. Traditionally, Chamakam is added only after Namakam is established - we offer salutations before seeking blessings.</div>
+          </div>
+          <div class="stage-card">
+            <div class="stage-label">Stage 4</div>
+            <div class="stage-title">Full Recitation</div>
+            <div class="stage-desc">Chant the complete Namakam + Chamakam daily. This takes approximately 22-25 minutes.</div>
+          </div>
+          <div class="stage-card">
+            <div class="stage-label">Stage 5</div>
+            <div class="stage-title">Extended Practice</div>
+            <div class="stage-desc">Add Purvanga (Shivasankalpa Suktam) before and Uttaranga (Purusha Suktam, Mrityunjaya Japa) after for the complete traditional practice.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-section">
+        <h2>How to Chant - Etiquette</h2>
+        <ul>
+          <li>Bathe (shower) before chanting. Wear clean clothes.</li>
+          <li>Face east or north if possible. Sit on a clean asana.</li>
+          <li>Chant from memory once comfortable; follow along with the audio while learning.</li>
+          <li>The Ghanapathi recitation has precise swaras (udatta, anudatta, svarita) - do not guess; follow the traditional audio.</li>
+          <li>Begin with a short prayer to Ganesha and your Guru. End with Om Shanti Shanti Shanti.</li>
+          <li>Do not skip anuvakas mid-recitation. If short on time, chant a single anuvaka fully.</li>
+          <li>Women may chant Sri Rudram; only the traditional injunction against loud Vedic svara recitation during menstruation is observed in some lineages. Soft or mental recitation is always permitted.</li>
+        </ul>
+      </div>
+
+      <div class="about-section">
+        <h2>Rudrabhishekam</h2>
+        <p>The sacred ritual of bathing a Shiva Linga while chanting Sri Rudram. Each offering carries a specific intention and blessing.</p>
+
+        <div class="about-subheading">Traditional offerings and their significance</div>
+        <div class="offerings-grid">
+          <div class="offering-item">
+            <span class="offering-name">Water <span class="offering-sanskrit">(jala)</span></span>
+            <span class="offering-desc">Peace</span>
+          </div>
+          <div class="offering-item">
+            <span class="offering-name">Milk <span class="offering-sanskrit">(kshira)</span></span>
+            <span class="offering-desc">Progeny and longevity</span>
+          </div>
+          <div class="offering-item">
+            <span class="offering-name">Curd <span class="offering-sanskrit">(dadhi)</span></span>
+            <span class="offering-desc">Children and prosperity</span>
+          </div>
+          <div class="offering-item">
+            <span class="offering-name">Ghee <span class="offering-sanskrit">(ghrta)</span></span>
+            <span class="offering-desc">Moksha (liberation)</span>
+          </div>
+          <div class="offering-item">
+            <span class="offering-name">Honey <span class="offering-sanskrit">(madhu)</span></span>
+            <span class="offering-desc">Wealth</span>
+          </div>
+          <div class="offering-item">
+            <span class="offering-name">Sugar <span class="offering-sanskrit">(sharkara)</span></span>
+            <span class="offering-desc">Happiness</span>
+          </div>
+          <div class="offering-item">
+            <span class="offering-name">Panchamrita</span>
+            <span class="offering-desc">Milk + curd + ghee + honey + sugar - fulfillment of all wishes</span>
+          </div>
+          <div class="offering-item">
+            <span class="offering-name">Coconut water</span>
+            <span class="offering-desc">Contentment</span>
+          </div>
+          <div class="offering-item">
+            <span class="offering-name">Sandalwood paste</span>
+            <span class="offering-desc">Grace of Lakshmi</span>
+          </div>
+          <div class="offering-item">
+            <span class="offering-name">Bhasma <span class="offering-sanskrit">(sacred ash)</span></span>
+            <span class="offering-desc">Purification</span>
+          </div>
+        </div>
+
+        <div class="about-subheading">Best days for Rudrabhishekam</div>
+        <ul>
+          <li><strong>Monday</strong> - Shiva's day</li>
+          <li><strong>Pradosham</strong> - 13th tithi of each fortnight</li>
+          <li><strong>Mahashivaratri</strong> - 14th tithi of Krishna Paksha in Phalguna</li>
+          <li><strong>Shravan month</strong> - especially all Mondays</li>
+        </ul>
+
+        <div class="about-subheading">Extended forms</div>
+        <ul>
+          <li><strong>Ekadasha Rudra</strong> - Chanting Sri Rudram 11 times, representing the 11 Rudras</li>
+          <li><strong>Maha Rudra</strong> - 121 times (11 x 11)</li>
+        </ul>
+
+        <div class="about-cta">
+          <p>Om Swami's Sadhana App offers free Rudrabhishekam performed by priests on your behalf.</p>
+          <a href="https://sadhana-app.onelink.me/nGkt/sadhana-app" target="_blank" rel="noopener" class="cta-btn">Open Sadhana App</a>
+        </div>
+      </div>
+
+      <div class="about-section">
+        <h2>Significance in Shaivism and Vedic Tradition</h2>
+        <p>Sri Rudram is central to Shaivite practice and is recited during:</p>
+        <ul>
+          <li><strong>Rudra Abhishekam</strong> - the sacred bathing ritual of a Shiva Linga</li>
+          <li><strong>Maha Rudra Yagna</strong> and <strong>Ati Rudra Yagna</strong> - large multi-priest fire ceremonies</li>
+          <li><strong>Mondays</strong> and especially <strong>Maha Shivaratri</strong></li>
+          <li><strong>Shraavan month</strong> - the lunar month dedicated to Shiva</li>
+          <li>Daily sadhana for aspirants on the Shaiva path</li>
+        </ul>
+      </div>
+
+      <div class="about-section">
+        <h2>Credits</h2>
+        <div class="credits-card">
+          <p><strong>Audio:</strong> Om Swami ji's production with 7 Ghanapathi Vedabrahma chanters</p>
+          <p><strong>Text:</strong> Krishna Yajurveda, Taittiriya Samhita</p>
+          <p><strong>Source YouTube:</strong> <a href="https://youtu.be/L4yT_UpfJdw" target="_blank" rel="noopener">https://youtu.be/L4yT_UpfJdw</a></p>
+          <p>All Sanskrit text, IAST transliteration, and meaning-summaries are offered in devotion. Any error is mine; any grace is Shiva's.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-dedication">A devotional offering to Lord Rudra - Mahadeva</p>
+    <p class="footer-source">Audio source: <a href="https://youtu.be/L4yT_UpfJdw" target="_blank" rel="noopener">Om Swami Ji's YouTube channel</a></p>
+    <div class="data-controls">
+      <button class="data-btn" id="export-data">Export Progress</button>
+      <label class="data-btn import-label">
+        Import Progress
+        <input type="file" id="import-data" accept=".json" hidden>
+      </label>
+    </div>
+    <p class="footer-repo"><a href="https://github.com/HardikDewra/shri-rudram" target="_blank" rel="noopener">GitHub</a></p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="app.js"></script>
+  <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('sw.js').catch(function () {});
+    });
+  }
+  </script>
+</body>
+</html>
