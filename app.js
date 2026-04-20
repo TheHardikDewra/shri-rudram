@@ -52,7 +52,7 @@
     expandedCardId: null,
     chantIdx: 0,           // linear index 0..21
     chantShowIast: true,
-    chantShowMeaning: false,
+    chantShowMeaning: true,
     chantFullscreen: false,
     chantAutoSync: true,
     ytPlayer: null,
