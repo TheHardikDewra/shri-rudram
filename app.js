@@ -53,8 +53,10 @@
     chantIdx: 0,           // linear index 0..21
     chantShowIast: true,
     chantShowMeaning: true,
+    chantShowSwara: true,
     chantFullscreen: false,
     chantAutoSync: true,
+    globalShowSwara: true,  // for Namakam/Chamakam list views
     ytPlayer: null,
     ytReady: false,
     ytPollTimer: null,
@@ -227,7 +229,7 @@
     else if (view === 'namakam') renderAnuvakaList('namakam');
     else if (view === 'chamakam') renderAnuvakaList('chamakam');
     else if (view === 'chant') initChant();
-    // about is static HTML
+    else if (view === 'about') renderAboutSadhana();
 
     // Stop polling when leaving chant
     if (view !== 'chant') stopYtPolling();
@@ -247,6 +249,50 @@
   function renderHome() {
     document.getElementById('stat-completed').textContent = STATE.completed.size;
     renderSadhana();
+  }
+
+  // ---- About View: Maharudra Sadhana ----
+  function renderAboutSadhana() {
+    const host = document.getElementById('sadhana-days');
+    if (!host) return;
+    if (host.dataset.rendered === '1') return;
+    const sadhana = (DATA.meta && DATA.meta.maharudra_sadhana) || null;
+    if (!sadhana) return;
+
+    // Collect rishi data from namakam anuvaka-level rishi_info.sadhana_sages
+    // Dedup across anuvakas by rishi name
+    const seen = {};
+    NAMAKAM.forEach(function (a) {
+      if (!a.rishi_info || !Array.isArray(a.rishi_info.sadhana_sages)) return;
+      a.rishi_info.sadhana_sages.forEach(function (s) {
+        if (!seen[s.day]) {
+          seen[s.day] = {
+            day: s.day,
+            rishi: s.rishi,
+            purpose: s.purpose,
+            invocations: []
+          };
+        }
+        const versesText = Array.isArray(s.verses) ? 'Verses ' + s.verses.join(', ') : s.verses;
+        seen[s.day].invocations.push('Anuvak ' + a.number + ': ' + versesText);
+      });
+    });
+
+    const days = Object.values(seen).sort(function (a, b) { return a.day - b.day; });
+
+    let html = '';
+    days.forEach(function (d) {
+      html += '<div class="sadhana-day">' +
+        '<div class="sadhana-day-header">' +
+          '<span class="sadhana-day-num">Day ' + d.day + '</span>' +
+          '<span class="sadhana-day-rishi">' + escHtml(d.rishi) + '</span>' +
+        '</div>' +
+        '<div class="sadhana-day-invocations">' + escHtml(d.invocations.join(' • ')) + '</div>' +
+        '<div class="sadhana-day-purpose">' + escHtml(d.purpose) + '</div>' +
+      '</div>';
+    });
+    host.innerHTML = html;
+    host.dataset.rendered = '1';
   }
 
   // ---- Anuvaka List (Namakam / Chamakam) ----
@@ -277,9 +323,11 @@
     return firstPart.length > 140 ? firstPart.slice(0, 140) + '...' : firstPart;
   }
 
-  function renderMantraStack(mantras) {
+  function renderMantraStack(mantras, opts) {
     if (!Array.isArray(mantras) || mantras.length === 0) return '';
-    let html = '<div class="mantra-stack">';
+    opts = opts || {};
+    const useSwara = opts.useSwara !== false;
+    let html = '<div class="mantra-stack' + (useSwara ? '' : ' no-swara') + '">';
     mantras.forEach(function (m) {
       const keyWordsHtml = Array.isArray(m.key_words) && m.key_words.length
         ? '<div class="mantra-keywords">' +
@@ -288,18 +336,60 @@
             }).join('') +
           '</div>'
         : '';
+      const swaraText = (useSwara && m.sanskrit_swara) ? m.sanskrit_swara : m.sanskrit;
       html += '' +
         '<div class="mantra-item">' +
           '<div class="mantra-header">' +
             '<span class="mantra-num">' + m.id + '</span>' +
             '<span class="mantra-label">' + escHtml(m.label || '') + '</span>' +
           '</div>' +
-          '<div class="mantra-sanskrit">' + escHtml(m.sanskrit) + '</div>' +
+          '<div class="mantra-sanskrit">' + escHtml(swaraText) + '</div>' +
           '<div class="mantra-iast">' + escHtml(m.iast) + '</div>' +
           '<div class="mantra-meaning">' + escHtml(m.meaning) + '</div>' +
           keyWordsHtml +
         '</div>';
     });
+    html += '</div>';
+    return html;
+  }
+
+  function renderRishiInfo(a) {
+    if (!a.rishi_info) return '';
+    const r = a.rishi_info;
+    let html = '<div class="rishi-info">';
+    html += '<div class="rishi-info-header">Traditional Context</div>';
+    const rows = [];
+    if (r.overall_rishi) rows.push(['Rishi', r.overall_rishi]);
+    if (r.chanda) rows.push(['Chanda (meter)', r.chanda]);
+    if (r.devata) rows.push(['Devata', r.devata]);
+    if (r.purpose) rows.push(['Purpose / Phala', r.purpose]);
+    if (r.story) rows.push(['Context', r.story]);
+    rows.forEach(function (row) {
+      html += '<div class="rishi-row">' +
+        '<div class="rishi-label">' + escHtml(row[0]) + '</div>' +
+        '<div class="rishi-value">' + escHtml(row[1]) + '</div>' +
+      '</div>';
+    });
+
+    // Maharudra Sadhana sages (Namakam only)
+    if (Array.isArray(r.sadhana_sages) && r.sadhana_sages.length) {
+      html += '<div class="rishi-sadhana-header">Maharudra Sadhana - Sages Who Invoked These Verses</div>';
+      r.sadhana_sages.forEach(function (s) {
+        const versesText = Array.isArray(s.verses) ? 'Verses ' + s.verses.join(', ') : s.verses;
+        html += '<div class="rishi-sage">' +
+          '<div class="rishi-sage-header">' +
+            '<span class="rishi-sage-day">Day ' + s.day + '</span>' +
+            '<span class="rishi-sage-name">' + escHtml(s.rishi) + '</span>' +
+            '<span class="rishi-sage-verses">' + escHtml(versesText) + '</span>' +
+          '</div>' +
+          '<div class="rishi-sage-purpose">' + escHtml(s.purpose) + '</div>' +
+        '</div>';
+      });
+    }
+
+    if (r.source) {
+      html += '<div class="rishi-source">Source: ' + escHtml(r.source) + '</div>';
+    }
     html += '</div>';
     return html;
   }
@@ -325,7 +415,11 @@
       '</div>' +
       '<div class="anuvaka-body">' +
         '<div class="anuvaka-summary">' + escHtml(a.meaning) + '</div>' +
-        renderMantraStack(a.mantras) +
+        '<div class="anuvaka-toggle-row">' +
+          '<label class="anuvaka-toggle"><input type="checkbox" ' + (STATE.globalShowSwara ? 'checked' : '') + ' data-toggle="swara"> Show swara marks</label>' +
+        '</div>' +
+        '<div class="mantra-stack-host">' + renderMantraStack(a.mantras, { useSwara: STATE.globalShowSwara }) + '</div>' +
+        renderRishiInfo(a) +
         '<div class="anuvaka-actions">' +
           '<button type="button" class="anuvaka-btn primary" data-action="play">Play from This Anuvaka</button>' +
           '<button type="button" class="anuvaka-btn ' + (completed ? 'uncomplete' : 'complete') + '" data-action="toggle">' +
@@ -334,12 +428,42 @@
         '</div>' +
       '</div>';
 
-    // Toggle expand on card click (but not on action buttons)
+    // Swara toggle handler
+    const swaraToggle = card.querySelector('[data-toggle="swara"]');
+    if (swaraToggle) {
+      swaraToggle.addEventListener('click', function (e) { e.stopPropagation(); });
+      swaraToggle.addEventListener('change', function (e) {
+        STATE.globalShowSwara = !!e.target.checked;
+        lsSet('sr_show_swara', STATE.globalShowSwara ? '1' : '0');
+        const host = card.querySelector('.mantra-stack-host');
+        if (host) host.innerHTML = renderMantraStack(a.mantras, { useSwara: STATE.globalShowSwara });
+        // Sync other cards on the page
+        document.querySelectorAll('[data-toggle="swara"]').forEach(function (el) {
+          if (el !== swaraToggle) el.checked = STATE.globalShowSwara;
+        });
+        document.querySelectorAll('.anuvaka-card').forEach(function (otherCard) {
+          if (otherCard === card) return;
+          const otherId = otherCard.dataset.id;
+          const parts = otherId.split('-');
+          const otherAnuvaka = (parts[0] === 'namakam' ? NAMAKAM : CHAMAKAM).find(x => x.number === parseInt(parts[1], 10));
+          const otherHost = otherCard.querySelector('.mantra-stack-host');
+          if (otherAnuvaka && otherHost) {
+            otherHost.innerHTML = renderMantraStack(otherAnuvaka.mantras, { useSwara: STATE.globalShowSwara });
+          }
+        });
+      });
+    }
+
+    // Toggle expand on card click (but not on action buttons or toggles)
     card.addEventListener('click', function (e) {
       const actionBtn = e.target.closest('[data-action]');
       if (actionBtn) {
         e.stopPropagation();
         handleCardAction(actionBtn.dataset.action, a, card);
+        return;
+      }
+      // Ignore clicks on labels/checkboxes for the swara toggle
+      if (e.target.closest('.anuvaka-toggle') || e.target.closest('.anuvaka-body .rishi-info')) {
         return;
       }
       // Toggle expand
@@ -394,6 +518,7 @@
     lsSetJSON(KEYS.chantShow, {
       iast: STATE.chantShowIast,
       meaning: STATE.chantShowMeaning,
+      swara: STATE.chantShowSwara,
       autoSync: STATE.chantAutoSync,
     });
   }
@@ -402,8 +527,12 @@
     if (saved) {
       if (typeof saved.iast === 'boolean') STATE.chantShowIast = saved.iast;
       if (typeof saved.meaning === 'boolean') STATE.chantShowMeaning = saved.meaning;
+      if (typeof saved.swara === 'boolean') STATE.chantShowSwara = saved.swara;
       if (typeof saved.autoSync === 'boolean') STATE.chantAutoSync = saved.autoSync;
     }
+    // Global swara preference for list views
+    const globalSwara = lsGet('sr_show_swara');
+    if (globalSwara !== null) STATE.globalShowSwara = globalSwara === '1';
   }
 
   function initChant() {
@@ -450,7 +579,7 @@
 
     const mantrasEl = document.getElementById('chant-mantras');
     if (mantrasEl) {
-      mantrasEl.innerHTML = renderMantraStack(a.mantras);
+      mantrasEl.innerHTML = renderMantraStack(a.mantras, { useSwara: STATE.chantShowSwara });
       mantrasEl.classList.toggle('hide-iast', !STATE.chantShowIast);
       mantrasEl.classList.toggle('hide-meaning', !STATE.chantShowMeaning);
     }
@@ -698,6 +827,15 @@
       saveChantShow();
       renderChant();
     });
+    const swaraChk = document.getElementById('chant-show-swara');
+    if (swaraChk) {
+      swaraChk.checked = STATE.chantShowSwara;
+      swaraChk.addEventListener('change', function (e) {
+        STATE.chantShowSwara = !!e.target.checked;
+        saveChantShow();
+        renderChant();
+      });
+    }
     if (syncBtn) syncBtn.addEventListener('click', function () {
       STATE.chantAutoSync = !STATE.chantAutoSync;
       saveChantShow();

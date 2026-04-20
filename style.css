@@ -2873,6 +2873,216 @@ body.chant-fullscreen .chant-text-stage .anuvaka-sanskrit {
 }
 
 /* ========================================
+   Anuvaka swara toggle & rishi info
+   ======================================== */
+
+.anuvaka-toggle-row {
+  display: flex;
+  gap: var(--space-md);
+  align-items: center;
+  margin-bottom: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
+
+.anuvaka-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  user-select: none;
+}
+
+.anuvaka-toggle input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.rishi-info {
+  margin-top: var(--space-lg);
+  padding: var(--space-md) var(--space-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.rishi-info-header {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: var(--space-sm);
+}
+
+.rishi-row {
+  display: flex;
+  gap: var(--space-sm);
+  padding: var(--space-xs) 0;
+  border-bottom: 1px dashed var(--border);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.rishi-row:last-of-type {
+  border-bottom: none;
+}
+
+.rishi-label {
+  flex: 0 0 130px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.rishi-value {
+  flex: 1;
+  color: var(--text-secondary);
+}
+
+.rishi-sadhana-header {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-sm);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--border);
+}
+
+.rishi-sage {
+  padding: var(--space-sm) var(--space-md);
+  margin-bottom: var(--space-xs);
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
+
+.rishi-sage-header {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: var(--space-xs);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px dashed var(--border);
+}
+
+.rishi-sage-day {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 52px;
+  padding: 2px 8px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: var(--gold);
+  color: var(--gold-on-bg);
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.rishi-sage-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.rishi-sage-verses {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.rishi-sage-purpose {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.rishi-source {
+  margin-top: var(--space-sm);
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--border);
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+/* Sadhana days in About view */
+.sadhana-days {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin-top: var(--space-md);
+}
+
+.sadhana-day {
+  padding: var(--space-md) var(--space-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.sadhana-day-header {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: center;
+  margin-bottom: var(--space-xs);
+}
+
+.sadhana-day-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
+  padding: 3px 10px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: var(--gold);
+  color: var(--gold-on-bg);
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.sadhana-day-rishi {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.sadhana-day-invocations {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  padding: var(--space-xs) 0;
+  border-bottom: 1px dashed var(--border);
+  margin-bottom: var(--space-xs);
+}
+
+.sadhana-day-purpose {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* Ensure sanskrit text with swara marks has enough line-height */
+.mantra-sanskrit,
+.anuvaka-sanskrit,
+.chant-text-stage .mantra-sanskrit {
+  font-feature-settings: "kern" on;
+}
+
+/* ========================================
    Mantra Stack - Verse-level rendering
    ======================================== */
 

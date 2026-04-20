@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sri-rudram-v4';
+const CACHE_NAME = 'sri-rudram-v5';
 const CORE_ASSETS = [
   './',
   './index.html',

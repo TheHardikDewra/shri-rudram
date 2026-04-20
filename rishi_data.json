@@ -1,0 +1,262 @@
+{
+  "source_urls": [
+    "https://www.advaita-vedanta.org/series/shri_rudram/verses_from_the_shri_rudram-1.htm",
+    "https://www.advaita-vedanta.org/series/shri_rudram/verses_from_the_shri_rudram-2.htm",
+    "https://www.advaita-vedanta.org/series/shri_rudram/verses_from_the_shri_rudram-10.htm",
+    "https://vignanam.org/english/sri-rudram-laghunyasam.html",
+    "https://shaivam.org/scripture/English-Script/88/shri-rudram-camakam/",
+    "https://shop.sadhana.app/blogs/rudrabhishekam/what-is-the-significance-of-sri-rudram",
+    "https://www.vedanshika.org/sri-rudram-chamakam/",
+    "https://www.astrojyoti.com/srirudram.htm",
+    "https://ghanapati.com/wp-content/uploads/2021/10/Commentary-on-Chamakam-and-its-analysis.pdf",
+    "https://sreenivasaraos.com/tag/rudra-prashna/",
+    "https://en.wikipedia.org/wiki/Shri_Rudram",
+    "https://en.wikipedia.org/wiki/Mahamrityunjaya_Mantra",
+    "https://adbhutam.wordpress.com/2018/04/01/a-few-noteworthy-points-from-the-sayana-and-bhatta-bhaskara-commentaries-on-the-sri-rudram/"
+  ],
+  "source_notes": "Primary authority for rishi/chanda/devata is the Bhatta Bhaskara commentary on Taittiriya Samhita (as presented on advaita-vedanta.org) - note that Bhatta Bhaskara's commentary on Kanda 4 (containing Rudram/Chamakam) was largely unpublished for some volumes, but the rik-by-rik rishi data survived in the advaita-vedanta.org series. Phala (benefits) are drawn from multiple traditional sources including astrojyoti.com (which collects authoritative phala stotram references), the Chamakam commentary PDF by ghanapati.com, and the Sadhana Shop/Vedanshika summaries which agree across sources. CRITICAL CAVEAT: Unlike many stotras, each of the 11 anuvakas of Sri Rudram does NOT have a single rishi/chanda/devata - each Rik (verse) within an anuvaka has its own distinct rishi, chanda, and devata. However, the overall viniyoga (sankalpa) for the entire Sri Rudradhyaya uses: Rishi=Aghora, Chanda=Anushtubh, Devata=Sankarshana-murti-svarupa-Aditya-Paramapurusha-Rudra, Bija=Namah Shivaya, Shakti=Shivatarayeti, Kilaka=Mahadevaya, and the Viniyoga is Sri Samba Sadashiva Prasada Siddhi. The 'representative' rishi/chanda/devata for each anuvaka listed below reflects the dominant rishi/meter/deity form in that anuvaka, drawn from the Bhatta Bhaskara tradition where available and tradition otherwise. Entries where authoritative per-anuvaka data was not found are marked null. The 'devata' field for many anuvakas lists the dominant form of Rudra invoked (Rudra, Shambhu, Shri Rudra, Tryambaka, etc.) rather than a single deity.",
+  "overall_viniyoga": {
+    "rishi": "Aghora",
+    "chanda": "Anushtubh",
+    "devata": "Sankarshana-murti-svarupa Aditya Paramapurusha Rudra",
+    "bija": "Namah Shivaya",
+    "shakti": "Shivatarayeti",
+    "kilaka": "Mahadevaya",
+    "viniyoga": "Sri Samba Sadashiva Prasada Siddhyarthe Jape Viniyogah (for attaining the grace of Sri Samba Sadashiva through japa)"
+  },
+  "eleven_forms_of_rudra": [
+    "Aghora (benevolent)",
+    "Kapardi (with matted hair)",
+    "Girisha (Lord of mountains)",
+    "Bhima (terrible)",
+    "Nilagriva (blue-throated)",
+    "Tryambaka (three-eyed)",
+    "Sabhapati (master of the assembly)",
+    "Ganapati (leader of the hosts)",
+    "Senani (commander of forces)",
+    "Samkara (doer of good)",
+    "Shambhu (welfare of all)"
+  ],
+  "namakam": [
+    {
+      "number": 1,
+      "rishi": "Multiple rishis per Rik (including Kashyapa, Atreya, Gautama/Godhuma, Kanya, Kala/Marutan, Shambhu, Narada, Bhagavan Rudra). Dominant: Narada and Bhagavan Rudra. Overall anuvaka rishi per tradition: Aghora.",
+      "chanda": "Primarily Anushtubh (with some Nichrid Anushtubh, Pankti, and Jagati riks)",
+      "devata": "Rudra / Shambhu / Shri Rudra / Bhagavan Rudra",
+      "purpose": "To destroy all sins, obtain leadership and divine benevolence, protection from famine, freedom from fear, obtain food, protect cows, remove untimely fear of death (from tigers, thieves, monsters, devils, demons), to be a shield (kavaca) for virulent fever, to cure diseases, fetal disorders, absolution from evil stars and bad karma, for fulfillment of desires, sumptuous rainfall, family protection, blessings with good children, destruction of enemies.",
+      "story": "Pacifies Rudra's fierce form; requests him to loosen his bowstring and lay aside his weapons, then seeks his auspicious Shiva-form. Contains the foundational namaskaras to Rudra as Vishveshvara, Mahadeva, Tryambaka, Tripurantaka, Kalagnirudra, Nilakantha, Mrityunjaya, Sarveshvara, Sadashiva.",
+      "source": "Bhatta Bhaskara commentary via advaita-vedanta.org; phala from astrojyoti.com, Sadhana Shop, Vedanshika"
+    },
+    {
+      "number": 2,
+      "rishi": "Manduka (per Bhatta Bhaskara commentary)",
+      "chanda": "Mahagayatri",
+      "devata": "Rudra (as pervader of earth, Lord of herbs/trees, Lord of quarters)",
+      "purpose": "For destruction of enemies, possession of wealth, obtaining kingdom (getting a job/position), possession of intelligence. To loosen the bonds of samsara (illusion).",
+      "story": "Rudra is prayed to as one who pervades the earth and manifests as green foliage and medicinal herbs. Salutations are offered to him as Hiranyabahu (golden-armed), Senani (commander), Lord of the quarters, of trees, of cattle, of pathways, of food, of fields, of forests.",
+      "source": "Bhatta Bhaskara commentary via advaita-vedanta.org (explicit rishi/chanda/devata); phala from astrojyoti.com, Sadhana Shop, Vedanshika"
+    },
+    {
+      "number": 3,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Rudra as Sarvatma (Self of all), Lord of thieves who exists in everything",
+      "purpose": "For cure of diseases. For realization that Rudra is the Self of all (Sarvatma) and will 'steal' our ignorance, restoring us to our natural state of enlightenment.",
+      "story": "Rudra is described as the Lord of thieves, of cheats, of deceivers, of plunderers - because he exists in everything and everyone. Paradoxically, he is the one who steals away our ignorance. Salutations to him in all forms including robbers, so that all may be seen as Rudra.",
+      "source": "astrojyoti.com, Sadhana Shop, Vedanshika, isatsang.blogspot.com"
+    },
+    {
+      "number": 4,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Rudra as creator and worker of all kinds; cause of significant and minor events",
+      "purpose": "For the treatment/cure of specific ailments including tuberculosis (kshaya/rajayakshma), diabetes, and leprosy.",
+      "story": "Rudra is praised as the maker of all - craftsmen, carpenters, potters, blacksmiths, hunters, fishermen, chariot-makers. Shows that every profession and every being is a manifestation of Rudra. Promotes seeing the divine in all works and in all strata of society.",
+      "source": "astrojyoti.com, Sadhana Shop, Vedanshika, isatsang.blogspot.com"
+    },
+    {
+      "number": 5,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Rudra as present in waters (Bhava, Sarva, Pashupati, Nilagriva, Shitikantha, Kapardin, Vyupta-kesha, Sahasraksha, Shatadhanva)",
+      "purpose": "Chanted (with Anuvaka 6) for the expansion of one's own assets and for victory against enemies. Praises Rudra's existence in running waters while meditating on his five cosmic activities (srishti/creation, sthiti/preservation, samhara/destruction, tirobhava/bondage/veiling, anugraha/liberation).",
+      "story": "Rudra is praised as dwelling in waters, rivers, oceans, wells. The five cosmic functions (pancha-krityas) are contemplated here - the same five that Shiva performs as Nataraja in the tandava.",
+      "source": "astrojyoti.com, Sadhana Shop, Vedanshika, isatsang.blogspot.com"
+    },
+    {
+      "number": 6,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Rudra as Kalarupa (form of Time); source of worlds and Vedic knowledge; Rudra as the four Vedas",
+      "purpose": "For blessings of son/progeny, prevention of miscarriage, ease of childbirth, and countering difficult/harsh planetary influences on children. Identifies Rudra with time itself.",
+      "story": "Rudra is described as the source of Rig, Yajur, Sama, Atharva Vedas. He is identified with time (Kala). Every manifestation, every sound, every rhythm is his. Traditionally used as a protective prayer during pregnancy.",
+      "source": "astrojyoti.com, Sadhana Shop, Vedanshika, isatsang.blogspot.com"
+    },
+    {
+      "number": 7,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Rudra as all-pervading in waters, rains, clouds, lightning, storms, and autumn",
+      "purpose": "For increase of intelligence, improvement of health and wealth, for progeny, clothes, cows, sons, education, lands, longevity and for obtaining liberation (moksha). For prosperity of forthcoming generations.",
+      "story": "Salutations to Rudra as present in all elements of weather - clouds, lightning, rains, autumn season, waters of all kinds. Recognizes Rudra as the force behind all natural phenomena and seasonal cycles.",
+      "source": "astrojyoti.com, Sadhana Shop, Vedanshika, isatsang.blogspot.com"
+    },
+    {
+      "number": 8,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Rudra as illumining gods; absolver of sins. Contains the Panchakshari Mantra 'Namah Shivaya' at its center.",
+      "purpose": "For destruction of enemies and for regaining/repossessing a lost kingdom, lost social status, or lost possessions. Also for absolution of worldly sins.",
+      "story": "This anuvaka contains the supreme Panchakshari mantra 'Namah Shivaya' - 'namassivaya ca sivatarayaca'. Considered the heart of the entire Sri Rudram. Rudra is praised as illuminating the gods and absolving all sins through his purifying power in holy waters.",
+      "source": "astrojyoti.com, Sadhana Shop, Vedanshika, isatsang.blogspot.com, Wikipedia"
+    },
+    {
+      "number": 9,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Rudra's attendants (Ganas); Rudra as the illuminating power controlling universal forces",
+      "purpose": "For acquiring gold/wealth, a charming/suitable wife, a good job/employment, and a son who is a devotee of Lord Shiva. The prime prayer consisting of all the contents of the four Vedas - a Jnana Yajna.",
+      "story": "Celebrates the strength, illuminating power, and divine nature of Rudra's attendants (ganas). The anuvaka is considered to contain higher spiritual elevations, making it a Jnana Yajna (sacrifice of knowledge).",
+      "source": "astrojyoti.com, Sadhana Shop, Vedanshika, isatsang.blogspot.com"
+    },
+    {
+      "number": 10,
+      "rishi": "Vaiyaghra (per Bhatta Bhaskara commentary for rik 10.8); multiple rishis for other riks",
+      "chanda": "Trishtubh (for rik 10.8); other meters for other riks",
+      "devata": "Rudra (invoked with Pinaka bow and tiger skin, requested to shed fury and shower benevolence); Shiva",
+      "purpose": "For possession of wealth, cure of diseases, removal of fear, freedom from the enmity of powerful people, absence of fear from all living beings, having the vision of Bhairava (Shiva in his most fearful aspect), absence from dangers and fears, blessings and the absolution of sins.",
+      "story": "Request for Rudra to shed his fury and display benevolence through his Pinaka bow and tiger-skin attire. Asks Rudra to appear in peaceful form and grant darshan in his compassionate aspect.",
+      "source": "Bhatta Bhaskara commentary via advaita-vedanta.org (explicit rishi for rik 10.8); phala from astrojyoti.com, Sadhana Shop, Vedanshika"
+    },
+    {
+      "number": 11,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]. Contains the Mahamrityunjaya Mantra attributed to Vasishtha Maitravaruni (Rig Veda 7.59.12).",
+      "chanda": "[not specified per-anuvaka; Mahamrityunjaya is in Anushtubh per Rig Veda source]",
+      "devata": "Tryambaka (three-eyed Rudra); Rudra whose accomplishments are profusely praised",
+      "purpose": "For blessings of progeny, enhancement of longevity (protection from untimely death), opportunity to visit sacred pilgrimage places (tirthas), and acquiring Trikala-Jnana (knowledge of past, present, and future).",
+      "story": "Rudra's accomplishments are profusely praised with unconditional salutations. Contains the celebrated Mahamrityunjaya Mantra 'Tryambakam yajamahe sugandhim pushtivardhanam | urvarukamiva bandhanan mrityor mukshiya mamritat' - a prayer to the three-eyed Rudra for liberation from death, retaining immortality. This mantra originates from Rig Veda 7.59.12 and is attributed to sage Vasishtha Maitravaruni.",
+      "source": "astrojyoti.com, Sadhana Shop, Vedanshika, Wikipedia Mahamrityunjaya Mantra"
+    }
+  ],
+  "chamakam": [
+    {
+      "number": 1,
+      "rishi": "[per-anuvaka rishi not definitively found in available authoritative sources; overall Aghora for the whole Rudradhyaya]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Agni and Vishnu (explicitly invoked at start); Rudra as Chamakam deity",
+      "purpose": "Shariraka (of the body) - the foundational prayer for bodily vitality. Asks for 36 items relating to the physical body and its constituents: vitality of internal/sensory organs, mind, healthy functioning, food, longevity, peaceful old age, strength, knowledge, skill, protection. Nourishment of Body and Mind to help in divine worship. Sound body, sound mind, sound soul; births in higher bodies.",
+      "story": "Opens with 'Agnavishnu sajoshasemavardhantu vam girah' - joint invocation of Agni and Vishnu. This is the foundational anuvaka establishing that the body is the cornerstone for upholding Dharma.",
+      "source": "ghanapati.com Chamakam commentary PDF; Pradosham.com; Vedanshika"
+    },
+    {
+      "number": 2,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Rudra (invoked for qualities of personality and leadership)",
+      "purpose": "Extension of personality - prominence, leadership (Jaishthyam, Adhipatyam), eminence among people, common sense, intellectual acumen, controlled anger, capability to face trying circumstances, spiritual elevation, worldly splendour, enjoyments, offspring, wealth, learning, virtue, prosperity, truth, faith, wisdom. Growth of possessions and influence with balanced intellect.",
+      "story": "Lists 38 items of personal power and development. Includes Manyu (controlled resentments), Bhama (sustainable external anger - justified righteous anger), Shraddha (implicit belief in Vedas), Satyam (truth), Shreya (good prospects).",
+      "source": "ghanapati.com Chamakam commentary PDF; Vedanshika"
+    },
+    {
+      "number": 3,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Rudra (prayed for happiness - material and spiritual)",
+      "purpose": "Kama-spectrum - 36 heart desires for worldly (Sham) and heavenly (Maya) happiness paired. Asks for welfare, charm, fame, fortune, protection, knowledge, children, freedom from disease, pleasing objects, pleasure, meditative flights, spiritual ecstasy, service to Divinity and humanity.",
+      "story": "Develops innate urge of God and meditative flights. Attained primarily by mental powers. Covers the complete spectrum from worldly happiness (Sham) through heavenly happiness (Maya), up to immortality and knowledge of the ultimate.",
+      "source": "ghanapati.com Chamakam commentary PDF"
+    },
+    {
+      "number": 4,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Rudra as grantor of food, grains, and sustenance",
+      "purpose": "Food and Grains - 38 items for sustenance and agricultural prosperity. Asks for food (Oorka), pleasing speech (Soonrita), milk (Paya), sweet juices (Rasa), ghee (Ghrita), honey (Madhu), hospitality (Sapiti), fields/agriculture (Krishi), seasonal rains (Vrishti), fertile lands (Jaitra), gold (Rayi), precious stones (Navaratnas), abundant wealth, varieties of grains (barley, black gram, green gram, rice, castor seeds, wheat, sesame, millets).",
+      "story": "Assures the courtesy, fitness of the body, and best food. Describes qualities which nourish both gross and subtle bodies. Lists all varieties of grains representing the force of nature necessary for bodily well-being.",
+      "source": "ghanapati.com Chamakam commentary PDF"
+    },
+    {
+      "number": 5,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Rudra as granter of wealth, resources for Yagya, and minerals",
+      "purpose": "Earth and Treasures - 33 articles. Asks for stone, earth, hills, mountains, sand, fruit-bearing trees, gold, steel, lead, tin, iron, bronze, copper, fire, water, creepers, medicinal herbs, cultivated/uncultivated produce, village animals, forest animals, ancestral wealth, children, properties, cattle, happy dwellings, capacity to perform sacred rituals, energy, consequences of rituals, ultimate destiny, ideas for fulfillment, achievement of desired goal. Marks the turning point showing dedication in spiritual sacrifice.",
+      "story": "The recitor asks for Navaratnas (precious stones) and all animals to sub-serve his interest, and the qualified materials best in their form for spiritual rituals (Yagya). Foundation for performing yagnas; spiritual upliftment.",
+      "source": "ghanapati.com Chamakam commentary PDF"
+    },
+    {
+      "number": 6,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Ardhendra (Arthendram) - 20 Vedic gods coupled with Indra: Agni-Indra, Soma-Indra, Savita-Indra, Saraswati-Indra, Pusha-Indra, Brihaspati-Indra, Mitra-Indra, Varuna-Indra, Tvashta-Indra, Dhata-Indra, Vishnu-Indra, Ashvins-Indra, Maruts-Indra, Vishvedevas-Indra, Prithvi-Indra, Antariksha-Indra, Dyauh-Indra, Diksha-Indra, Murdha-Indra, Prajapati-Indra.",
+      "purpose": "To invoke the grace of Indra coupled with each major Vedic deity for divine grace and acceptance of sacrifices. Called 'Ardhendram/Arthendram' because all Gods are clubbed with Indra who gets a share of all sacrificial offerings. For the recitor that all these Gods come in and grow in him perfectly with their powers.",
+      "story": "Indra (as Antaryami - the indweller) gets a bigger share because he is the God of gods. 20 pairs of divinities are invoked along with Indra. Indra represents Lord of divine mind, Agni power of will, Brihaspati vastness, Surya Supreme Creator - so this anuvaka prays for a harmonious blend of all divine powers.",
+      "source": "ghanapati.com Chamakam commentary PDF; Sadhana Shop"
+    },
+    {
+      "number": 7,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Rudra as granter of Yagya Ayudhas (sacrificial instruments); vessels for each deity",
+      "purpose": "Yagna-Ayudhas (Inner Vessels) - 29 vessels necessary for Soma Yagya sacrifices in the 'Yagya Kunda' (altar/site of offerings to Agni). Includes Amshu, Rashmi, Adabhya, Adhipati, Upamshu, Antaryama, Aindravayava, Maitravaruna, Ashvina, Pratiprastana, Shukra, Manthi, Agrayana, Vaishvadeva, Dhruva, Vaishvanara, Rtugraha, Atigrahya, Aindragna, Marutvatiya, Mahendra, Aditya, Savitra, Sarasvata, Poushna, Patneevata, Haariyojana. Each word represents an aspect of self-offering to the respective Deity. Also recited for intelligence, health, wealth, longevity, prosperity of progeny, education, liberation.",
+      "story": "The Brahmana calls the 7th and 8th as the Yagna Ayudha Anuvakas, listing the instruments by which sacrifice is performed. Efficacious performance of sacrifices through proper instruments. Marks the transition from inner/outer self to ritual mastery.",
+      "source": "ghanapati.com Chamakam commentary PDF"
+    },
+    {
+      "number": 8,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Rudra as granter of external yagya accessories",
+      "purpose": "Yagya Accessories (Outer Instruments) - 22 accessories. The complement to external yagya has equal associated power of internal yagya. Asks for Idhma (holy sticks), Barhi (dharba grass), Vedi (altar), Dhishniya (platforms for Hotra priests), Shrucha (spoon for ghee), Chamasa (vessel for Soma), Gravana (stones to crush Soma), Svarava (wooden knife), Uparava (pits), Adhishavana (planks for Soma extraction), Dronakalasha, Vayavyani, Bhutabhrita, Adhavaneeya, Aagneedhra, Havirdhana, Gruha, Sada, Purodasha, Pachata, Avabrutha (holy bath), Svagakara. For destruction of enemies and repossessing lost kingdom/status/possessions.",
+      "story": "Complete external infrastructure for successful yagnas. This anuvaka's prayer: 'May The God bless me with all the external Sacrificial practices to perform the Soma Yagya sacrifice.'",
+      "source": "ghanapati.com Chamakam commentary PDF; Vedanshika"
+    },
+    {
+      "number": 9,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Rudra as Yagya Siddhi (perfection of sacrifice); presiding over the four Vedas, sacrifices, and diksha",
+      "purpose": "Yagna Siddhi (Sacrifice Perfection) - 25 things including Agni (sacrificial fire), Dharma (Pravargya for Soma), Arka Yagya, Surya Yagya, Prana-homa, Ashvamedha (horse sacrifice), Prithvi (earth as devata), Aditi, Diti, Dyauh (heaven deity), Shakvari chandas, Angulaya, Disha (four directions), Rik, Sama, Stoma, Yaju mantras, Diksha, Tapa (penance), Rutu, Vratam, Ahoratra (rains during day/night), Vrishti, Brihadrathantara (two Sama Veda hymns). The prime prayer consisting of all contents of four Vedas - a Jnana Yajna. For acquiring wealth, a charming wife, a job, and a son devoted to Lord Shiva.",
+      "story": "Prays for the main sacrifices including the famous Ashvamedha, along with the 4 Vedas. Elevation from material to divine status through sacrifice. Also indicates the powers of Tapas and Deeksha (initiation which is the starting point for understanding the power of mantra).",
+      "source": "ghanapati.com Chamakam commentary PDF"
+    },
+    {
+      "number": 10,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Rudra presiding over pranas, senses, mind, atma, and all biological species",
+      "purpose": "Household, Agricultural and Biological Perfection - 30 items. Invokes all biological species (from calves to breeding bulls to milk cows) and asks for perfection of principal Prana energy, senses (eyes, ears), mind, speech, soul (atma), sacrifices themselves. Climax section reflecting Vedic agricultural/biological life. Asks Prana, Apana, Vyana, Chakshur, Shrotram, Manas, Vak, Atma all be effective with yajna. For allaying all fears, removing danger from life, possessing wealth, curing all diseases.",
+      "story": "Invokes all biological species to co-operate in daily life and for sacrificial rituals. Makes it as Jnana Yajna by asking for perfection of all faculties and their merger with the Supreme. Life, vital airs, senses purified and spiritualized by sacrifices performed.",
+      "source": "ghanapati.com Chamakam commentary PDF; Vedanshika"
+    },
+    {
+      "number": 11,
+      "rishi": "[per-anuvaka rishi not found in available sources; overall Aghora]",
+      "chanda": "[not specified per-anuvaka in available sources]",
+      "devata": "Rudra as Adhipati (omnipotent, omnipresent Lord and ruler as Antaryamin); the ever-lasting immortal Supreme",
+      "purpose": "Benedictory/Numbers Section - 41 items. Long list of benedictions asked for in odd divine integer numbers (1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33 - indicating 33 crore devatas) and even numbers relating to human (4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48). Food, production of food, continuous production of food, sacrifice, Sun, sky, sky devatas, deity of Pralaya, end of consummation, earth devatas, Universe, Adhipati. Positive thinking reflecting ultimate root causes. Attainment of desires favored by both Gods and men; spiritual culmination. For achievement, recognition, wisdom, longevity. For Trikala-Jnana (knowledge of past, present, and future).",
+      "story": "Prayer: 'May the powers associated with these integers manifest in me.' The odd numbers represent 33 crore devatas; the even numbers represent 12 additional homa mantras. This anuvaka represents the mathematical/cosmic structure of creation and the final surrender to Adhipati - the Supreme Inner Ruler.",
+      "source": "ghanapati.com Chamakam commentary PDF; dasarpai.com Chamakprashna 11 meaning"
+    }
+  ],
+  "gaps_and_ambiguities": [
+    "Per-anuvaka rishi assignments (one rishi per anuvaka) are NOT part of the classical Sri Rudram tradition. Each Rik within an anuvaka has its own rishi per Bhatta Bhaskara's commentary. Only the anuvaka-level rishi for anuvaka 1 (multiple) and anuvaka 2 (Manduka) and rik 10.8 (Vaiyaghra) were recoverable from authoritative online sources.",
+    "The advaita-vedanta.org series published pages only for anuvakas 1, 2, and 10. Pages for anuvakas 3-9 and 11 were not found online (return 404).",
+    "Bhatta Bhaskara's commentary on Kanda 4 (which contains Rudram/Chamakam) was largely unpublished historically - volumes 6 & 7 were never published - so comprehensive per-anuvaka rishi data from this primary source is not readily available online.",
+    "The overall Rudradhyaya viniyoga (Rishi=Aghora, Chanda=Anushtubh, Devata=Sankarshana-murti-Rudra) is well-attested across multiple traditional sources (vignanam.org, shaivam.org, stotranidhi.com) and is the standard sankalpa used before chanting.",
+    "The 11 forms of Rudra (Aghora, Kapardi, Girisha, Bhima, Nilagriva, Tryambaka, Sabhapati, Ganapati, Senani, Samkara, Shambhu) are mentioned in tradition as the subject of Shatarudriya, but a strict one-to-one mapping to the 11 anuvakas was NOT found in any authoritative source consulted.",
+    "The Mahamrityunjaya Mantra in Namakam anuvaka 11 has an authentic Rig Veda origin (RV 7.59.12) attributed to rishi Vasishtha Maitravaruni, so anuvaka 11 has at least one well-attested Rik-level rishi.",
+    "Phala (benefits) data is highly consistent across multiple independent sources (astrojyoti.com, Sadhana Shop, Vedanshika, Pradosham.com, isatsang.blogspot.com, ghanapati.com) which strengthens confidence in these benefits.",
+    "For Chamakam specifically, per-anuvaka rishis were not found in any online source consulted; only anuvaka themes and phalas are reliably documented."
+  ],
+  "completeness_summary": {
+    "total_anuvakas": 22,
+    "anuvakas_with_explicit_rishi": 3,
+    "anuvakas_with_explicit_rishi_names": ["Namakam 1 (multiple per rik)", "Namakam 2 (Manduka)", "Namakam 10 (Vaiyaghra for rik 10.8)"],
+    "anuvakas_with_complete_purpose_phala": 22,
+    "anuvakas_with_explicit_per_anuvaka_chanda": 2,
+    "anuvakas_with_explicit_per_anuvaka_chanda_names": ["Namakam 1 (Anushtubh dominant)", "Namakam 2 (Mahagayatri)"],
+    "overall_sankalpa_attested": true,
+    "primary_authoritative_limitation": "Bhatta Bhaskara's Kanda 4 commentary was largely unpublished; online sources (advaita-vedanta.org) cover only 3 of 22 anuvakas with explicit rishi data."
+  }
+}
