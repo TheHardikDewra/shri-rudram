@@ -16,6 +16,15 @@
   const ALL_ANUVAKAS = NAMAKAM.concat(CHAMAKAM);
   const YT_VIDEO_ID = DATA.meta.youtubeVideoId;
 
+  // Enrich each anuvaka with aggregated sanskrit/transliteration strings
+  // (computed from mantras array for preview display and legacy callers).
+  ALL_ANUVAKAS.forEach(function (a) {
+    if (Array.isArray(a.mantras)) {
+      a.sanskrit = a.mantras.map(function (m) { return m.sanskrit; }).join('\n');
+      a.transliteration = a.mantras.map(function (m) { return m.iast; }).join('\n');
+    }
+  });
+
   // Composite id helpers. Each anuvaka has {section, number}
   function idOf(a) { return a.section + '-' + a.number; }
   function byId(id) {
@@ -268,6 +277,33 @@
     return firstPart.length > 140 ? firstPart.slice(0, 140) + '...' : firstPart;
   }
 
+  function renderMantraStack(mantras) {
+    if (!Array.isArray(mantras) || mantras.length === 0) return '';
+    let html = '<div class="mantra-stack">';
+    mantras.forEach(function (m) {
+      const keyWordsHtml = Array.isArray(m.key_words) && m.key_words.length
+        ? '<div class="mantra-keywords">' +
+            m.key_words.map(function (k) {
+              return '<span class="mantra-keyword">' + escHtml(k) + '</span>';
+            }).join('') +
+          '</div>'
+        : '';
+      html += '' +
+        '<div class="mantra-item">' +
+          '<div class="mantra-header">' +
+            '<span class="mantra-num">' + m.id + '</span>' +
+            '<span class="mantra-label">' + escHtml(m.label || '') + '</span>' +
+          '</div>' +
+          '<div class="mantra-sanskrit">' + escHtml(m.sanskrit) + '</div>' +
+          '<div class="mantra-iast">' + escHtml(m.iast) + '</div>' +
+          '<div class="mantra-meaning">' + escHtml(m.meaning) + '</div>' +
+          keyWordsHtml +
+        '</div>';
+    });
+    html += '</div>';
+    return html;
+  }
+
   function createAnuvakaCard(a) {
     const card = document.createElement('div');
     const id = idOf(a);
@@ -277,19 +313,19 @@
 
     const sectionLabel = a.section === 'namakam' ? 'Namakam' : 'Chamakam';
     const tagText = sectionLabel + ' ' + a.number;
+    const mantraCount = Array.isArray(a.mantras) ? a.mantras.length : 0;
 
     card.innerHTML = '' +
       '<div class="anuvaka-tag">' + escHtml(tagText) + '</div>' +
       '<div class="anuvaka-theme">' + escHtml(a.theme) + '</div>' +
       '<div class="anuvaka-preview">' + escHtml(previewLine(a.sanskrit)) + '</div>' +
       '<div class="anuvaka-preview-translit">' + escHtml(previewLine(a.transliteration)) + '</div>' +
+      '<div class="anuvaka-meta-row">' +
+        '<span class="anuvaka-chunk-count">' + mantraCount + ' verses</span>' +
+      '</div>' +
       '<div class="anuvaka-body">' +
-        '<div class="anuvaka-block-label">Sanskrit</div>' +
-        '<div class="anuvaka-sanskrit">' + escHtml(a.sanskrit) + '</div>' +
-        '<div class="anuvaka-block-label">Transliteration (IAST)</div>' +
-        '<div class="anuvaka-iast">' + escHtml(a.transliteration) + '</div>' +
-        '<div class="anuvaka-block-label">Meaning</div>' +
-        '<div class="anuvaka-meaning">' + escHtml(a.meaning) + '</div>' +
+        '<div class="anuvaka-summary">' + escHtml(a.meaning) + '</div>' +
+        renderMantraStack(a.mantras) +
         '<div class="anuvaka-actions">' +
           '<button type="button" class="anuvaka-btn primary" data-action="play">Play from This Anuvaka</button>' +
           '<button type="button" class="anuvaka-btn ' + (completed ? 'uncomplete' : 'complete') + '" data-action="toggle">' +
@@ -411,15 +447,13 @@
     document.getElementById('chant-section-label').textContent =
       sectionLabel + ' - Anuvaka ' + a.number;
     document.getElementById('chant-theme').textContent = a.theme;
-    document.getElementById('chant-sanskrit').textContent = a.sanskrit;
 
-    const iastEl = document.getElementById('chant-iast');
-    iastEl.textContent = a.transliteration;
-    iastEl.hidden = !STATE.chantShowIast;
-
-    const meanEl = document.getElementById('chant-meaning');
-    meanEl.textContent = a.meaning;
-    meanEl.hidden = !STATE.chantShowMeaning;
+    const mantrasEl = document.getElementById('chant-mantras');
+    if (mantrasEl) {
+      mantrasEl.innerHTML = renderMantraStack(a.mantras);
+      mantrasEl.classList.toggle('hide-iast', !STATE.chantShowIast);
+      mantrasEl.classList.toggle('hide-meaning', !STATE.chantShowMeaning);
+    }
 
     // Selector
     const sel = document.getElementById('chant-select');

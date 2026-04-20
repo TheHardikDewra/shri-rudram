@@ -21,3 +21,13 @@ __pycache__/
 *.pyc
 build_data_js.py
 build_data.py
+build_splits.py
+
+# Intermediate JSON files (regeneratable from rudram_data.json)
+namakam_mantras.json
+chamakam_mantras.json
+mantra_splits.json
+chunks_built.json
+chunks_with_meanings.json
+
+.vercel

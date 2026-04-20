@@ -2872,6 +2872,192 @@ body.chant-fullscreen .chant-text-stage .anuvaka-sanskrit {
   margin-bottom: var(--space-xs);
 }
 
+/* ========================================
+   Mantra Stack - Verse-level rendering
+   ======================================== */
+
+.anuvaka-meta-row {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: center;
+  margin-top: var(--space-xs);
+}
+
+.anuvaka-chunk-count {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+}
+
+.anuvaka-summary {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--bg);
+  border-left: 2px solid var(--gold);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  margin-bottom: var(--space-lg);
+  font-style: italic;
+}
+
+.mantra-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-md);
+}
+
+.mantra-item {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-md) var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.mantra-item:hover {
+  border-color: var(--gold);
+}
+
+.mantra-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: var(--space-xs);
+}
+
+.mantra-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 26px;
+  height: 26px;
+  padding: 0 8px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: var(--gold);
+  color: var(--gold-on-bg);
+  border-radius: 999px;
+  font-variant-numeric: tabular-nums;
+}
+
+.mantra-label {
+  font-size: 0.82rem;
+  color: var(--text-primary);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.mantra-item .mantra-sanskrit {
+  font-family: var(--font-sanskrit);
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--sanskrit);
+  line-height: 2;
+  white-space: pre-line;
+  margin: 0;
+}
+
+.mantra-item .mantra-iast {
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  font-style: italic;
+  line-height: 1.75;
+  white-space: pre-line;
+  margin: 0;
+  padding-top: var(--space-xs);
+  border-top: 1px dashed var(--border);
+}
+
+.mantra-item .mantra-meaning {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.75;
+  margin: 0;
+  padding-top: var(--space-xs);
+  border-top: 1px dashed var(--border);
+}
+
+.mantra-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-top: var(--space-xs);
+  border-top: 1px dashed var(--border);
+}
+
+.mantra-keyword {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  font-size: 0.76rem;
+  color: var(--text-secondary);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-family: var(--font-mono, var(--font-body));
+  letter-spacing: 0.01em;
+}
+
+.mantra-stack.hide-iast .mantra-iast { display: none; }
+.mantra-stack.hide-meaning .mantra-meaning,
+.mantra-stack.hide-meaning .mantra-keywords { display: none; }
+
+/* Chant view - larger text, centered */
+.chant-text-stage .mantra-stack {
+  gap: var(--space-xl);
+}
+
+.chant-text-stage .mantra-item {
+  background: var(--surface);
+  padding: var(--space-lg);
+  align-items: stretch;
+}
+
+.chant-text-stage .mantra-header {
+  justify-content: center;
+}
+
+.chant-text-stage .mantra-item .mantra-sanskrit {
+  font-size: 1.5rem;
+  line-height: 2.1;
+  text-align: center;
+}
+
+.chant-text-stage .mantra-item .mantra-iast {
+  font-size: 1rem;
+  line-height: 1.85;
+  text-align: center;
+}
+
+.chant-text-stage .mantra-item .mantra-meaning {
+  font-size: 0.95rem;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.chant-text-stage .mantra-keywords {
+  justify-content: center;
+}
+
+body.chant-fullscreen .chant-text-stage .mantra-item {
+  background: transparent;
+  border: none;
+}
+
+body.chant-fullscreen .chant-text-stage .mantra-item .mantra-sanskrit {
+  font-size: 1.9rem;
+}
+
 /* Mobile overrides for rudram */
 @media (max-width: 700px) {
   .anuvaka-preview {
@@ -2896,11 +3082,33 @@ body.chant-fullscreen .chant-text-stage .anuvaka-sanskrit {
     line-height: 1.95;
   }
 
+  .chant-text-stage .mantra-item .mantra-sanskrit {
+    font-size: 1.2rem;
+    line-height: 1.95;
+  }
+
+  .mantra-item .mantra-sanskrit {
+    font-size: 1rem;
+    line-height: 1.9;
+  }
+
+  .mantra-item .mantra-iast {
+    font-size: 0.84rem;
+  }
+
+  .mantra-item {
+    padding: var(--space-sm) var(--space-md);
+  }
+
   .chant-text-stage {
     padding: var(--space-md);
   }
 
   body.chant-fullscreen .chant-text-stage .anuvaka-sanskrit {
+    font-size: 1.5rem;
+  }
+
+  body.chant-fullscreen .chant-text-stage .mantra-item .mantra-sanskrit {
     font-size: 1.5rem;
   }
 
@@ -2948,5 +3156,21 @@ body.chant-fullscreen .chant-text-stage .anuvaka-sanskrit {
 
   .mantra-card .mantra-sanskrit {
     font-size: 0.98rem;
+  }
+
+  .mantra-item .mantra-sanskrit {
+    font-size: 0.95rem;
+  }
+
+  .chant-text-stage .mantra-item .mantra-sanskrit {
+    font-size: 1.1rem;
+  }
+
+  .mantra-header {
+    flex-wrap: wrap;
+  }
+
+  .mantra-label {
+    font-size: 0.75rem;
   }
 }

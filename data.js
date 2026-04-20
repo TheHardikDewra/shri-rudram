@@ -3,202 +3,1767 @@ const RUDRAM_DATA = {
     {
       "number": 1,
       "section": "namakam",
-      "sanskrit": "ॐ नमो भगवते रुद्राय ॥\nॐ नमस्ते रुद्र मन्यव उतो त इषवे नमः । नमस्ते अस्तु धन्वने बाहुभ्यामुत ते नमः ॥\nया त इषुः शिवतमा शिवं बभूव ते धनुः । शिवा शरव्या या तव तया नो रुद्र मृडय ॥\nया ते रुद्र शिवा तनूरघोराऽपापकाशिनी । तया नस्तनुवा शन्तमया गिरिशन्ताभिचाकशीहि ॥\nयामिषुं गिरिशन्त हस्ते बिभर्ष्यस्तवे । शिवां गिरित्र तां कुरु मा हिꣳसीः पुरुषं जगत् ॥\nशिवेन वचसा त्वा गिरिशाच्छावदामसि । यथा नः सर्वमिज्जगदयक्ष्मꣳ सुमना असत् ॥\nअध्यवोचदधिवक्ता प्रथमो दैव्यो भिषक् । अहीꣳश्च सर्वाञ्जम्भयन्त्सर्वाश्च यातुधान्यः ॥\nअसौ यस्ताम्रो अरुण उत बभ्रुः सुमङ्गलः । ये चेमाꣳ रुद्रा अभितो दिक्षु श्रिताः सहस्रशोऽवैषाꣳ हेड ईमहे ॥\nअसौ योऽवसर्पति नीलग्रीवो विलोहितः । उतैनं गोपा अदृश्रन्नदृश्रन्नुदहार्यः । उतैनं विश्वा भूतानि स दृष्टो मृडयाति नः ॥\nनमो अस्तु नीलग्रीवाय सहस्राक्षाय मीढुषे । अथो ये अस्य सत्वानोऽहं तेभ्योऽकरन्नमः ॥\nप्रमुञ्च धन्वनस्त्वमुभयोरार्त्नियोर्ज्याम् । याश्च ते हस्त इषवः परा ता भगवो वप ॥\nअवतत्य धनुस्त्वꣳ सहस्राक्ष शतेषुधे । निशीर्य शल्यानां मुखा शिवो नः सुमना भव ॥\nविज्यं धनुः कपर्दिनो विशल्यो बाणवाꣳ उत । अनेशन्नस्येषव आभुरस्य निषङ्गथिः ॥\nया ते हेतिर्मीढुष्टम हस्ते बभूव ते धनुः । तयाऽस्मान् विश्वतस्त्वमयक्ष्मया परिब्भुज ॥\nनमस्ते अस्त्वायुधायानातताय धृष्णवे । उभाभ्यामुत ते नमो बाहुभ्यां तव धन्वने ॥\nपरि ते धन्वनो हेतिरस्मान्वृणक्तु विश्वतः । अथो य इषुधिस्तवारे अस्मन्निधेहि तम् ॥ १ ॥",
-      "transliteration": "oṃ namo bhagavate rudrāya ||\noṃ namaste rudra manyava uto ta iṣave namaḥ | namaste astu dhanvane bāhubhyāmuta te namaḥ ||\nyā ta iṣuḥ śivatamā śivaṃ babhūva te dhanuḥ | śivā śaravyā yā tava tayā no rudra mṛḍaya ||\nyā te rudra śivā tanūraghorā'pāpakāśinī | tayā nastanuvā śantamayā giriśantābhicākaśīhi ||\nyāmiṣuṃ giriśanta haste bibharṣyastave | śivāṃ giritra tāṃ kuru mā hiṃsīḥ puruṣaṃ jagat ||\nśivena vacasā tvā giriśācchāvadāmasi | yathā naḥ sarvamijjagadayakṣmaṃ sumanā asat ||\nadhyavocadadhivaktā prathamo daivyo bhiṣak | ahīṃśca sarvāñjambhayantsarvāśca yātudhānyaḥ ||\nasau yastāmro aruṇa uta babhruḥ sumaṅgalaḥ | ye cemāṃ rudrā abhito dikṣu śritāḥ sahasraśo'vaiṣāṃ heḍa īmahe ||\nasau yo'vasarpati nīlagrīvo vilohitaḥ | utainaṃ gopā adṛśrannadṛśrannudahāryaḥ | utainaṃ viśvā bhūtāni sa dṛṣṭo mṛḍayāti naḥ ||\nnamo astu nīlagrīvāya sahasrākṣāya mīḍhuṣe | atho ye asya satvāno'haṃ tebhyo'karannamaḥ ||\npramuñca dhanvanastvamubhayorārtniyorjyām | yāśca te hasta iṣavaḥ parā tā bhagavo vapa ||\navatatya dhanustvaṃ sahasrākṣa śateṣudhe | niśīrya śalyānāṃ mukhā śivo naḥ sumanā bhava ||\nvijyaṃ dhanuḥ kapardino viśalyo bāṇavāṃ uta | aneśannasyeṣava ābhurasya niṣaṅgathiḥ ||\nyā te hetirmīḍhuṣṭama haste babhūva te dhanuḥ | tayā'smān viśvatastvamayakṣmayā paribbhuja ||\nnamaste astvāyudhāyānātatāya dhṛṣṇave | ubhābhyāmuta te namo bāhubhyāṃ tava dhanvane ||\npari te dhanvano hetirasmānvṛṇaktu viśvataḥ | atho ya iṣudhistavāre asmannidhehi tam || 1 ||",
       "theme": "Salutations to Rudra's wrath and weapons",
       "meaning": "The opening anuvaka offers salutations to Rudra's anger, His arrows, His bow, and His mighty arms, praying that He lay down His weapons and show His auspicious (shiva) form. The seeker invokes Rudra as the first divine physician who destroys all diseases and evil forces, requesting Him to turn His destructive aspects away and bless with His benevolent, sin-free form (aghora apapakashini tanu). It culminates in the famous prayer for Rudra to unstring His bow and place His quiver far from us.",
-      "youtubeTime": 4
+      "youtubeTime": 4,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Opening Invocation & Salutations",
+          "sanskrit": "ॐ नमो भगवते रुद्राय ॥\nॐ नमस्ते रुद्र मन्यव उतो त इषवे नमः । नमस्ते अस्तु धन्वने बाहुभ्यामुत ते नमः ॥",
+          "iast": "oṃ namo bhagavate rudrāya ||\noṃ namaste rudra manyava uto ta iṣave namaḥ | namaste astu dhanvane bāhubhyāmuta te namaḥ ||",
+          "meaning": "This opening chunk consecrates the hymn with 'Om namo bhagavate rudraya' - salutations to the blessed Rudra. It then offers homage to Rudra's wrath, His arrow, His bow, and to both His mighty arms, acknowledging each aspect of His formidable presence before praying for grace.",
+          "key_words": [
+            "oṃ: the sacred primordial sound",
+            "namo: salutations, bowing down",
+            "bhagavate: to the blessed one",
+            "rudrāya: to Rudra, the fierce form of Shiva",
+            "manyave: to your wrath",
+            "iṣave: to your arrow",
+            "dhanvane: to your bow",
+            "bāhubhyām: to your two arms"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Auspicious Form & Arrow",
+          "sanskrit": "या त इषुः शिवतमा शिवं बभूव ते धनुः । शिवा शरव्या या तव तया नो रुद्र मृडय ॥\nया ते रुद्र शिवा तनूरघोराऽपापकाशिनी । तया नस्तनुवा शन्तमया गिरिशन्ताभिचाकशीहि ॥\nयामिषुं गिरिशन्त हस्ते बिभर्ष्यस्तवे । शिवां गिरित्र तां कुरु मा हिꣳसीः पुरुषं जगत् ॥",
+          "iast": "yā ta iṣuḥ śivatamā śivaṃ babhūva te dhanuḥ | śivā śaravyā yā tava tayā no rudra mṛḍaya ||\nyā te rudra śivā tanūraghorā'pāpakāśinī | tayā nastanuvā śantamayā giriśantābhicākaśīhi ||\nyāmiṣuṃ giriśanta haste bibharṣyastave | śivāṃ giritra tāṃ kuru mā hiṃsīḥ puruṣaṃ jagat ||",
+          "meaning": "This chunk prays that Rudra's arrow, bow, and quiver become most auspicious (shivatama) so that He bestows happiness. It beseeches Rudra, the Lord of the Mountains (Girishanta), to reveal His gentle, sin-dispelling form (aghora, apapakashini tanu) and to render peaceful the arrow He holds in His hand, asking that He not harm man or the world.",
+          "key_words": [
+            "śivatamā: most auspicious",
+            "śaravyā: quiver of arrows",
+            "mṛḍaya: bless us, make us happy",
+            "aghorā: non-terrifying, gentle",
+            "apāpakāśinī: destroying sins",
+            "giriśanta: Lord of the mountains",
+            "abhicākaśīhi: reveal yourself",
+            "mā hiṃsīḥ: do not harm"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Divine Physician & Red Rudras",
+          "sanskrit": "शिवेन वचसा त्वा गिरिशाच्छावदामसि । यथा नः सर्वमिज्जगदयक्ष्मꣳ सुमना असत् ॥\nअध्यवोचदधिवक्ता प्रथमो दैव्यो भिषक् । अहीꣳश्च सर्वाञ्जम्भयन्त्सर्वाश्च यातुधान्यः ॥\nअसौ यस्ताम्रो अरुण उत बभ्रुः सुमङ्गलः । ये चेमाꣳ रुद्रा अभितो दिक्षु श्रिताः सहस्रशोऽवैषाꣳ हेड ईमहे ॥",
+          "iast": "śivena vacasā tvā giriśācchāvadāmasi | yathā naḥ sarvamijjagadayakṣmaṃ sumanā asat ||\nadhyavocadadhivaktā prathamo daivyo bhiṣak | ahīṃśca sarvāñjambhayantsarvāśca yātudhānyaḥ ||\nasau yastāmro aruṇa uta babhruḥ sumaṅgalaḥ | ye cemāṃ rudrā abhito dikṣu śritāḥ sahasraśo'vaiṣāṃ heḍa īmahe ||",
+          "meaning": "The seeker addresses Girisha with auspicious words, praying that the whole world becomes disease-free and well-disposed. It invokes the first divine physician (prathamo daivyo bhiṣak) who destroys serpents and all evil beings (yatudhanas), and salutes Rudra in His copper-red, ruddy, brown and most auspicious forms, along with the thousands of Rudras spread in every direction whose anger the seeker seeks to avert.",
+          "key_words": [
+            "śivena vacasā: with auspicious words",
+            "ayakṣmaṃ: free from disease",
+            "daivyo bhiṣak: divine physician",
+            "yātudhānyaḥ: evil beings",
+            "tāmro: copper-colored",
+            "aruṇa: reddish",
+            "sumaṅgalaḥ: most auspicious",
+            "sahasraśaḥ: in thousands"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Blue-throated Nīlagrīva",
+          "sanskrit": "असौ योऽवसर्पति नीलग्रीवो विलोहितः । उतैनं गोपा अदृश्रन्नदृश्रन्नुदहार्यः । उतैनं विश्वा भूतानि स दृष्टो मृडयाति नः ॥\nनमो अस्तु नीलग्रीवाय सहस्राक्षाय मीढुषे । अथो ये अस्य सत्वानोऽहं तेभ्योऽकरन्नमः ॥",
+          "iast": "asau yo'vasarpati nīlagrīvo vilohitaḥ | utainaṃ gopā adṛśrannadṛśrannudahāryaḥ | utainaṃ viśvā bhūtāni sa dṛṣṭo mṛḍayāti naḥ ||\nnamo astu nīlagrīvāya sahasrākṣāya mīḍhuṣe | atho ye asya satvāno'haṃ tebhyo'karannamaḥ ||",
+          "meaning": "This chunk glorifies the blue-throated, red-hued Rudra (Nilagriva, Vilohita) who descends and is seen by cowherds and water-carrying women, praying that when He is beheld by all beings He grants peace. Salutations are offered to the thousand-eyed, blessing-bestowing Nilagriva and to all His attendant hosts (sattvans).",
+          "key_words": [
+            "nīlagrīvaḥ: blue-necked one",
+            "vilohitaḥ: red-bodied",
+            "gopā: cowherds",
+            "udahāryaḥ: water-carrying women",
+            "sahasrākṣāya: thousand-eyed",
+            "mīḍhuṣe: bestower of blessings",
+            "satvānaḥ: attendant hosts",
+            "mṛḍayāti: may he grant peace"
+          ]
+        },
+        {
+          "id": 5,
+          "label": "Unstringing the Bow",
+          "sanskrit": "प्रमुञ्च धन्वनस्त्वमुभयोरार्त्नियोर्ज्याम् । याश्च ते हस्त इषवः परा ता भगवो वप ॥\nअवतत्य धनुस्त्वꣳ सहस्राक्ष शतेषुधे । निशीर्य शल्यानां मुखा शिवो नः सुमना भव ॥\nविज्यं धनुः कपर्दिनो विशल्यो बाणवाꣳ उत । अनेशन्नस्येषव आभुरस्य निषङ्गथिः ॥\nया ते हेतिर्मीढुष्टम हस्ते बभूव ते धनुः । तयाऽस्मान् विश्वतस्त्वमयक्ष्मया परिब्भुज ॥\nनमस्ते अस्त्वायुधायानातताय धृष्णवे । उभाभ्यामुत ते नमो बाहुभ्यां तव धन्वने ॥\nपरि ते धन्वनो हेतिरस्मान्वृणक्तु विश्वतः । अथो य इषुधिस्तवारे अस्मन्निधेहि तम् ॥ १ ॥",
+          "iast": "pramuñca dhanvanastvamubhayorārtniyorjyām | yāśca te hasta iṣavaḥ parā tā bhagavo vapa ||\navatatya dhanustvaṃ sahasrākṣa śateṣudhe | niśīrya śalyānāṃ mukhā śivo naḥ sumanā bhava ||\nvijyaṃ dhanuḥ kapardino viśalyo bāṇavāṃ uta | aneśannasyeṣava ābhurasya niṣaṅgathiḥ ||\nyā te hetirmīḍhuṣṭama haste babhūva te dhanuḥ | tayā'smān viśvatastvamayakṣmayā paribbhuja ||\nnamaste astvāyudhāyānātatāya dhṛṣṇave | ubhābhyāmuta te namo bāhubhyāṃ tava dhanvane ||\npari te dhanvano hetirasmānvṛṇaktu viśvataḥ | atho ya iṣudhistavāre asmannidhehi tam || 1 ||",
+          "meaning": "This climactic chunk of Anuvaka 1 petitions Rudra to release the bowstring from both ends of His bow, to cast His arrows far from us, to blunt their tips, and to stand as Kapardin with an unstrung bow and empty quiver. It offers repeated salutations to His weapons - strung or unstrung - to His arms and bow, and culminates with the prayer that His missiles spare us entirely while His quiver be placed far away.",
+          "key_words": [
+            "pramuñca: release, loosen",
+            "jyām: the bowstring",
+            "avatatya: unstring",
+            "viśalyaḥ: without arrowheads",
+            "kapardino: of the matted-haired one",
+            "hetiḥ: weapon",
+            "anātatāya: unstrung",
+            "iṣudhiḥ: quiver"
+          ]
+        }
+      ]
     },
     {
       "number": 2,
       "section": "namakam",
-      "sanskrit": "नमो हिरण्यबाहवे सेनान्ये दिशां च पतये नमो नमो वृक्षेभ्यो हरिकेशेभ्यः पशूनां पतये नमो नमः सस्पिञ्जराय त्विषीमते पथीनां पतये नमो नमो बभ्लुशाय विव्याधिनेऽन्नानां पतये नमो नमो हरिकेशायोपवीतिने पुष्टानां पतये नमो नमो भवस्य हेत्यै जगतां पतये नमो नमो रुद्रायातताविने क्षेत्राणां पतये नमो नमः सूतायाहन्त्याय वनानां पतये नमो नमो रोहिताय स्थपतये वृक्षाणां पतये नमो नमो मन्त्रिणे वाणिजाय कक्षाणां पतये नमो नमो भुवन्तये वारिवस्कृतायौषधीनां पतये नमो नम उच्चैर्घोषायाक्रन्दयते पत्तीनां पतये नमो नमः कृत्स्नवीताय धावते सत्त्वनां पतये नमः ॥ २ ॥",
-      "transliteration": "namo hiraṇyabāhave senānye diśāṃ ca pataye namo namo vṛkṣebhyo harikeśebhyaḥ paśūnāṃ pataye namo namaḥ saspiñjarāya tviṣīmate pathīnāṃ pataye namo namo babhluśāya vivyādhine'nnānāṃ pataye namo namo harikeśāyopavītine puṣṭānāṃ pataye namo namo bhavasya hetyai jagatāṃ pataye namo namo rudrāyātatāvine kṣetrāṇāṃ pataye namo namaḥ sūtāyāhantyāya vanānāṃ pataye namo namo rohitāya sthapataye vṛkṣāṇāṃ pataye namo namo mantriṇe vāṇijāya kakṣāṇāṃ pataye namo namo bhuvantaye vārivaskṛtāyauṣadhīnāṃ pataye namo nama uccairghoṣāyākrandayate pattīnāṃ pataye namo namaḥ kṛtsnavītāya dhāvate sattvanāṃ pataye namaḥ || 2 ||",
       "theme": "Salutations to Rudra as cosmic leader and lord of beings",
       "meaning": "This anuvaka salutes Rudra as the golden-armed chief of cosmic armies, lord of directions, and master of all trees, animals, roads, food, and pathways. He is praised as the one with flowing green hair who wears the sacred thread, the lord of fields, forests, medicinal herbs, and warriors. Each epithet reveals Rudra's pervasive presence as the protector and ruler of every sphere of existence, from the material world of commerce to the wild forests and growing plants.",
-      "youtubeTime": 173
+      "youtubeTime": 173,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Commander & Lord of Directions",
+          "sanskrit": "नमो हिरण्यबाहवे सेनान्ये दिशां च पतये नमो नमो वृक्षेभ्यो हरिकेशेभ्यः पशूनां पतये नमो नमः सस्पिञ्जराय त्विषीमते पथीनां पतये नमो",
+          "iast": "namo hiraṇyabāhave senānye diśāṃ ca pataye namo namo vṛkṣebhyo harikeśebhyaḥ paśūnāṃ pataye namo namaḥ saspiñjarāya tviṣīmate pathīnāṃ pataye namo",
+          "meaning": "This chunk offers salutations to Rudra as Hiranyabahu (golden-armed), Senanya (commander of cosmic armies) and lord of all directions. He is saluted in the green-haired trees as the lord of animals, and as the tawny-radiant, resplendent master of pathways.",
+          "key_words": [
+            "hiraṇyabāhave: to the golden-armed",
+            "senānye: commander of armies",
+            "diśāṃ pataye: lord of directions",
+            "vṛkṣebhyaḥ: to the trees",
+            "harikeśebhyaḥ: to the green-haired",
+            "paśūnāṃ pataye: lord of animals",
+            "saspiñjarāya: to the tawny one",
+            "pathīnāṃ pataye: lord of paths"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Piercer & Lord of Fields",
+          "sanskrit": "नमो बभ्लुशाय विव्याधिनेऽन्नानां पतये नमो नमो हरिकेशायोपवीतिने पुष्टानां पतये नमो नमो भवस्य हेत्यै जगतां पतये नमो नमो रुद्रायातताविने क्षेत्राणां पतये नमो",
+          "iast": "namo babhluśāya vivyādhine'nnānāṃ pataye namo namo harikeśāyopavītine puṣṭānāṃ pataye namo namo bhavasya hetyai jagatāṃ pataye namo namo rudrāyātatāvine kṣetrāṇāṃ pataye namo",
+          "meaning": "Salutations are offered to Rudra as Babhlusha the piercer, lord of food-grains; as the green-haired, sacred-thread-wearing lord of the nourished; as Bhava's weapon, lord of worlds; and as Rudra the far-reaching archer, lord of cultivated fields.",
+          "key_words": [
+            "babhluśāya: to the piercer",
+            "vivyādhine: to the striker",
+            "annānāṃ pataye: lord of food",
+            "upavītine: wearer of sacred thread",
+            "puṣṭānāṃ pataye: lord of the nourished",
+            "bhavasya hetyai: weapon of Bhava",
+            "jagatāṃ pataye: lord of worlds",
+            "kṣetrāṇāṃ pataye: lord of fields"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Artisans & Merchants",
+          "sanskrit": "नमः सूतायाहन्त्याय वनानां पतये नमो नमो रोहिताय स्थपतये वृक्षाणां पतये नमो नमो मन्त्रिणे वाणिजाय कक्षाणां पतये नमो",
+          "iast": "namaḥ sūtāyāhantyāya vanānāṃ pataye namo namo rohitāya sthapataye vṛkṣāṇāṃ pataye namo namo mantriṇe vāṇijāya kakṣāṇāṃ pataye namo",
+          "meaning": "This chunk salutes Rudra as the charioteer-bard who cannot be slain and is lord of forests, as Rohita the master-architect lord of trees, and as the counsellor-merchant who is lord of hedged enclosures and thickets.",
+          "key_words": [
+            "sūtāya: to the charioteer/bard",
+            "ahantyāya: to the invincible",
+            "vanānāṃ pataye: lord of forests",
+            "rohitāya: to the red one",
+            "sthapataye: to the architect",
+            "vṛkṣāṇāṃ pataye: lord of trees",
+            "mantriṇe: to the counsellor",
+            "vāṇijāya: to the merchant",
+            "kakṣāṇāṃ pataye: lord of thickets"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Herbs, Warriors & All Beings",
+          "sanskrit": "नमो भुवन्तये वारिवस्कृतायौषधीनां पतये नमो नम उच्चैर्घोषायाक्रन्दयते पत्तीनां पतये नमो नमः कृत्स्नवीताय धावते सत्त्वनां पतये नमः ॥ २ ॥",
+          "iast": "namo bhuvantaye vārivaskṛtāyauṣadhīnāṃ pataye namo nama uccairghoṣāyākrandayate pattīnāṃ pataye namo namaḥ kṛtsnavītāya dhāvate sattvanāṃ pataye namaḥ || 2 ||",
+          "meaning": "Salutations are offered to Rudra as Bhuvantu the wealth-bestower, lord of medicinal herbs; as the loud-roaring rouser of battle-cries, lord of foot-soldiers; and as the fully-armored warrior who races forth, lord of all living beings (sattvas).",
+          "key_words": [
+            "bhuvantaye: to the wealth-giver",
+            "vārivaskṛtāya: maker of space/prosperity",
+            "oṣadhīnāṃ pataye: lord of herbs",
+            "uccairghoṣāya: to the loud-roarer",
+            "ākrandayate: to the rouser of battle-cries",
+            "pattīnāṃ pataye: lord of foot-soldiers",
+            "kṛtsnavītāya: to the fully-armored",
+            "sattvanāṃ pataye: lord of all beings"
+          ]
+        }
+      ]
     },
     {
       "number": 3,
       "section": "namakam",
-      "sanskrit": "नमः सहमानाय निव्याधिन आव्याधिनीनां पतये नमो नमः ककुभाय निषङ्गिणे स्तेनानां पतये नमो नमो निषङ्गिण इषुधिमते तस्कराणां पतये नमो नमो वञ्चते परिवञ्चते स्तायूनां पतये नमो नमो निचेरवे परिचरायारण्यानां पतये नमो नमः सृकाविभ्यो जिघाꣳसद्भ्यो मुष्णतां पतये नमो नमोऽसिमद्भ्यो नक्तञ्चरद्भ्यः प्रकृन्तानां पतये नमो नम उष्णीषिणे गिरिचराय कुलुञ्चानां पतये नमो नम इषुमद्भ्यो धन्वाविभ्यश्च वो नमो नम आतन्वानेभ्यः प्रतिदधानेभ्यश्च वो नमो नम आयच्छद्भ्यो विसृजद्भ्यश्च वो नमो नमोऽस्यद्भ्यो विद्ध्यद्भ्यश्च वो नमो नम आसीनेभ्यः शयानेभ्यश्च वो नमो नमः स्वपद्भ्यो जाग्रद्भ्यश्च वो नमो नमस्तिष्ठद्भ्यो धावद्भ्यश्च वो नमो नमः सभाभ्यः सभापतिभ्यश्च वो नमो नमो अश्वेभ्योऽश्वपतिभ्यश्च वो नमः ॥ ३ ॥",
-      "transliteration": "namaḥ sahamānāya nivyādhina āvyādhinīnāṃ pataye namo namaḥ kakubhāya niṣaṅgiṇe stenānāṃ pataye namo namo niṣaṅgiṇa iṣudhimate taskarāṇāṃ pataye namo namo vañcate parivañcate stāyūnāṃ pataye namo namo nicerave paricarāyāraṇyānāṃ pataye namo namaḥ sṛkāvibhyo jighāṃsadbhyo muṣṇatāṃ pataye namo namo'simadbhyo naktañcaradbhyaḥ prakṛntānāṃ pataye namo nama uṣṇīṣiṇe giricarāya kuluñcānāṃ pataye namo nama iṣumadbhyo dhanvāvibhyaśca vo namo nama ātanvānebhyaḥ pratidadhānebhyaśca vo namo nama āyacchadbhyo visṛjadbhyaśca vo namo namo'syadbhyo viddhyadbhyaśca vo namo nama āsīnebhyaḥ śayānebhyaśca vo namo namaḥ svapadbhyo jāgradbhyaśca vo namo namastiṣṭhadbhyo dhāvadbhyaśca vo namo namaḥ sabhābhyaḥ sabhāpatibhyaśca vo namo namo aśvebhyo'śvapatibhyaśca vo namaḥ || 3 ||",
       "theme": "Salutations to Rudra as conqueror in all forms",
       "meaning": "This anuvaka recognizes that Rudra dwells even in those we perceive as adversaries - thieves, robbers, cheats, and nighttime marauders. He is saluted as the conqueror, the tall one with his quiver, the lord of mountain dwellers and forest rangers. The salutations extend to all who hold arrows and bows, who shoot and strike, who sit and lie, who sleep and wake, who stand and run, showing that every action and every being is ultimately a manifestation of Rudra.",
-      "youtubeTime": 231
+      "youtubeTime": 231,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Conqueror & Lord of Thieves",
+          "sanskrit": "नमः सहमानाय निव्याधिन आव्याधिनीनां पतये नमो नमः ककुभाय निषङ्गिणे स्तेनानां पतये नमो नमो निषङ्गिण इषुधिमते तस्कराणां पतये नमो नमो वञ्चते परिवञ्चते स्तायूनां पतये नमो",
+          "iast": "namaḥ sahamānāya nivyādhina āvyādhinīnāṃ pataye namo namaḥ kakubhāya niṣaṅgiṇe stenānāṃ pataye namo namo niṣaṅgiṇa iṣudhimate taskarāṇāṃ pataye namo namo vañcate parivañcate stāyūnāṃ pataye namo",
+          "meaning": "This chunk salutes Rudra as the all-conqueror who strikes and penetrates, lord of afflicting armies; as the tall quiver-bearer and lord of thieves; as the sword-wielder with his quiver, lord of robbers; and as the deceiver and over-deceiver, lord of stealthy pilferers - acknowledging Rudra even in those perceived as adversaries.",
+          "key_words": [
+            "sahamānāya: to the all-conquering",
+            "nivyādhine: to the striker",
+            "kakubhāya: to the tall one",
+            "niṣaṅgiṇe: to the quiver-bearer",
+            "stenānāṃ pataye: lord of thieves",
+            "taskarāṇāṃ pataye: lord of robbers",
+            "vañcate: to the deceiver",
+            "stāyūnāṃ pataye: lord of pilferers"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Forest Rangers & Mountain Dwellers",
+          "sanskrit": "नमो निचेरवे परिचरायारण्यानां पतये नमो नमः सृकाविभ्यो जिघाꣳसद्भ्यो मुष्णतां पतये नमो नमोऽसिमद्भ्यो नक्तञ्चरद्भ्यः प्रकृन्तानां पतये नमो नम उष्णीषिणे गिरिचराय कुलुञ्चानां पतये नमो",
+          "iast": "namo nicerave paricarāyāraṇyānāṃ pataye namo namaḥ sṛkāvibhyo jighāṃsadbhyo muṣṇatāṃ pataye namo namo'simadbhyo naktañcaradbhyaḥ prakṛntānāṃ pataye namo nama uṣṇīṣiṇe giricarāya kuluñcānāṃ pataye namo",
+          "meaning": "Salutations are offered to Rudra as the wanderer and roamer, lord of forests; as the sword-bearing slayer, lord of plunderers; as the armed nighttime marauder, lord of those who cut down; and as the turban-wearing mountain-roamer, lord of housebreakers.",
+          "key_words": [
+            "nicerave: to the wanderer",
+            "paricarāya: to the rover",
+            "āraṇyānāṃ pataye: lord of forests",
+            "sṛkāvibhyaḥ: to sword-bearers",
+            "muṣṇatāṃ pataye: lord of plunderers",
+            "asimadbhyaḥ: to the armed",
+            "naktañcaradbhyaḥ: to night-roamers",
+            "uṣṇīṣiṇe: to the turbaned",
+            "giricarāya: to the mountain-roamer"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Archers & Piercers",
+          "sanskrit": "नम इषुमद्भ्यो धन्वाविभ्यश्च वो नमो नम आतन्वानेभ्यः प्रतिदधानेभ्यश्च वो नमो नम आयच्छद्भ्यो विसृजद्भ्यश्च वो नमो नमोऽस्यद्भ्यो विद्ध्यद्भ्यश्च वो नमो",
+          "iast": "nama iṣumadbhyo dhanvāvibhyaśca vo namo nama ātanvānebhyaḥ pratidadhānebhyaśca vo namo nama āyacchadbhyo visṛjadbhyaśca vo namo namo'syadbhyo viddhyadbhyaśca vo namo",
+          "meaning": "This chunk extends salutations to all those who bear arrows and bows, to those who string and aim them, to those who draw back and release them, and to those who hurl and pierce with them - recognizing Rudra in every phase of the warrior's action.",
+          "key_words": [
+            "iṣumadbhyaḥ: to arrow-bearers",
+            "dhanvāvibhyaḥ: to bow-bearers",
+            "ātanvānebhyaḥ: to those who string",
+            "pratidadhānebhyaḥ: to those who aim",
+            "āyacchadbhyaḥ: to those who draw back",
+            "visṛjadbhyaḥ: to those who release",
+            "asyadbhyaḥ: to those who hurl",
+            "viddhyadbhyaḥ: to those who pierce"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Postures & Horse-Lords",
+          "sanskrit": "नम आसीनेभ्यः शयानेभ्यश्च वो नमो नमः स्वपद्भ्यो जाग्रद्भ्यश्च वो नमो नमस्तिष्ठद्भ्यो धावद्भ्यश्च वो नमो नमः सभाभ्यः सभापतिभ्यश्च वो नमो नमो अश्वेभ्योऽश्वपतिभ्यश्च वो नमः ॥ ३ ॥",
+          "iast": "nama āsīnebhyaḥ śayānebhyaśca vo namo namaḥ svapadbhyo jāgradbhyaśca vo namo namastiṣṭhadbhyo dhāvadbhyaśca vo namo namaḥ sabhābhyaḥ sabhāpatibhyaśca vo namo namo aśvebhyo'śvapatibhyaśca vo namaḥ || 3 ||",
+          "meaning": "Salutations are offered to Rudra in every posture and state - to those seated and reclining, sleeping and waking, standing and running, to assemblies and their presidents, and to horses and their masters. Every action and stance is affirmed as a manifestation of Rudra.",
+          "key_words": [
+            "āsīnebhyaḥ: to the seated",
+            "śayānebhyaḥ: to the reclining",
+            "svapadbhyaḥ: to the sleeping",
+            "jāgradbhyaḥ: to the waking",
+            "tiṣṭhadbhyaḥ: to the standing",
+            "dhāvadbhyaḥ: to the running",
+            "sabhābhyaḥ: to assemblies",
+            "aśvebhyaḥ: to horses",
+            "aśvapatibhyaḥ: to horse-lords"
+          ]
+        }
+      ]
     },
     {
       "number": 4,
       "section": "namakam",
-      "sanskrit": "नम आव्याधिनीभ्यो विविध्यन्तीभ्यश्च वो नमो नम उगणाभ्यस्तृꣳहतीभ्यश्च वो नमो नमो गृत्सेभ्यो गृत्सपतिभ्यश्च वो नमो नमो व्रातेभ्यो व्रातपतिभ्यश्च वो नमो नमो गणेभ्यो गणपतिभ्यश्च वो नमो नमो विरूपेभ्यो विश्वरूपेभ्यश्च वो नमो नमो महद्भ्यः क्षुल्लकेभ्यश्च वो नमो नमो रथिभ्योऽरथेभ्यश्च वो नमो नमो रथेभ्यो रथपतिभ्यश्च वो नमो नमः सेनाभ्यः सेनानिभ्यश्च वो नमो नमः क्षत्तृभ्यः सङ्ग्रहीतृभ्यश्च वो नमो नमस्तक्षभ्यो रथकारेभ्यश्च वो नमो नमः कुलालेभ्यः कर्मारेभ्यश्च वो नमो नमः पुञ्जिष्टेभ्यो निषादेभ्यश्च वो नमो नम इषुकृद्भ्यो धन्वकृद्भ्यश्च वो नमो नमो मृगयुभ्यः श्वनिभ्यश्च वो नमो नमः श्वभ्यः श्वपतिभ्यश्च वो नमः ॥ ४ ॥",
-      "transliteration": "nama āvyādhinībhyo vividhyantībhyaśca vo namo nama ugaṇābhyastṛṃhatībhyaśca vo namo namo gṛtsebhyo gṛtsapatibhyaśca vo namo namo vrātebhyo vrātapatibhyaśca vo namo namo gaṇebhyo gaṇapatibhyaśca vo namo namo virūpebhyo viśvarūpebhyaśca vo namo namo mahadbhyaḥ kṣullakebhyaśca vo namo namo rathibhyo'rathebhyaśca vo namo namo rathebhyo rathapatibhyaśca vo namo namaḥ senābhyaḥ senānibhyaśca vo namo namaḥ kṣattṛbhyaḥ saṅgrahītṛbhyaśca vo namo namastakṣabhyo rathakārebhyaśca vo namo namaḥ kulālebhyaḥ karmārebhyaśca vo namo namaḥ puñjiṣṭebhyo niṣādebhyaśca vo namo nama iṣukṛdbhyo dhanvakṛdbhyaśca vo namo namo mṛgayubhyaḥ śvanibhyaśca vo namo namaḥ śvabhyaḥ śvapatibhyaśca vo namaḥ || 4 ||",
       "theme": "Salutations to Rudra in all occupations and forms",
       "meaning": "This anuvaka honors Rudra dwelling in every occupation and social role - carpenters, chariot-makers, potters, blacksmiths, fishermen, hunters, and arrow-makers. He is saluted in leaders of troops (Ganapati, Vratapati), in the great and the small, in those of odd and universal forms, in charioteers and foot soldiers. The all-inclusive nature of these salutations affirms that no vocation or station in life is outside Rudra's divine presence.",
-      "youtubeTime": 302
+      "youtubeTime": 302,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Piercers & Troop Leaders",
+          "sanskrit": "नम आव्याधिनीभ्यो विविध्यन्तीभ्यश्च वो नमो नम उगणाभ्यस्तृꣳहतीभ्यश्च वो नमो नमो गृत्सेभ्यो गृत्सपतिभ्यश्च वो नमो नमो व्रातेभ्यो व्रातपतिभ्यश्च वो नमो",
+          "iast": "nama āvyādhinībhyo vividhyantībhyaśca vo namo nama ugaṇābhyastṛṃhatībhyaśca vo namo namo gṛtsebhyo gṛtsapatibhyaśca vo namo namo vrātebhyo vrātapatibhyaśca vo namo",
+          "meaning": "Salutations are offered to Rudra as the piercing and multi-wounding forces, as the assembled troops and crushing bands, as the clever adepts and their leaders, and as the bands of roaming warriors and their chiefs - honoring Him in every martial collective.",
+          "key_words": [
+            "āvyādhinībhyaḥ: to piercing forces",
+            "vividhyantībhyaḥ: to multi-wounding forces",
+            "ugaṇābhyaḥ: to assembled hosts",
+            "tṛṃhatībhyaḥ: to crushing bands",
+            "gṛtsebhyaḥ: to the clever",
+            "gṛtsapatibhyaḥ: to their leaders",
+            "vrātebhyaḥ: to roaming bands",
+            "vrātapatibhyaḥ: to their chiefs"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Hosts & Cosmic Forms",
+          "sanskrit": "नमो गणेभ्यो गणपतिभ्यश्च वो नमो नमो विरूपेभ्यो विश्वरूपेभ्यश्च वो नमो नमो महद्भ्यः क्षुल्लकेभ्यश्च वो नमो नमो रथिभ्योऽरथेभ्यश्च वो नमो",
+          "iast": "namo gaṇebhyo gaṇapatibhyaśca vo namo namo virūpebhyo viśvarūpebhyaśca vo namo namo mahadbhyaḥ kṣullakebhyaśca vo namo namo rathibhyo'rathebhyaśca vo namo",
+          "meaning": "Salutations are offered to Rudra as the ganas (hosts) and their Ganapati leaders, to those of distorted and universal forms (virupa and vishvarupa), to the great and the tiny, and to the chariot-mounted and those without chariots - embracing the full range of cosmic shapes and scales.",
+          "key_words": [
+            "gaṇebhyaḥ: to hosts",
+            "gaṇapatibhyaḥ: to lords of hosts",
+            "virūpebhyaḥ: to those of strange forms",
+            "viśvarūpebhyaḥ: to those of universal form",
+            "mahadbhyaḥ: to the great",
+            "kṣullakebhyaḥ: to the tiny",
+            "rathibhyaḥ: to chariot-riders",
+            "arathebhyaḥ: to those without chariots"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Charioteers & Commanders",
+          "sanskrit": "नमो रथेभ्यो रथपतिभ्यश्च वो नमो नमः सेनाभ्यः सेनानिभ्यश्च वो नमो नमः क्षत्तृभ्यः सङ्ग्रहीतृभ्यश्च वो नमो नमस्तक्षभ्यो रथकारेभ्यश्च वो नमो",
+          "iast": "namo rathebhyo rathapatibhyaśca vo namo namaḥ senābhyaḥ senānibhyaśca vo namo namaḥ kṣattṛbhyaḥ saṅgrahītṛbhyaśca vo namo namastakṣabhyo rathakārebhyaśca vo namo",
+          "meaning": "This chunk salutes Rudra as the chariots themselves and the chariot-lords, as armies and their generals, as squadron-leaders and rein-holders, and as carpenters and chariot-makers - honoring Him in every role of military and artisanal command.",
+          "key_words": [
+            "rathebhyaḥ: to chariots",
+            "rathapatibhyaḥ: to chariot-lords",
+            "senābhyaḥ: to armies",
+            "senānibhyaḥ: to generals",
+            "kṣattṛbhyaḥ: to squadron-leaders",
+            "saṅgrahītṛbhyaḥ: to rein-holders",
+            "takṣabhyaḥ: to carpenters",
+            "rathakārebhyaḥ: to chariot-makers"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Artisans & Hunters",
+          "sanskrit": "नमः कुलालेभ्यः कर्मारेभ्यश्च वो नमो नमः पुञ्जिष्टेभ्यो निषादेभ्यश्च वो नमो नम इषुकृद्भ्यो धन्वकृद्भ्यश्च वो नमो नमो मृगयुभ्यः श्वनिभ्यश्च वो नमो नमः श्वभ्यः श्वपतिभ्यश्च वो नमः ॥ ४ ॥",
+          "iast": "namaḥ kulālebhyaḥ karmārebhyaśca vo namo namaḥ puñjiṣṭebhyo niṣādebhyaśca vo namo nama iṣukṛdbhyo dhanvakṛdbhyaśca vo namo namo mṛgayubhyaḥ śvanibhyaśca vo namo namaḥ śvabhyaḥ śvapatibhyaśca vo namaḥ || 4 ||",
+          "meaning": "Salutations are offered to Rudra as potters and blacksmiths, as fowlers and Nishada tribesmen, as arrow-makers and bow-makers, as hunters and their dog-handlers, and as dogs and their masters - recognizing Rudra even in the humblest occupations and wilderness trades.",
+          "key_words": [
+            "kulālebhyaḥ: to potters",
+            "karmārebhyaḥ: to blacksmiths",
+            "puñjiṣṭebhyaḥ: to fowlers",
+            "niṣādebhyaḥ: to Nishada tribes",
+            "iṣukṛdbhyaḥ: to arrow-makers",
+            "dhanvakṛdbhyaḥ: to bow-makers",
+            "mṛgayubhyaḥ: to hunters",
+            "śvanibhyaḥ: to dog-handlers",
+            "śvapatibhyaḥ: to masters of dogs"
+          ]
+        }
+      ]
     },
     {
       "number": 5,
       "section": "namakam",
-      "sanskrit": "नमो भवाय च रुद्राय च नमः शर्वाय च पशुपतये च नमो नीलग्रीवाय च शितिकण्ठाय च नमः कपर्दिने च व्युप्तकेशाय च नमः सहस्राक्षाय च शतधन्वने च नमो गिरिशयाय च शिपिविष्टाय च नमो मीढुष्टमाय चेषुमते च नमो ह्रस्वाय च वामनाय च नमो बृहते च वर्षीयसे च नमो वृद्धाय च सꣳवृध्वने च नमो अग्रियाय च प्रथमाय च नम आशवे चाजिराय च नमः शीघ्रियाय च शीभ्याय च नम ऊर्म्याय चावस्वन्याय च नमः स्रोतस्याय च द्वीप्याय च ॥ ५ ॥",
-      "transliteration": "namo bhavāya ca rudrāya ca namaḥ śarvāya ca paśupataye ca namo nīlagrīvāya ca śitikaṇṭhāya ca namaḥ kapardine ca vyuptakeśāya ca namaḥ sahasrākṣāya ca śatadhanvane ca namo giriśayāya ca śipiviṣṭāya ca namo mīḍhuṣṭamāya ceṣumate ca namo hrasvāya ca vāmanāya ca namo bṛhate ca varṣīyase ca namo vṛddhāya ca saṃvṛdhvane ca namo agriyāya ca prathamāya ca nama āśave cājirāya ca namaḥ śīghriyāya ca śībhyāya ca nama ūrmyāya cāvasvanyāya ca namaḥ srotasyāya ca dvīpyāya ca || 5 ||",
       "theme": "Salutations to Rudra in cosmic forms and dimensions",
       "meaning": "This anuvaka salutes Rudra by His primary cosmic names - Bhava (existence), Rudra, Sharva (destroyer), Pashupati (lord of beings), Nilagriva (blue-throated), and Shitikantha (white-throated). He is saluted in forms ranging from short and dwarf to vast and tall, from young and growing to ancient and foremost. He pervades the swift and slow, the waves and currents, the rivers and islands, showing His presence across all dimensions of space and time.",
-      "youtubeTime": 364
+      "youtubeTime": 364,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Cosmic Names of Rudra",
+          "sanskrit": "नमो भवाय च रुद्राय च नमः शर्वाय च पशुपतये च नमो नीलग्रीवाय च शितिकण्ठाय च नमः कपर्दिने च व्युप्तकेशाय च",
+          "iast": "namo bhavāya ca rudrāya ca namaḥ śarvāya ca paśupataye ca namo nīlagrīvāya ca śitikaṇṭhāya ca namaḥ kapardine ca vyuptakeśāya ca",
+          "meaning": "This chunk salutes Rudra by His great cosmic names - Bhava (existence itself), Rudra (the fierce), Sharva (destroyer), Pashupati (lord of all beings), Nilagriva (blue-throated) and Shitikantha (white-necked), Kapardin (matted-haired) and Vyuptakesha (shaven-headed) - invoking Him as both the manifest and renunciant cosmic forms.",
+          "key_words": [
+            "bhavāya: to Bhava (existence)",
+            "rudrāya: to Rudra (the fierce)",
+            "śarvāya: to Sharva (destroyer)",
+            "paśupataye: to the lord of beings",
+            "nīlagrīvāya: to the blue-throated",
+            "śitikaṇṭhāya: to the white-necked",
+            "kapardine: to the matted-haired",
+            "vyuptakeśāya: to the shaven-headed"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Forms & Dimensions",
+          "sanskrit": "नमः सहस्राक्षाय च शतधन्वने च नमो गिरिशयाय च शिपिविष्टाय च नमो मीढुष्टमाय चेषुमते च नमो ह्रस्वाय च वामनाय च",
+          "iast": "namaḥ sahasrākṣāya ca śatadhanvane ca namo giriśayāya ca śipiviṣṭāya ca namo mīḍhuṣṭamāya ceṣumate ca namo hrasvāya ca vāmanāya ca",
+          "meaning": "Salutations are offered to Rudra as the thousand-eyed and the hundred-bowed, as Girishaya (mountain-dweller) and Shipivishta (all-pervading light), as the most generous bestower and the arrow-wielder, and as the short (hrasva) and the dwarf (vamana) - acknowledging every physical dimension.",
+          "key_words": [
+            "sahasrākṣāya: to the thousand-eyed",
+            "śatadhanvane: to the hundred-bowed",
+            "giriśayāya: to the mountain-dweller",
+            "śipiviṣṭāya: to the all-pervading",
+            "mīḍhuṣṭamāya: to the most gracious",
+            "iṣumate: to the arrow-holder",
+            "hrasvāya: to the short",
+            "vāmanāya: to the dwarf"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Swift & Slow Movements",
+          "sanskrit": "नमो बृहते च वर्षीयसे च नमो वृद्धाय च सꣳवृध्वने च नमो अग्रियाय च प्रथमाय च नम आशवे चाजिराय च",
+          "iast": "namo bṛhate ca varṣīyase ca namo vṛddhāya ca saṃvṛdhvane ca namo agriyāya ca prathamāya ca nama āśave cājirāya ca",
+          "meaning": "This chunk salutes Rudra as the vast (brihat) and taller still (varshiyas), as the aged (vriddha) and ever-growing (samvridhvan), as the foremost (agriya) and the first (prathama), and as the swift (ashu) and the quickly moving (ajira) - honoring Him across every stage of growth and speed.",
+          "key_words": [
+            "bṛhate: to the vast",
+            "varṣīyase: to the taller still",
+            "vṛddhāya: to the aged",
+            "saṃvṛdhvane: to the ever-growing",
+            "agriyāya: to the foremost",
+            "prathamāya: to the first",
+            "āśave: to the swift",
+            "ajirāya: to the nimble"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Waves, Streams & Islands",
+          "sanskrit": "नमः शीघ्रियाय च शीभ्याय च नम ऊर्म्याय चावस्वन्याय च नमः स्रोतस्याय च द्वीप्याय च ॥ ५ ॥",
+          "iast": "namaḥ śīghriyāya ca śībhyāya ca nama ūrmyāya cāvasvanyāya ca namaḥ srotasyāya ca dvīpyāya ca || 5 ||",
+          "meaning": "Salutations are offered to Rudra in aquatic and flowing dimensions - as the rapid (shighriya) and the still (shibhya), as the one in waves (urmya) and in the waveless (avasvanya), and as the one in flowing streams (srotasya) and in islands (dvipya) - honoring His presence in every water-form.",
+          "key_words": [
+            "śīghriyāya: to the rapid",
+            "śībhyāya: to the still",
+            "ūrmyāya: to the one in waves",
+            "avasvanyāya: to the one in silent waters",
+            "srotasyāya: to the one in streams",
+            "dvīpyāya: to the one in islands"
+          ]
+        }
+      ]
     },
     {
       "number": 6,
       "section": "namakam",
-      "sanskrit": "नमो ज्येष्ठाय च कनिष्ठाय च नमः पूर्वजाय चापरजाय च नमो मध्यमाय चापगल्भाय च नमो जघन्याय च बुध्नियाय च नमः सोभ्याय च प्रतिसर्याय च नमो याम्याय च क्षेम्याय च नम उर्वर्याय च खल्याय च नमः श्लोक्याय चावसान्याय च नमो वन्याय च कक्ष्याय च नमः श्रवाय च प्रतिश्रवाय च नम आशुषेणाय चाशुरथाय च नमः शूराय चावभिन्दते च नमो वर्मिणे च वरूथिने च नमो बिल्मिने च कवचिने च नमः श्रुताय च श्रुतसेनाय च ॥ ६ ॥",
-      "transliteration": "namo jyeṣṭhāya ca kaniṣṭhāya ca namaḥ pūrvajāya cāparajāya ca namo madhyamāya cāpagalbhāya ca namo jaghanyāya ca budhniyāya ca namaḥ sobhyāya ca pratisaryāya ca namo yāmyāya ca kṣemyāya ca nama urvaryāya ca khalyāya ca namaḥ ślokyāya cāvasānyāya ca namo vanyāya ca kakṣyāya ca namaḥ śravāya ca pratiśravāya ca nama āśuṣeṇāya cāśurathāya ca namaḥ śūrāya cāvabhindate ca namo varmiṇe ca varūthine ca namo bilmine ca kavacine ca namaḥ śrutāya ca śrutasenāya ca || 6 ||",
       "theme": "Salutations to Rudra across all relativities and states",
       "meaning": "This anuvaka salutes Rudra in every relational dimension - eldest and youngest, firstborn and lastborn, middle and eager, lowest and deepest. He is saluted in the fertile fields and threshing floors, in the forests and thickets, in fame and echo, in the swift-armied and swift-chariot warriors. The hero who cleaves asunder, the one clad in armor and helmet, the renowned one and lord of famous armies - all are Rudra's manifestations.",
-      "youtubeTime": 408
+      "youtubeTime": 408,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Elder & Younger, First & Last",
+          "sanskrit": "नमो ज्येष्ठाय च कनिष्ठाय च नमः पूर्वजाय चापरजाय च नमो मध्यमाय चापगल्भाय च नमो जघन्याय च बुध्नियाय च",
+          "iast": "namo jyeṣṭhāya ca kaniṣṭhāya ca namaḥ pūrvajāya cāparajāya ca namo madhyamāya cāpagalbhāya ca namo jaghanyāya ca budhniyāya ca",
+          "meaning": "This chunk salutes Rudra as the eldest (jyeshtha) and youngest (kanishtha), as the first-born (purvaja) and last-born (aparaja), as the middle (madhyama) and the immature (apagalbha), and as the latest (jaghanya) and the foundational (budhniya) - honoring Him across every generational and sequential dimension.",
+          "key_words": [
+            "jyeṣṭhāya: to the eldest",
+            "kaniṣṭhāya: to the youngest",
+            "pūrvajāya: to the first-born",
+            "aparajāya: to the last-born",
+            "madhyamāya: to the middle",
+            "apagalbhāya: to the immature",
+            "jaghanyāya: to the latest",
+            "budhniyāya: to the foundational"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Death-Ruler & Peace-Giver",
+          "sanskrit": "नमः सोभ्याय च प्रतिसर्याय च नमो याम्याय च क्षेम्याय च नम उर्वर्याय च खल्याय च नमः श्लोक्याय चावसान्याय च",
+          "iast": "namaḥ sobhyāya ca pratisaryāya ca namo yāmyāya ca kṣemyāya ca nama urvaryāya ca khalyāya ca namaḥ ślokyāya cāvasānyāya ca",
+          "meaning": "Salutations are offered to Rudra as the swift-mover (sobhya) and counter-mover (pratisarya), as the lord of death (yamya) and bestower of peace (kshemya), as the one in fertile fields (urvarya) and threshing floors (khalya), and as the praise-worthy (shlokya) and the one at the end of Vedic recitation (avasanya).",
+          "key_words": [
+            "sobhyāya: to the swift-going",
+            "pratisaryāya: to the counter-moving",
+            "yāmyāya: to the ruler of death",
+            "kṣemyāya: to the peace-bestower",
+            "urvaryāya: to the one in fields",
+            "khalyāya: to the one at threshing floors",
+            "ślokyāya: to the praise-worthy",
+            "avasānyāya: to the one at the hymn's end"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Echoes & Swift Warriors",
+          "sanskrit": "नमो वन्याय च कक्ष्याय च नमः श्रवाय च प्रतिश्रवाय च नम आशुषेणाय चाशुरथाय च नमः शूराय चावभिन्दते च",
+          "iast": "namo vanyāya ca kakṣyāya ca namaḥ śravāya ca pratiśravāya ca nama āśuṣeṇāya cāśurathāya ca namaḥ śūrāya cāvabhindate ca",
+          "meaning": "This chunk salutes Rudra as the one in forests (vanya) and in thickets (kakshya), as fame (shrava) and echo (pratishrava), as the swift-armied (ashushena) and swift-charioted (ashuratha), and as the valiant hero (shura) who cleaves asunder (avabhindat).",
+          "key_words": [
+            "vanyāya: to the one in forests",
+            "kakṣyāya: to the one in thickets",
+            "śravāya: to fame",
+            "pratiśravāya: to echo",
+            "āśuṣeṇāya: to the swift-armied",
+            "āśurathāya: to the swift-charioted",
+            "śūrāya: to the hero",
+            "avabhindate: to the one who cleaves"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Armored Hero & Renowned",
+          "sanskrit": "नमो वर्मिणे च वरूथिने च नमो बिल्मिने च कवचिने च नमः श्रुताय च श्रुतसेनाय च ॥ ६ ॥",
+          "iast": "namo varmiṇe ca varūthine ca namo bilmine ca kavacine ca namaḥ śrutāya ca śrutasenāya ca || 6 ||",
+          "meaning": "Salutations are offered to Rudra as the mailed (varmin) and the one with defensive armor (varuthin), as the helmeted (bilmin) and the shielded (kavachin), and as the renowned (shruta) and the leader of famous armies (shrutasena) - celebrating His warrior-glory.",
+          "key_words": [
+            "varmiṇe: to the mailed",
+            "varūthine: to the defensively armed",
+            "bilmine: to the helmeted",
+            "kavacine: to the shielded",
+            "śrutāya: to the renowned",
+            "śrutasenāya: to the leader of famous armies"
+          ]
+        }
+      ]
     },
     {
       "number": 7,
       "section": "namakam",
-      "sanskrit": "नमो दुन्दुभ्याय चाहनन्याय च नमो धृष्णवे च प्रमृशाय च नमो दूताय च प्रहिताय च नमो निषङ्गिणे चेषुधिमते च नमस्तीक्ष्णेषवे चायुधिने च नमः स्वायुधाय च सुधन्वने च नमः स्रुत्याय च पथ्याय च नमः काट्याय च नीप्याय च नमः सूद्याय च सरस्याय च नमो नाद्याय च वैशन्ताय च नमः कूप्याय चावट्याय च नमो वर्ष्याय चावर्ष्याय च नमो मेघ्याय च विद्युत्याय च नम ईध्रियाय चातप्याय च नमो वात्याय च रेष्मियाय च नमो वास्तव्याय च वास्तुपाय च ॥ ७ ॥",
-      "transliteration": "namo dundubhyāya cāhananyāya ca namo dhṛṣṇave ca pramṛśāya ca namo dūtāya ca prahitāya ca namo niṣaṅgiṇe ceṣudhimate ca namastīkṣṇeṣave cāyudhine ca namaḥ svāyudhāya ca sudhanvane ca namaḥ srutyāya ca pathyāya ca namaḥ kāṭyāya ca nīpyāya ca namaḥ sūdyāya ca sarasyāya ca namo nādyāya ca vaiśantāya ca namaḥ kūpyāya cāvaṭyāya ca namo varṣyāya cāvarṣyāya ca namo meghyāya ca vidyutyāya ca nama īdhriyāya cātapyāya ca namo vātyāya ca reṣmiyāya ca namo vāstavyāya ca vāstupāya ca || 7 ||",
       "theme": "Salutations to Rudra in nature, weather, and locations",
       "meaning": "This anuvaka salutes Rudra as the drum and its beating, as the bold explorer, as the messenger and the sent. He is praised in the quiver-bearer, sharp-arrow wielder, and well-armed archer. Rudra pervades every natural feature - paths and trenches, wells and ponds, streams and lakes, clouds and lightning, sun and wind, storms and rain. He dwells in dwelling-places and as protector of homes, affirming His presence in every element of nature and habitation.",
-      "youtubeTime": 450
+      "youtubeTime": 450,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Drum, Messenger & Archer",
+          "sanskrit": "नमो दुन्दुभ्याय चाहनन्याय च नमो धृष्णवे च प्रमृशाय च नमो दूताय च प्रहिताय च",
+          "iast": "namo dundubhyāya cāhananyāya ca namo dhṛṣṇave ca pramṛśāya ca namo dūtāya ca prahitāya ca",
+          "meaning": "This chunk salutes Rudra as the drum (dundubhya) and its beating (ahananya), as the bold (dhrishnu) and the tactile-explorer (pramrisha), and as the messenger (duta) and the sent one (prahita) - honoring Him in every role of communication and daring.",
+          "key_words": [
+            "dundubhyāya: to the drum",
+            "āhananyāya: to its beating",
+            "dhṛṣṇave: to the bold",
+            "pramṛśāya: to the explorer",
+            "dūtāya: to the messenger",
+            "prahitāya: to the sent one"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Streams & Pathways",
+          "sanskrit": "नमो निषङ्गिणे चेषुधिमते च नमस्तीक्ष्णेषवे चायुधिने च नमः स्वायुधाय च सुधन्वने च नमः स्रुत्याय च पथ्याय च",
+          "iast": "namo niṣaṅgiṇe ceṣudhimate ca namastīkṣṇeṣave cāyudhine ca namaḥ svāyudhāya ca sudhanvane ca namaḥ srutyāya ca pathyāya ca",
+          "meaning": "Salutations are offered to Rudra as the sword-bearer and quiver-holder, as the sharp-arrowed and the armed, as the one with fine weapons and excellent bow, and as the one dwelling in streams (srutya) and on pathways (pathya).",
+          "key_words": [
+            "niṣaṅgiṇe: to the sword-bearer",
+            "iṣudhimate: to the quiver-holder",
+            "tīkṣṇeṣave: to the sharp-arrowed",
+            "āyudhine: to the armed",
+            "svāyudhāya: to the well-armed",
+            "sudhanvane: to the well-bowed",
+            "srutyāya: to the one in streams",
+            "pathyāya: to the one on paths"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Lakes, Wells & Rivers",
+          "sanskrit": "नमः काट्याय च नीप्याय च नमः सूद्याय च सरस्याय च नमो नाद्याय च वैशन्ताय च",
+          "iast": "namaḥ kāṭyāya ca nīpyāya ca namaḥ sūdyāya ca sarasyāya ca namo nādyāya ca vaiśantāya ca",
+          "meaning": "This chunk salutes Rudra as the one in trenches (katya) and small ponds (nipya), as the one in marshes (sudya) and lakes (sarasya), and as the one in rivers (nadya) and still waters (vaishanta) - honoring His presence across every body of water.",
+          "key_words": [
+            "kāṭyāya: to the one in trenches",
+            "nīpyāya: to the one in ponds",
+            "sūdyāya: to the one in marshes",
+            "sarasyāya: to the one in lakes",
+            "nādyāya: to the one in rivers",
+            "vaiśantāya: to the one in still waters"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Clouds, Winds & Dwellings",
+          "sanskrit": "नमः कूप्याय चावट्याय च नमो वर्ष्याय चावर्ष्याय च नमो मेघ्याय च विद्युत्याय च नम ईध्रियाय चातप्याय च नमो वात्याय च रेष्मियाय च नमो वास्तव्याय च वास्तुपाय च ॥ ७ ॥",
+          "iast": "namaḥ kūpyāya cāvaṭyāya ca namo varṣyāya cāvarṣyāya ca namo meghyāya ca vidyutyāya ca nama īdhriyāya cātapyāya ca namo vātyāya ca reṣmiyāya ca namo vāstavyāya ca vāstupāya ca || 7 ||",
+          "meaning": "Salutations are offered to Rudra as the one in wells (kupya) and pits (avatya), in rain (varshya) and drought (avarshya), in clouds (meghya) and lightning (vidyutya), in the blazing sun (idhriya) and scorching heat (atapya), in storm-winds (vatya) and hurricanes (reshmiya), and as the dweller in homes (vastavya) and the protector of dwellings (vastupa).",
+          "key_words": [
+            "kūpyāya: to the one in wells",
+            "avaṭyāya: to the one in pits",
+            "varṣyāya: to the one in rain",
+            "meghyāya: to the one in clouds",
+            "vidyutyāya: to the one in lightning",
+            "vātyāya: to the one in storm-winds",
+            "vāstavyāya: to the dwelling-resident",
+            "vāstupāya: to the protector of dwellings"
+          ]
+        }
+      ]
     },
     {
       "number": 8,
       "section": "namakam",
-      "sanskrit": "नमः सोमाय च रुद्राय च नमस्ताम्राय चारुणाय च नमः शङ्गाय च पशुपतये च नम उग्राय च भीमाय च नमो अग्रेवधाय च दूरेवधाय च नमो हन्त्रे च हनीयसे च नमो वृक्षेभ्यो हरिकेशेभ्यो नमस्ताराय नमः शम्भवे च मयोभवे च नमः शङ्कराय च मयस्कराय च नमः शिवाय च शिवतराय च नमस्तीर्थ्याय च कूल्याय च नमः पार्याय चावार्याय च नमः प्रतरणाय चोत्तरणाय च नम आतार्याय चालाद्याय च नमः शष्प्याय च फेन्याय च नमः सिकत्याय च प्रवाह्याय च ॥ ८ ॥",
-      "transliteration": "namaḥ somāya ca rudrāya ca namastāmrāya cāruṇāya ca namaḥ śaṅgāya ca paśupataye ca nama ugrāya ca bhīmāya ca namo agrevadhāya ca dūrevadhāya ca namo hantre ca hanīyase ca namo vṛkṣebhyo harikeśebhyo namastārāya namaḥ śambhave ca mayobhave ca namaḥ śaṅkarāya ca mayaskarāya ca namaḥ śivāya ca śivatarāya ca namastīrthyāya ca kūlyāya ca namaḥ pāryāya cāvāryāya ca namaḥ prataraṇāya cottaraṇāya ca nama ātāryāya cālādyāya ca namaḥ śaṣpyāya ca phenyāya ca namaḥ sikatyāya ca pravāhyāya ca || 8 ||",
       "theme": "Salutations to Rudra as Soma, auspicious and fierce",
       "meaning": "This anuvaka contains the celebrated mantras saluting Rudra as Soma (the cosmic elixir), as copper-colored and ruddy, as Shambhu (source of happiness) and Mayobhava (giver of bliss), as Shankara (maker of peace) and Shiva (the auspicious one), and Shivatara (even more auspicious). He is the fierce and terrible, the slayer near and far, the savior who helps us cross over - residing in pilgrimage sites, riverbanks, fords, and grassy meadows.",
-      "youtubeTime": 492
+      "youtubeTime": 492,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Soma & Paśupati",
+          "sanskrit": "नमः सोमाय च रुद्राय च नमस्ताम्राय चारुणाय च नमः शङ्गाय च पशुपतये च नम उग्राय च भीमाय च",
+          "iast": "namaḥ somāya ca rudrāya ca namastāmrāya cāruṇāya ca namaḥ śaṅgāya ca paśupataye ca nama ugrāya ca bhīmāya ca",
+          "meaning": "This chunk salutes Rudra as Soma (the cosmic elixir) and as Rudra himself, as the copper-red (tamra) and ruddy (aruna), as the beneficent (shanga) and Pashupati (lord of beings), and as the fierce (ugra) and the formidable (bhima) - invoking both His nourishing and terrifying aspects together.",
+          "key_words": [
+            "somāya: to Soma",
+            "rudrāya: to Rudra",
+            "tāmrāya: to the copper-red",
+            "aruṇāya: to the ruddy",
+            "śaṅgāya: to the beneficent",
+            "paśupataye: to the lord of beings",
+            "ugrāya: to the fierce",
+            "bhīmāya: to the formidable"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Slayer & Green-haired",
+          "sanskrit": "नमो अग्रेवधाय च दूरेवधाय च नमो हन्त्रे च हनीयसे च नमो वृक्षेभ्यो हरिकेशेभ्यो नमस्ताराय नमः शम्भवे च मयोभवे च",
+          "iast": "namo agrevadhāya ca dūrevadhāya ca namo hantre ca hanīyase ca namo vṛkṣebhyo harikeśebhyo namastārāya namaḥ śambhave ca mayobhave ca",
+          "meaning": "Salutations are offered to Rudra as the slayer in front (agrevadha) and the slayer from afar (durevadha), as the destroyer (hantri) and more destructive still (haniyas), as the green-haired one dwelling in trees, as Tara (the savior who helps cross over), and as Shambhu (source of happiness) and Mayobhava (source of delight).",
+          "key_words": [
+            "agrevadhāya: to the slayer in front",
+            "dūrevadhāya: to the slayer from afar",
+            "hantre: to the destroyer",
+            "hanīyase: to the more destructive",
+            "harikeśebhyaḥ: to the green-haired",
+            "tārāya: to Tara the deliverer",
+            "śambhave: to the source of happiness",
+            "mayobhave: to the source of delight"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Śambhu & Śiva",
+          "sanskrit": "नमः शङ्कराय च मयस्कराय च नमः शिवाय च शिवतराय च नमस्तीर्थ्याय च कूल्याय च नमः पार्याय चावार्याय च",
+          "iast": "namaḥ śaṅkarāya ca mayaskarāya ca namaḥ śivāya ca śivatarāya ca namastīrthyāya ca kūlyāya ca namaḥ pāryāya cāvāryāya ca",
+          "meaning": "This chunk salutes Rudra as Shankara (maker of peace) and Mayaskara (giver of joy), as Shiva (the auspicious) and Shivatara (even more auspicious), and as the one in fords (tirthya) and riverbanks (kulya), on the far shore (parya) and the near shore (avarya) - honoring the most benevolent epithets of Shiva.",
+          "key_words": [
+            "śaṅkarāya: to the peace-maker",
+            "mayaskarāya: to the joy-giver",
+            "śivāya: to the auspicious",
+            "śivatarāya: to the most auspicious",
+            "tīrthyāya: to the one at fords",
+            "kūlyāya: to the one at riverbanks",
+            "pāryāya: to the one on the far shore",
+            "avāryāya: to the one on the near shore"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Crossings & Waters",
+          "sanskrit": "नमः प्रतरणाय चोत्तरणाय च नम आतार्याय चालाद्याय च नमः शष्प्याय च फेन्याय च नमः सिकत्याय च प्रवाह्याय च ॥ ८ ॥",
+          "iast": "namaḥ prataraṇāya cottaraṇāya ca nama ātāryāya cālādyāya ca namaḥ śaṣpyāya ca phenyāya ca namaḥ sikatyāya ca pravāhyāya ca || 8 ||",
+          "meaning": "Salutations are offered to Rudra as the one who crosses (pratarana) and makes others cross over (uttarana), as the one seized in waters (atarya) and the eater of what springs there (aladya), and as the one in fresh green grass (shashpya), foam (phenya), sand (sikatya), and flowing waters (pravahya).",
+          "key_words": [
+            "prataraṇāya: to the crosser",
+            "uttaraṇāya: to the one who takes others across",
+            "ātāryāya: to the one seized in water",
+            "ālādyāya: to the eater there",
+            "śaṣpyāya: to the one in green grass",
+            "phenyāya: to the one in foam",
+            "sikatyāya: to the one in sand",
+            "pravāhyāya: to the one in flowing waters"
+          ]
+        }
+      ]
     },
     {
       "number": 9,
       "section": "namakam",
-      "sanskrit": "नम इरिण्याय च प्रपथ्याय च नमः किꣳशिलाय च क्षयणाय च नमः कपर्दिने च पुलस्तये च नमो गोष्ठ्याय च गृह्याय च नमस्तल्प्याय च गेह्याय च नमः काट्याय च गह्वरेष्ठाय च नमो हृदय्याय च निवेष्प्याय च नमः पाꣳसव्याय च रजस्याय च नमः शुष्क्याय च हरित्याय च नमो लोप्याय चोलप्याय च नम ऊर्व्याय च सूर्म्याय च नमः पर्ण्याय च पर्णशद्याय च नमोऽपगुरमाणाय चाभिघ्नते च नम आख्खिदते च प्रख्खिदते च नमो वः किरिकेभ्यो देवानाꣳ हृदयेभ्यो नमो विक्षीणकेभ्यो नमो विचिन्वत्केभ्यो नम आनिर्हतेभ्यो नम आमीवत्केभ्यः ॥ ९ ॥",
-      "transliteration": "nama iriṇyāya ca prapathyāya ca namaḥ kiṃśilāya ca kṣayaṇāya ca namaḥ kapardine ca pulastaye ca namo goṣṭhyāya ca gṛhyāya ca namastalpyāya ca gehyāya ca namaḥ kāṭyāya ca gahvareṣṭhāya ca namo hṛdayyāya ca niveṣpyāya ca namaḥ pāṃsavyāya ca rajasyāya ca namaḥ śuṣkyāya ca harityāya ca namo lopyāya colapyāya ca nama ūrvyāya ca sūrmyāya ca namaḥ parṇyāya ca parṇaśadyāya ca namo'paguramāṇāya cābhighnate ca nama ākhkhidate ca prakhkhidate ca namo vaḥ kirikebhyo devānāṃ hṛdayebhyo namo vikṣīṇakebhyo namo vicinvatkebhyo nama ānirhatebhyo nama āmīvatkebhyaḥ || 9 ||",
       "theme": "Salutations to Rudra in remote places and hearts of gods",
       "meaning": "This anuvaka salutes Rudra pervading desolate lands and highways, small stones and dwelling places, cowsheds and homes, beds and chambers, deep caves and the human heart. He resides in dust and pollen, in dry places and greenery, in leaves and fallen foliage, in those who threaten and strike. The salutations culminate in homage to Rudra as the very hearts of the gods (devanam hridayebhyah), acknowledging that He is the inner essence of all divinity itself.",
-      "youtubeTime": 536
+      "youtubeTime": 536,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Deserts & Matted-hair Sage",
+          "sanskrit": "नम इरिण्याय च प्रपथ्याय च नमः किꣳशिलाय च क्षयणाय च नमः कपर्दिने च पुलस्तये च नमो गोष्ठ्याय च गृह्याय च",
+          "iast": "nama iriṇyāya ca prapathyāya ca namaḥ kiṃśilāya ca kṣayaṇāya ca namaḥ kapardine ca pulastaye ca namo goṣṭhyāya ca gṛhyāya ca",
+          "meaning": "This chunk salutes Rudra in desolate salt-lands (irinya) and on highways (prapathya), in small stones (kimshila) and places of decay (kshayana), as Kapardin (the matted-haired sage) and Pulasta (the sage), and in cowsheds (goshthya) and homes (grihya).",
+          "key_words": [
+            "iriṇyāya: to the one in desolate lands",
+            "prapathyāya: to the one on highways",
+            "kiṃśilāya: to the one in small stones",
+            "kṣayaṇāya: to the one in places of decay",
+            "kapardine: to the matted-haired",
+            "pulastaye: to the sage Pulasta",
+            "goṣṭhyāya: to the one in cowsheds",
+            "gṛhyāya: to the one in homes"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Beds, Caves & Heart",
+          "sanskrit": "नमस्तल्प्याय च गेह्याय च नमः काट्याय च गह्वरेष्ठाय च नमो हृदय्याय च निवेष्प्याय च नमः पाꣳसव्याय च रजस्याय च",
+          "iast": "namastalpyāya ca gehyāya ca namaḥ kāṭyāya ca gahvareṣṭhāya ca namo hṛdayyāya ca niveṣpyāya ca namaḥ pāṃsavyāya ca rajasyāya ca",
+          "meaning": "Salutations are offered to Rudra as the one in beds (talpya) and chambers (gehya), in thorny thickets (katya) and deep caves (gahvareshtha), in the human heart (hridayya) and in dew (niveshpya), and in dust (pamsavya) and pollen (rajasya).",
+          "key_words": [
+            "talpyāya: to the one in beds",
+            "gehyāya: to the one in chambers",
+            "gahvareṣṭhāya: to the cave-dweller",
+            "hṛdayyāya: to the one in the heart",
+            "niveṣpyāya: to the one in dew",
+            "pāṃsavyāya: to the one in dust",
+            "rajasyāya: to the one in pollen"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Dry & Leafy Places",
+          "sanskrit": "नमः शुष्क्याय च हरित्याय च नमो लोप्याय चोलप्याय च नम ऊर्व्याय च सूर्म्याय च नमः पर्ण्याय च पर्णशद्याय च",
+          "iast": "namaḥ śuṣkyāya ca harityāya ca namo lopyāya colapyāya ca nama ūrvyāya ca sūrmyāya ca namaḥ parṇyāya ca parṇaśadyāya ca",
+          "meaning": "This chunk salutes Rudra as the one in dry places (shushkya) and greenery (haritya), in lowlands (lopya) and grassy places (ulapya), in the earth (urvya) and in trees (surmya), and in leaves (parnya) and fallen foliage (parnashadya).",
+          "key_words": [
+            "śuṣkyāya: to the one in dry places",
+            "harityāya: to the one in greenery",
+            "lopyāya: to the one in lowlands",
+            "olapyāya: to the one in grassy spots",
+            "ūrvyāya: to the one in the earth",
+            "sūrmyāya: to the one in trees",
+            "parṇyāya: to the one in leaves",
+            "parṇaśadyāya: to the one in fallen foliage"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Strikers & Hearts of Gods",
+          "sanskrit": "नमोऽपगुरमाणाय चाभिघ्नते च नम आख्खिदते च प्रख्खिदते च नमो वः किरिकेभ्यो देवानाꣳ हृदयेभ्यो नमो विक्षीणकेभ्यो नमो विचिन्वत्केभ्यो नम आनिर्हतेभ्यो नम आमीवत्केभ्यः ॥ ९ ॥",
+          "iast": "namo'paguramāṇāya cābhighnate ca nama ākhkhidate ca prakhkhidate ca namo vaḥ kirikebhyo devānāṃ hṛdayebhyo namo vikṣīṇakebhyo namo vicinvatkebhyo nama ānirhatebhyo nama āmīvatkebhyaḥ || 9 ||",
+          "meaning": "Salutations are offered to Rudra as the one who threatens (aparamana) and strikes (abhighnat), who afflicts (akhkhidat) and torments violently (prakhkhidat), and to the Kirikas (tricksters) who are the very hearts of the gods (devanam hridayebhyah) - culminating in salutations to the lean, the searching, the invincible, and the disease-free.",
+          "key_words": [
+            "apaguramāṇāya: to the threatening",
+            "abhighnate: to the striker",
+            "ākhkhidate: to the afflicter",
+            "prakhkhidate: to the violent tormenter",
+            "kirikebhyaḥ: to the tricksters",
+            "devānāṃ hṛdayebhyaḥ: to the hearts of the gods",
+            "vikṣīṇakebhyaḥ: to the lean ones",
+            "ānirhatebhyaḥ: to the invincible"
+          ]
+        }
+      ]
     },
     {
       "number": 10,
       "section": "namakam",
-      "sanskrit": "द्रापे अन्धसस्पते दरिद्रन्नीललोहित । एषां पुरुषाणामेषां पशूनां मा भेर्माऽरो मो एषां किञ्चनाममत् ॥\nया ते रुद्र शिवा तनूः शिवा विश्वाहभेषजी । शिवा रुद्रस्य भेषजी तया नो मृड जीवसे ॥\nइमाꣳ रुद्राय तवसे कपर्दिने क्षयद्वीराय प्रभरामहे मतिम् । यथा नः शमसद्द्विपदे चतुष्पदे विश्वं पुष्टं ग्रामे अस्मिन्ननातुरम् ॥\nमृडा नो रुद्रोत नो मयस्कृधि क्षयद्वीराय नमसा विधेम ते । यच्छं च योश्च मनुरायजे पिता तदश्याम तव रुद्र प्रणीतौ ॥\nमा नो महान्तमुत मा नो अर्भकं मा न उक्षन्तमुत मा न उक्षितम् । मा नो वधीः पितरं मोत मातरं प्रिया मा नस्तनुवो रुद्र रीरिषः ॥\nमा नस्तोके तनये मा न आयुषि मा नो गोषु मा नो अश्वेषु रीरिषः । वीरान्मा नो रुद्र भामितोऽवधीर्हविष्मन्तो नमसा विधेम ते ॥\nआरात्ते गोघ्न उत पूरुषघ्ने क्षयद्वीराय सुम्नमस्मे ते अस्तु । रक्षा च नो अधि च देव ब्रूह्यथा च नः शर्म यच्छ द्विबर्हाः ॥\nस्तुहि श्रुतं गर्तसदं युवानं मृगन्न भीममुपहत्नुमुग्रम् । मृडा जरित्रे रुद्र स्तवानो अन्यन्ते अस्मन्निवपन्तु सेनाः ॥\nपरिणो रुद्रस्य हेतिर्वृणक्तु परि त्वेषस्य दुर्मतिरघायोः । अव स्थिरा मघवद्भ्यस्तनुष्व मीढ्वस्तोकाय तनयाय मृडय ॥\nमीढुष्टम शिवतम शिवो नः सुमना भव । परमे वृक्ष आयुधन्निधाय कृत्तिं वसान आचर पिनाकं बिभ्रदागहि ॥\nविकिरिद विलोहित नमस्ते अस्तु भगवः । यास्ते सहस्रꣳ हेतयोऽन्यमस्मन्निवपन्तु ताः ॥\nसहस्राणि सहस्रधा बाहुवोस्तव हेतयः । तासामीशानो भगवः पराचीना मुखा कृधि ॥ १० ॥",
-      "transliteration": "drāpe andhasaspate daridrannīlalohita | eṣāṃ puruṣāṇāmeṣāṃ paśūnāṃ mā bhermā'ro mo eṣāṃ kiñcanāmamat ||\nyā te rudra śivā tanūḥ śivā viśvāhabheṣajī | śivā rudrasya bheṣajī tayā no mṛḍa jīvase ||\nimāṃ rudrāya tavase kapardine kṣayadvīrāya prabharāmahe matim | yathā naḥ śamasaddvipade catuṣpade viśvaṃ puṣṭaṃ grāme asminnanāturam ||\nmṛḍā no rudrota no mayaskṛdhi kṣayadvīrāya namasā vidhema te | yacchaṃ ca yośca manurāyaje pitā tadaśyāma tava rudra praṇītau ||\nmā no mahāntamuta mā no arbhakaṃ mā na ukṣantamuta mā na ukṣitam | mā no vadhīḥ pitaraṃ mota mātaraṃ priyā mā nastanuvo rudra rīriṣaḥ ||\nmā nastoke tanaye mā na āyuṣi mā no goṣu mā no aśveṣu rīriṣaḥ | vīrānmā no rudra bhāmito'vadhīrhaviṣmanto namasā vidhema te ||\nārātte goghna uta pūruṣaghne kṣayadvīrāya sumnamasme te astu | rakṣā ca no adhi ca deva brūhyathā ca naḥ śarma yaccha dvibarhāḥ ||\nstuhi śrutaṃ gartasadaṃ yuvānaṃ mṛganna bhīmamupahatnumugram | mṛḍā jaritre rudra stavāno anyante asmannivapantu senāḥ ||\npariṇo rudrasya hetirvṛṇaktu pari tveṣasya durmatiraghāyoḥ | ava sthirā maghavadbhyastanuṣva mīḍhvastokāya tanayāya mṛḍaya ||\nmīḍhuṣṭama śivatama śivo naḥ sumanā bhava | parame vṛkṣa āyudhannidhāya kṛttiṃ vasāna ācara pinākaṃ bibhradāgahi ||\nvikirida vilohita namaste astu bhagavaḥ | yāste sahasraṃ hetayo'nyamasmannivapantu tāḥ ||\nsahasrāṇi sahasradhā bāhuvostava hetayaḥ | tāsāmīśāno bhagavaḥ parācīnā mukhā kṛdhi || 10 ||",
       "theme": "Prayer for Rudra's auspicious form and protection",
       "meaning": "This anuvaka is a deeply personal petition to Rudra - praying that He harm none of our people or animals, that His auspicious form which is the universal healer (vishvabheshaji) grant us life. The devotee begs Rudra not to slay their elders, children, cows, horses, or beloved ones. It requests Rudra to hang His weapons on a distant tree, wear His tiger-skin peacefully, and come bearing His Pinaka bow. All His thousand weapons should be turned away from us toward others.",
-      "youtubeTime": 588
+      "youtubeTime": 588,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Humble Form & Healer",
+          "sanskrit": "द्रापे अन्धसस्पते दरिद्रन्नीललोहित । एषां पुरुषाणामेषां पशूनां मा भेर्माऽरो मो एषां किञ्चनाममत् ॥\nया ते रुद्र शिवा तनूः शिवा विश्वाहभेषजी । शिवा रुद्रस्य भेषजी तया नो मृड जीवसे ॥",
+          "iast": "drāpe andhasaspate daridrannīlalohita | eṣāṃ puruṣāṇāmeṣāṃ paśūnāṃ mā bhermā'ro mo eṣāṃ kiñcanāmamat ||\nyā te rudra śivā tanūḥ śivā viśvāhabheṣajī | śivā rudrasya bheṣajī tayā no mṛḍa jīvase ||",
+          "meaning": "This chunk addresses Rudra as Drapi (remover of afflictions), lord of food (andhasaspati), the humble (daridra), and the blue-throated-red-hued one, praying that He neither strike nor harm these men and animals. It then celebrates that auspicious form of Rudra which is all-healing (vishvaha bheshaji), the very medicine of Rudra, through which the seeker asks for life and joy.",
+          "key_words": [
+            "drāpe: O remover of afflictions",
+            "andhasaspate: O lord of food",
+            "daridran: O humble one",
+            "nīlalohita: O blue-throated-red-hued",
+            "mā bheḥ: do not strike",
+            "śivā tanūḥ: auspicious form",
+            "viśvāha bheṣajī: universal healer",
+            "jīvase: to live"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Prayer for Peace & Prosperity",
+          "sanskrit": "इमाꣳ रुद्राय तवसे कपर्दिने क्षयद्वीराय प्रभरामहे मतिम् । यथा नः शमसद्द्विपदे चतुष्पदे विश्वं पुष्टं ग्रामे अस्मिन्ननातुरम् ॥\nमृडा नो रुद्रोत नो मयस्कृधि क्षयद्वीराय नमसा विधेम ते । यच्छं च योश्च मनुरायजे पिता तदश्याम तव रुद्र प्रणीतौ ॥",
+          "iast": "imāṃ rudrāya tavase kapardine kṣayadvīrāya prabharāmahe matim | yathā naḥ śamasaddvipade catuṣpade viśvaṃ puṣṭaṃ grāme asminnanāturam ||\nmṛḍā no rudrota no mayaskṛdhi kṣayadvīrāya namasā vidhema te | yacchaṃ ca yośca manurāyaje pitā tadaśyāma tava rudra praṇītau ||",
+          "meaning": "The seeker offers his highest thoughts to mighty Rudra with matted hair, the destroyer of enemies (kshayadvira), so that peace may prevail for two-legged and four-legged beings in the village, with all thriving and free of disease. It prays that Rudra grant happiness and that the seekers attain the peace and blessings that Manu, the forefather, once received under His guidance.",
+          "key_words": [
+            "tavase: to the mighty",
+            "kapardine: to the matted-haired",
+            "kṣayadvīrāya: destroyer of enemies",
+            "dvipade catuṣpade: two-legged and four-legged",
+            "anāturam: free from disease",
+            "mṛḍā: make us happy",
+            "manurāyaje: Manu obtained",
+            "praṇītau: under your guidance"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Spare Our Elders & Children",
+          "sanskrit": "मा नो महान्तमुत मा नो अर्भकं मा न उक्षन्तमुत मा न उक्षितम् । मा नो वधीः पितरं मोत मातरं प्रिया मा नस्तनुवो रुद्र रीरिषः ॥\nमा नस्तोके तनये मा न आयुषि मा नो गोषु मा नो अश्वेषु रीरिषः । वीरान्मा नो रुद्र भामितोऽवधीर्हविष्मन्तो नमसा विधेम ते ॥",
+          "iast": "mā no mahāntamuta mā no arbhakaṃ mā na ukṣantamuta mā na ukṣitam | mā no vadhīḥ pitaraṃ mota mātaraṃ priyā mā nastanuvo rudra rīriṣaḥ ||\nmā nastoke tanaye mā na āyuṣi mā no goṣu mā no aśveṣu rīriṣaḥ | vīrānmā no rudra bhāmito'vadhīrhaviṣmanto namasā vidhema te ||",
+          "meaning": "This deeply personal chunk begs Rudra not to slay our elders or children, our bulls or growing calves, our fathers or mothers, and not to harm our beloved bodies. It pleads that He spare our offspring, our lifespan, our cows, our horses, and our brave men from His fury, as we offer oblations with salutations.",
+          "key_words": [
+            "mahāntam: elders",
+            "arbhakam: children",
+            "ukṣantam: bulls",
+            "pitaram: father",
+            "mātaram: mother",
+            "tanuvaḥ: bodies",
+            "stoke tanaye: children and offspring",
+            "āyuṣi: lifespan",
+            "rīriṣaḥ: do not harm"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Turn Weapons Away, Praise",
+          "sanskrit": "आरात्ते गोघ्न उत पूरुषघ्ने क्षयद्वीराय सुम्नमस्मे ते अस्तु । रक्षा च नो अधि च देव ब्रूह्यथा च नः शर्म यच्छ द्विबर्हाः ॥\nस्तुहि श्रुतं गर्तसदं युवानं मृगन्न भीममुपहत्नुमुग्रम् । मृडा जरित्रे रुद्र स्तवानो अन्यन्ते अस्मन्निवपन्तु सेनाः ॥",
+          "iast": "ārātte goghna uta pūruṣaghne kṣayadvīrāya sumnamasme te astu | rakṣā ca no adhi ca deva brūhyathā ca naḥ śarma yaccha dvibarhāḥ ||\nstuhi śrutaṃ gartasadaṃ yuvānaṃ mṛganna bhīmamupahatnumugram | mṛḍā jaritre rudra stavāno anyante asmannivapantu senāḥ ||",
+          "meaning": "This chunk asks that Rudra's killers of cows and men be kept far away and that His blessings be upon us, petitioning the two-bow-wielding (dvibarhah) deity to protect and grant shelter. It then exhorts the singer to praise the renowned, cave-dwelling, youthful Rudra, terrifying like a wild beast - and asks that He be gracious to His worshipper while His armies strike down others, not us.",
+          "key_words": [
+            "ārātte: far from us",
+            "goghna: killer of cows",
+            "pūruṣaghne: killer of men",
+            "sumnam: blessings",
+            "dvibarhāḥ: wielder of two bows",
+            "gartasadam: cave-dweller",
+            "yuvānam: youthful",
+            "mṛganna bhīmam: terrifying like a wild beast",
+            "jaritre: to the worshipper"
+          ]
+        },
+        {
+          "id": 5,
+          "label": "Pinaka Bow & Thousand Weapons",
+          "sanskrit": "परिणो रुद्रस्य हेतिर्वृणक्तु परि त्वेषस्य दुर्मतिरघायोः । अव स्थिरा मघवद्भ्यस्तनुष्व मीढ्वस्तोकाय तनयाय मृडय ॥\nमीढुष्टम शिवतम शिवो नः सुमना भव । परमे वृक्ष आयुधन्निधाय कृत्तिं वसान आचर पिनाकं बिभ्रदागहि ॥\nविकिरिद विलोहित नमस्ते अस्तु भगवः । यास्ते सहस्रꣳ हेतयोऽन्यमस्मन्निवपन्तु ताः ॥\nसहस्राणि सहस्रधा बाहुवोस्तव हेतयः । तासामीशानो भगवः पराचीना मुखा कृधि ॥ १० ॥",
+          "iast": "pariṇo rudrasya hetirvṛṇaktu pari tveṣasya durmatiraghāyoḥ | ava sthirā maghavadbhyastanuṣva mīḍhvastokāya tanayāya mṛḍaya ||\nmīḍhuṣṭama śivatama śivo naḥ sumanā bhava | parame vṛkṣa āyudhannidhāya kṛttiṃ vasāna ācara pinākaṃ bibhradāgahi ||\nvikirida vilohita namaste astu bhagavaḥ | yāste sahasraṃ hetayo'nyamasmannivapantu tāḥ ||\nsahasrāṇi sahasradhā bāhuvostava hetayaḥ | tāsāmīśāno bhagavaḥ parācīnā mukhā kṛdhi || 10 ||",
+          "meaning": "The concluding chunk prays that Rudra's weapon and the harsh thoughts of the fierce one spare us, and that He make firm His blessings for the generous while granting grace to our sons. It asks Him, most gracious and most auspicious, to hang His weapon on the highest tree, wear the tiger-skin, and come peacefully bearing the Pinaka bow. It closes with salutations to the red-hued scatterer, asking that His thousands of weapons in His arms be turned away from us and directed toward others.",
+          "key_words": [
+            "hetiḥ vṛṇaktu: may the weapon spare",
+            "tveṣasya: of the fierce one",
+            "durmatiḥ: harsh thoughts",
+            "mīḍhuṣṭama: most gracious",
+            "śivatama: most auspicious",
+            "parame vṛkṣa: on the highest tree",
+            "kṛttiṃ vasāna: wearing the skin",
+            "pinākaṃ: the Pinaka bow",
+            "vikirida: O scatterer",
+            "parācīnā mukhā: turn their faces away"
+          ]
+        }
+      ]
     },
     {
       "number": 11,
       "section": "namakam",
-      "sanskrit": "सहस्राणि सहस्रशो ये रुद्रा अधि भूम्याम् । तेषाꣳ सहस्रयोजनेऽवधन्वानि तन्मसि ॥\nअस्मिन्महत्यर्णवेऽन्तरिक्षे भवा अधि ॥\nनीलग्रीवाः शितिकण्ठाः शर्वा अधः क्षमाचराः ॥\nनीलग्रीवाः शितिकण्ठा दिवꣳ रुद्रा उपश्रिताः ॥\nये वृक्षेषु सस्पिञ्जरा नीलग्रीवा विलोहिताः ॥\nये भूतानामधिपतयो विशिखासः कपर्दिनः ॥\nये अन्नेषु विविध्यन्ति पात्रेषु पिबतो जनान् ॥\nये पथां पथिरक्षय ऐलबृदा यव्युधः ॥\nये तीर्थानि प्रचरन्ति सृकावन्तो निषङ्गिणः ॥\nय एतावन्तश्च भूयाꣳसश्च दिशो रुद्रा वितस्थिरे । तेषाꣳ सहस्रयोजनेऽवधन्वानि तन्मसि ॥\nनमो रुद्रेभ्यो ये पृथिव्यां येऽन्तरिक्षे ये दिवि येषामन्नं वातो वर्षमिषवस्तेभ्यो दश प्राचीर्दश दक्षिणा दश प्रतीचीर्दशोदीचीर्दशोर्ध्वास्तेभ्यो नमस्ते नो मृडयन्तु ते यं द्विष्मो यश्च नो द्वेष्टि तं वो जम्भे दधामि ॥\nत्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात् ॥\nयो रुद्रो अग्नौ यो अप्सु य ओषधीषु यो रुद्रो विश्वा भुवनाऽऽविवेश तस्मै रुद्राय नमो अस्तु ॥\nतमु ष्टुहि यः स्विषुः सुधन्वा यो विश्वस्य क्षयति भेषजस्य । यक्ष्वामहे सौमनसाय रुद्रं नमोभिर्देवमसुरं दुवस्य ॥\nअयं मे हस्तो भगवानयं मे भगवत्तरः । अयं मे विश्वभेषजोऽयꣳ शिवाभिमर्शनः ॥\nये ते सहस्रमयुतं पाशा मृत्यो मर्त्याय हन्तवे । तान् यज्ञस्य मायया सर्वानव यजामहे । मृत्यवे स्वाहा मृत्यवे स्वाहा ॥\nॐ नमो भगवते रुद्राय विष्णवे मृत्युर्मे पाहि ॥\nप्राणानां ग्रन्थिरसि रुद्रो मा विशान्तकः । तेनान्नेनाप्यायस्व ॥\nॐ नमो भगवते रुद्राय ॥\nॐ शान्तिः शान्तिः शान्तिः ॥ ११ ॥",
-      "transliteration": "sahasrāṇi sahasraśo ye rudrā adhi bhūmyām | teṣāṃ sahasrayojane'vadhanvāni tanmasi ||\nasminmahatyarṇave'ntarikṣe bhavā adhi ||\nnīlagrīvāḥ śitikaṇṭhāḥ śarvā adhaḥ kṣamācarāḥ ||\nnīlagrīvāḥ śitikaṇṭhā divaṃ rudrā upaśritāḥ ||\nye vṛkṣeṣu saspiñjarā nīlagrīvā vilohitāḥ ||\nye bhūtānāmadhipatayo viśikhāsaḥ kapardinaḥ ||\nye anneṣu vividhyanti pātreṣu pibato janān ||\nye pathāṃ pathirakṣaya ailabṛdā yavyudhaḥ ||\nye tīrthāni pracaranti sṛkāvanto niṣaṅgiṇaḥ ||\nya etāvantaśca bhūyāṃsaśca diśo rudrā vitasthire | teṣāṃ sahasrayojane'vadhanvāni tanmasi ||\nnamo rudrebhyo ye pṛthivyāṃ ye'ntarikṣe ye divi yeṣāmannaṃ vāto varṣamiṣavastebhyo daśa prācīrdaśa dakṣiṇā daśa pratīcīrdaśodīcīrdaśordhvāstebhyo namaste no mṛḍayantu te yaṃ dviṣmo yaśca no dveṣṭi taṃ vo jambhe dadhāmi ||\ntryambakaṃ yajāmahe sugandhiṃ puṣṭivardhanam | urvārukamiva bandhanānmṛtyormukṣīya mā'mṛtāt ||\nyo rudro agnau yo apsu ya oṣadhīṣu yo rudro viśvā bhuvanā''viveśa tasmai rudrāya namo astu ||\ntamu ṣṭuhi yaḥ sviṣuḥ sudhanvā yo viśvasya kṣayati bheṣajasya | yakṣvāmahe saumanasāya rudraṃ namobhirdevamasuraṃ duvasya ||\nayaṃ me hasto bhagavānayaṃ me bhagavattaraḥ | ayaṃ me viśvabheṣajo'yaṃ śivābhimarśanaḥ ||\nye te sahasramayutaṃ pāśā mṛtyo martyāya hantave | tān yajñasya māyayā sarvānava yajāmahe | mṛtyave svāhā mṛtyave svāhā ||\noṃ namo bhagavate rudrāya viṣṇave mṛtyurme pāhi ||\nprāṇānāṃ granthirasi rudro mā viśāntakaḥ | tenānnenāpyāyasva ||\noṃ namo bhagavate rudrāya ||\noṃ śāntiḥ śāntiḥ śāntiḥ || 11 ||",
       "theme": "Thousand Rudras, Mrityunjaya, and final peace",
       "meaning": "The concluding anuvaka acknowledges the thousands of Rudras spread across earth, sky, heavens, trees, food, waters, and pathways, requesting them to unstring their bows a thousand yojanas away. It contains the legendary Maha Mrityunjaya mantra 'tryambakam yajamahe' - worshipping the three-eyed fragrant one who nourishes all, praying to be freed from death like a ripe cucumber from its vine, but not from immortality. It ends with surrender to Rudra dwelling in fire, water, herbs, and all worlds, culminating in the triple invocation of peace: Om Shanti Shanti Shanti.",
-      "youtubeTime": 738
+      "youtubeTime": 738,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Thousand Rudras Everywhere",
+          "sanskrit": "सहस्राणि सहस्रशो ये रुद्रा अधि भूम्याम् । तेषाꣳ सहस्रयोजनेऽवधन्वानि तन्मसि ॥\nअस्मिन्महत्यर्णवेऽन्तरिक्षे भवा अधि ॥\nनीलग्रीवाः शितिकण्ठाः शर्वा अधः क्षमाचराः ॥\nनीलग्रीवाः शितिकण्ठा दिवꣳ रुद्रा उपश्रिताः ॥",
+          "iast": "sahasrāṇi sahasraśo ye rudrā adhi bhūmyām | teṣāṃ sahasrayojane'vadhanvāni tanmasi ||\nasminmahatyarṇave'ntarikṣe bhavā adhi ||\nnīlagrīvāḥ śitikaṇṭhāḥ śarvā adhaḥ kṣamācarāḥ ||\nnīlagrīvāḥ śitikaṇṭhā divaṃ rudrā upaśritāḥ ||",
+          "meaning": "This chunk acknowledges the thousands upon thousands of Rudras spread across the earth, and petitions that their bows be unstrung at a distance of a thousand yojanas. It locates the Rudras in the great ocean, in the atmospheric expanse, below the earth, and in the sky - the blue-throated, white-necked, fierce ones pervading every cosmic region.",
+          "key_words": [
+            "sahasrāṇi sahasraśaḥ: thousands upon thousands",
+            "adhi bhūmyām: on the earth",
+            "sahasrayojane: at a thousand yojanas",
+            "avadhanvāni: their bows",
+            "mahatya arṇave: great ocean",
+            "antarikṣe: in the atmosphere",
+            "nīlagrīvāḥ: blue-throated",
+            "śitikaṇṭhāḥ: white-necked",
+            "kṣamācarāḥ: roaming the earth"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Rudras in Nature & Pilgrimage",
+          "sanskrit": "ये वृक्षेषु सस्पिञ्जरा नीलग्रीवा विलोहिताः ॥\nये भूतानामधिपतयो विशिखासः कपर्दिनः ॥\nये अन्नेषु विविध्यन्ति पात्रेषु पिबतो जनान् ॥\nये पथां पथिरक्षय ऐलबृदा यव्युधः ॥\nये तीर्थानि प्रचरन्ति सृकावन्तो निषङ्गिणः ॥",
+          "iast": "ye vṛkṣeṣu saspiñjarā nīlagrīvā vilohitāḥ ||\nye bhūtānāmadhipatayo viśikhāsaḥ kapardinaḥ ||\nye anneṣu vividhyanti pātreṣu pibato janān ||\nye pathāṃ pathirakṣaya ailabṛdā yavyudhaḥ ||\nye tīrthāni pracaranti sṛkāvanto niṣaṅgiṇaḥ ||",
+          "meaning": "This chunk describes the Rudras in specific natural and ritual locations - the tawny, blue-throated, red-hued Rudras in trees; the shaven-headed and matted-haired lords of beings; those who enter food and drinking vessels with people who eat and drink; the guardians of paths who are born of the earth and fight battles; and those who roam the pilgrimage sites bearing spears and quivers.",
+          "key_words": [
+            "vṛkṣeṣu: in trees",
+            "saspiñjarāḥ: tawny ones",
+            "viśikhāsaḥ: shaven-headed",
+            "kapardinaḥ: matted-haired",
+            "anneṣu: in food",
+            "pātreṣu: in vessels",
+            "pathirakṣayaḥ: protectors of paths",
+            "tīrthāni: pilgrimage sites",
+            "sṛkāvantaḥ: spear-bearers",
+            "niṣaṅgiṇaḥ: quiver-bearers"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Bows at a Thousand Yojanas",
+          "sanskrit": "य एतावन्तश्च भूयाꣳसश्च दिशो रुद्रा वितस्थिरे । तेषाꣳ सहस्रयोजनेऽवधन्वानि तन्मसि ॥\nनमो रुद्रेभ्यो ये पृथिव्यां येऽन्तरिक्षे ये दिवि येषामन्नं वातो वर्षमिषवस्तेभ्यो दश प्राचीर्दश दक्षिणा दश प्रतीचीर्दशोदीचीर्दशोर्ध्वास्तेभ्यो नमस्ते नो मृडयन्तु ते यं द्विष्मो यश्च नो द्वेष्टि तं वो जम्भे दधामि ॥",
+          "iast": "ya etāvantaśca bhūyāṃsaśca diśo rudrā vitasthire | teṣāṃ sahasrayojane'vadhanvāni tanmasi ||\nnamo rudrebhyo ye pṛthivyāṃ ye'ntarikṣe ye divi yeṣāmannaṃ vāto varṣamiṣavastebhyo daśa prācīrdaśa dakṣiṇā daśa pratīcīrdaśodīcīrdaśordhvāstebhyo namaste no mṛḍayantu te yaṃ dviṣmo yaśca no dveṣṭi taṃ vo jambhe dadhāmi ||",
+          "meaning": "This chunk asks that the bows of the vast and numerous Rudras spread across all directions be placed a thousand yojanas away. It then salutes the Rudras on earth, in the atmosphere, and in the sky - whose food is wind, rain, and arrows - offering ten salutations in each of the five directions (east, south, west, north, above), and placing those we hate and those who hate us into their devouring jaws.",
+          "key_words": [
+            "etāvantaḥ: these vast ones",
+            "bhūyāṃsaḥ: and numerous",
+            "vitasthire: spread out",
+            "pṛthivyāṃ: on earth",
+            "antarikṣe: in the atmosphere",
+            "divi: in the sky",
+            "daśa prācīḥ: ten eastward",
+            "mṛḍayantu: may they bless",
+            "jambhe dadhāmi: I place in the jaws"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Mahā Mṛtyuñjaya Mantra",
+          "sanskrit": "त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात् ॥",
+          "iast": "tryambakaṃ yajāmahe sugandhiṃ puṣṭivardhanam | urvārukamiva bandhanānmṛtyormukṣīya mā'mṛtāt ||",
+          "meaning": "This chunk contains the celebrated Maha Mrityunjaya Mantra - worship of the three-eyed Tryambaka who is fragrant and nourishment-increasing. The seeker prays: just as a ripe cucumber is effortlessly released from its vine, may I be freed from the bonds of death but not from immortality. This is the great mantra for conquering mortality.",
+          "key_words": [
+            "tryambakaṃ: the three-eyed one",
+            "yajāmahe: we worship",
+            "sugandhiṃ: fragrant",
+            "puṣṭivardhanam: increaser of nourishment",
+            "urvārukamiva: like a cucumber",
+            "bandhanāt: from the bond",
+            "mṛtyormukṣīya: may I be freed from death",
+            "mā'mṛtāt: but not from immortality"
+          ]
+        },
+        {
+          "id": 5,
+          "label": "Rudra in Fire & Divine Hand",
+          "sanskrit": "यो रुद्रो अग्नौ यो अप्सु य ओषधीषु यो रुद्रो विश्वा भुवनाऽऽविवेश तस्मै रुद्राय नमो अस्तु ॥\nतमु ष्टुहि यः स्विषुः सुधन्वा यो विश्वस्य क्षयति भेषजस्य । यक्ष्वामहे सौमनसाय रुद्रं नमोभिर्देवमसुरं दुवस्य ॥\nअयं मे हस्तो भगवानयं मे भगवत्तरः । अयं मे विश्वभेषजोऽयꣳ शिवाभिमर्शनः ॥\nये ते सहस्रमयुतं पाशा मृत्यो मर्त्याय हन्तवे । तान् यज्ञस्य मायया सर्वानव यजामहे । मृत्यवे स्वाहा मृत्यवे स्वाहा ॥",
+          "iast": "yo rudro agnau yo apsu ya oṣadhīṣu yo rudro viśvā bhuvanā''viveśa tasmai rudrāya namo astu ||\ntamu ṣṭuhi yaḥ sviṣuḥ sudhanvā yo viśvasya kṣayati bheṣajasya | yakṣvāmahe saumanasāya rudraṃ namobhirdevamasuraṃ duvasya ||\nayaṃ me hasto bhagavānayaṃ me bhagavattaraḥ | ayaṃ me viśvabheṣajo'yaṃ śivābhimarśanaḥ ||\nye te sahasramayutaṃ pāśā mṛtyo martyāya hantave | tān yajñasya māyayā sarvānava yajāmahe | mṛtyave svāhā mṛtyave svāhā ||",
+          "meaning": "This chunk salutes Rudra who pervades fire, water, herbs, and all the worlds - praising the fine-bowed healer who destroys all disease, and invoking Him with salutations for a peaceful mind. It declares 'this hand of mine is blessed, this hand is even more blessed, this hand is the healer of all, this is the auspicious touch of Shiva.' It concludes by asking that the thousands and myriads of Death's nooses meant to slay mortals be warded off by the power of sacrifice, with twofold 'mrityave svaha' offerings.",
+          "key_words": [
+            "agnau: in fire",
+            "apsu: in waters",
+            "oṣadhīṣu: in plants",
+            "sviṣuḥ: with fine arrows",
+            "sudhanvā: with good bow",
+            "bheṣajasya: of healing",
+            "ayaṃ me hastaḥ: this hand of mine",
+            "viśvabheṣajaḥ: healer of all",
+            "śivābhimarśanaḥ: auspicious touch of Shiva",
+            "pāśāḥ: nooses",
+            "mṛtyave svāhā: Svaha to Death"
+          ]
+        },
+        {
+          "id": 6,
+          "label": "Final Invocation & Shānti",
+          "sanskrit": "ॐ नमो भगवते रुद्राय विष्णवे मृत्युर्मे पाहि ॥\nप्राणानां ग्रन्थिरसि रुद्रो मा विशान्तकः । तेनान्नेनाप्यायस्व ॥\nॐ नमो भगवते रुद्राय ॥\nॐ शान्तिः शान्तिः शान्तिः ॥ ११ ॥",
+          "iast": "oṃ namo bhagavate rudrāya viṣṇave mṛtyurme pāhi ||\nprāṇānāṃ granthirasi rudro mā viśāntakaḥ | tenānnenāpyāyasva ||\noṃ namo bhagavate rudrāya ||\noṃ śāntiḥ śāntiḥ śāntiḥ || 11 ||",
+          "meaning": "The concluding chunk re-invokes 'Om namo bhagavate rudraya' as Vishnu-Rudra unified, praying for protection from death. It addresses Rudra as the knot (granthi) binding the life-forces (pranas), asking Him not to cut them off but to be nourished by the offered food. It closes with the final triple salutation to blessed Rudra and the triple invocation of peace: Om Shanti Shanti Shanti - peace at the personal, environmental, and cosmic levels.",
+          "key_words": [
+            "viṣṇave: to Vishnu (unified)",
+            "mṛtyurme pāhi: protect me from death",
+            "prāṇānāṃ granthiḥ: knot of life-forces",
+            "mā viśāntakaḥ: do not cut them off",
+            "annena: with food",
+            "āpyāyasva: nourish yourself",
+            "oṃ śāntiḥ: Om peace",
+            "śāntiḥ śāntiḥ: triple peace invocation"
+          ]
+        }
+      ]
     }
   ],
   "chamakam": [
     {
       "number": 1,
       "section": "chamakam",
-      "sanskrit": "ॐ अग्नाविष्णू सजोषसेमा वर्धन्तु वां गिरः । द्युम्नैर्वाजेभिरागतम् ॥\nवाजश्च मे प्रसवश्च मे प्रयतिश्च मे प्रसितिश्च मे धीतिश्च मे क्रतुश्च मे स्वरश्च मे श्लोकश्च मे श्रावश्च मे श्रुतिश्च मे ज्योतिश्च मे सुवश्च मे प्राणश्च मेऽपानश्च मे व्यानश्च मेऽसुश्च मे चित्तं च म आधीतं च मे वाक्च मे मनश्च मे चक्षुश्च मे श्रोत्रं च मे दक्षश्च मे बलं च म ओजश्च मे सहश्च म आयुश्च मे जरा च म आत्मा च मे तनूश्च मे शर्म च मे वर्म च मेऽङ्गानि च मेऽस्थानि च मे परूꣳषि च मे शरीराणि च मे ॥ १ ॥",
-      "transliteration": "oṃ agnāviṣṇū sajoṣasemā vardhantu vāṃ giraḥ | dyumnairvājebhirāgatam ||\nvājaśca me prasavaśca me prayatiśca me prasitiśca me dhītiśca me kratuśca me svaraśca me ślokaśca me śrāvaśca me śrutiśca me jyotiśca me suvaśca me prāṇaśca me'pānaśca me vyānaśca me'suśca me cittaṃ ca ma ādhītaṃ ca me vākca me manaśca me cakṣuśca me śrotraṃ ca me dakṣaśca me balaṃ ca ma ojaśca me sahaśca ma āyuśca me jarā ca ma ātmā ca me tanūśca me śarma ca me varma ca me'ṅgāni ca me'sthāni ca me parūṃṣi ca me śarīrāṇi ca me || 1 ||",
       "theme": "Invocation of Agni-Vishnu for vital faculties",
       "meaning": "The opening anuvaka invokes Agni and Vishnu together, asking that our hymns nourish them and that they come with brilliance and strength. The devotee then asks for a cascade of essential qualities: food, progress, attention, concentration, sacred knowledge, resolve, melody and verse, fame and hearing, light and heaven, all five pranas (vital airs), mind and consciousness, speech and senses, dexterity, strength, vigor, life-span, a protected body with all its limbs and bones intact.",
-      "youtubeTime": 907
+      "youtubeTime": 907,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Invocation of Agni-Vishnu",
+          "sanskrit": "ॐ अग्नाविष्णू सजोषसेमा वर्धन्तु वां गिरः । द्युम्नैर्वाजेभिरागतम् ॥",
+          "iast": "oṃ agnāviṣṇū sajoṣasemā vardhantu vāṃ giraḥ | dyumnairvājebhirāgatam ||",
+          "meaning": "The opening chunk of Chamakam invokes Agni and Vishnu together in harmony, asking that these hymns of praise nourish and magnify them both. It requests that the two deities arrive bringing brilliance (dyumna) and strength-wealth (vajas) - setting the stage of divine presence before the cascade of requests that follows.",
+          "key_words": [
+            "agnāviṣṇū: Agni and Vishnu",
+            "sajoṣasā: harmoniously joined",
+            "vardhantu: may they increase",
+            "giraḥ: hymns",
+            "dyumnaiḥ: with brilliance",
+            "vājebhiḥ: with strength-wealth",
+            "āgatam: come, arrive"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Vital Faculties & Sacred Sound",
+          "sanskrit": "वाजश्च मे प्रसवश्च मे प्रयतिश्च मे प्रसितिश्च मे धीतिश्च मे क्रतुश्च मे स्वरश्च मे श्लोकश्च मे श्रावश्च मे श्रुतिश्च मे ज्योतिश्च मे सुवश्च मे",
+          "iast": "vājaśca me prasavaśca me prayatiśca me prasitiśca me dhītiśca me kratuśca me svaraśca me ślokaśca me śrāvaśca me śrutiśca me jyotiśca me suvaśca me",
+          "meaning": "This chunk requests a cascade of vital gifts beginning the refrain 'cha me' (and for me): strength (vaja), progeny (prasava), forward-effort (prayati), accomplishment (prasiti), wisdom (dhiti), willpower (kratu), sacred sound (svara), verse (shloka), fame (shrava), sacred hearing (shruti), light (jyoti), and heaven (suvah) - the foundations of action, knowledge, and celestial attainment.",
+          "key_words": [
+            "vājaḥ: strength",
+            "prasavaḥ: progeny",
+            "prayatiḥ: forward-effort",
+            "dhītiḥ: wisdom",
+            "kratuḥ: willpower",
+            "svaraḥ: sacred sound",
+            "ślokaḥ: verse",
+            "śrutiḥ: sacred hearing",
+            "jyotiḥ: light",
+            "suvaḥ: heaven"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Pranas, Mind & Senses",
+          "sanskrit": "प्राणश्च मेऽपानश्च मे व्यानश्च मेऽसुश्च मे चित्तं च म आधीतं च मे वाक्च मे मनश्च मे चक्षुश्च मे श्रोत्रं च मे दक्षश्च मे बलं च म ओजश्च मे सहश्च म",
+          "iast": "prāṇaśca me'pānaśca me vyānaśca me'suśca me cittaṃ ca ma ādhītaṃ ca me vākca me manaśca me cakṣuśca me śrotraṃ ca me dakṣaśca me balaṃ ca ma ojaśca me sahaśca ma",
+          "meaning": "This chunk asks for the life-breaths and inner faculties - prana (outgoing breath), apana (incoming breath), vyana (circulating breath), asu (vital energy), chitta (consciousness), adhita (retained knowledge), vak (speech), manas (mind), chakshu (vision), shrotra (hearing), daksha (skill), bala (strength), ojas (vigor), and sahas (endurance) - the complete inner apparatus.",
+          "key_words": [
+            "prāṇaḥ: outgoing breath",
+            "apānaḥ: incoming breath",
+            "vyānaḥ: circulating breath",
+            "asuḥ: vitality",
+            "cittaṃ: consciousness",
+            "vāk: speech",
+            "manas: mind",
+            "cakṣuḥ: vision",
+            "śrotraṃ: hearing",
+            "dakṣaḥ: skill",
+            "ojaḥ: vigor",
+            "sahaḥ: endurance"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Longevity & Body",
+          "sanskrit": "आयुश्च मे जरा च म आत्मा च मे तनूश्च मे शर्म च मे वर्म च मेऽङ्गानि च मेऽस्थानि च मे परूꣳषि च मे शरीराणि च मे ॥ १ ॥",
+          "iast": "āyuśca me jarā ca ma ātmā ca me tanūśca me śarma ca me varma ca me'ṅgāni ca me'sthāni ca me parūṃṣi ca me śarīrāṇi ca me || 1 ||",
+          "meaning": "This chunk prays for longevity (ayus), graceful aging (jara), the Self (atma), the body (tanu), protection (sharma), armor (varma), limbs (anga), bones (asthi), joints (parumshi), and the complete physical frame (sharira) - asking that every part of the embodied existence be gifted and preserved.",
+          "key_words": [
+            "āyuḥ: longevity",
+            "jarā: graceful old age",
+            "ātmā: Self",
+            "tanūḥ: body",
+            "śarma: protection",
+            "varma: armor",
+            "aṅgāni: limbs",
+            "asthāni: bones",
+            "parūṃṣi: joints",
+            "śarīrāṇi: physical frame"
+          ]
+        }
+      ]
     },
     {
       "number": 2,
       "section": "chamakam",
-      "sanskrit": "ज्यैष्ठ्यं च म आधिपत्यं च मे मन्युश्च मे भामश्च मेऽमश्च मेऽम्भश्च मे जेमा च मे महिमा च मे वरिमा च मे प्रथिमा च मे वर्ष्मा च मे द्राघुया च मे वृद्धं च मे वृद्धिश्च मे सत्यं च मे श्रद्धा च मे जगच्च मे धनं च मे वशश्च मे त्विषिश्च मे क्रीडा च मे मोदश्च मे जातं च मे जनिष्यमाणं च मे सूक्तं च मे सुकृतं च मे वित्तं च मे वेद्यं च मे भूतं च मे भविष्यच्च मे सुगं च मे सुपथं च म ऋद्धं च म ऋद्धिश्च मे क्लृप्तं च मे क्लृप्तिश्च मे मतिश्च मे सुमतिश्च मे ॥ २ ॥",
-      "transliteration": "jyaiṣṭhyaṃ ca ma ādhipatyaṃ ca me manyuśca me bhāmaśca me'maśca me'mbhaśca me jemā ca me mahimā ca me varimā ca me prathimā ca me varṣmā ca me drāghuyā ca me vṛddhaṃ ca me vṛddhiśca me satyaṃ ca me śraddhā ca me jagacca me dhanaṃ ca me vaśaśca me tviṣiśca me krīḍā ca me modaśca me jātaṃ ca me janiṣyamāṇaṃ ca me sūktaṃ ca me sukṛtaṃ ca me vittaṃ ca me vedyaṃ ca me bhūtaṃ ca me bhaviṣyacca me sugaṃ ca me supathaṃ ca ma ṛddhaṃ ca ma ṛddhiśca me klṛptaṃ ca me klṛptiśca me matiśca me sumatiśca me || 2 ||",
       "theme": "Prayer for preeminence, greatness, and success",
       "meaning": "This anuvaka requests superiority and lordship, righteous indignation and splendor, powers of strength and water, conquest and greatness, breadth and expansion, height and length, fullness and growth. It asks for truth and faith, the world and wealth, control and brilliance, play and joy, that which is born and is yet to be born. The seeker prays for well-recited hymns, good deeds, wealth-gaining and knowledge, past and future, easy paths and prosperity, proper order and intelligent thought.",
-      "youtubeTime": 950
+      "youtubeTime": 950,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Supremacy & Leadership",
+          "sanskrit": "ज्यैष्ठ्यं च म आधिपत्यं च मे मन्युश्च मे भामश्च मेऽमश्च मेऽम्भश्च मे",
+          "iast": "jyaiṣṭhyaṃ ca ma ādhipatyaṃ ca me manyuśca me bhāmaśca me'maśca me'mbhaśca me",
+          "meaning": "This chunk requests qualities of social command and preeminence: supremacy (jyaishthya), lordship (adhipatya), righteous indignation (manyu), radiance (bhama), wealth-resources (ama), and abundance of waters (ambha) - the powers required for leadership and prosperity.",
+          "key_words": [
+            "jyaiṣṭhyaṃ: supremacy",
+            "ādhipatyaṃ: lordship",
+            "manyuḥ: righteous wrath",
+            "bhāmaḥ: radiance",
+            "amaḥ: resources",
+            "ambhaḥ: waters/abundance"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Greatness & Expansion",
+          "sanskrit": "जेमा च मे महिमा च मे वरिमा च मे प्रथिमा च मे वर्ष्मा च मे द्राघुया च मे",
+          "iast": "jemā ca me mahimā ca me varimā ca me prathimā ca me varṣmā ca me drāghuyā ca me",
+          "meaning": "This chunk asks for qualities of magnitude and expansion: excellence (jema), greatness (mahima), vastness (varima), breadth (prathima), stature-height (varshma), and length/long life (draghuya) - dimensions of physical and existential grandeur.",
+          "key_words": [
+            "jemā: excellence",
+            "mahimā: greatness",
+            "varimā: vastness",
+            "prathimā: breadth",
+            "varṣmā: stature",
+            "drāghuyā: length of life"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Truth, Wealth & Joy",
+          "sanskrit": "वृद्धं च मे वृद्धिश्च मे सत्यं च मे श्रद्धा च मे जगच्च मे धनं च मे वशश्च मे त्विषिश्च मे क्रीडा च मे मोदश्च मे",
+          "iast": "vṛddhaṃ ca me vṛddhiśca me satyaṃ ca me śraddhā ca me jagacca me dhanaṃ ca me vaśaśca me tviṣiśca me krīḍā ca me modaśca me",
+          "meaning": "This chunk seeks growth (vriddha), increase (vriddhi), truth (satya), faith (shraddha), the world (jagat), wealth (dhana), authority (vasha), splendor (tvishi), playfulness (krida), and delight (moda) - blending inner virtue with outer accomplishment and joy.",
+          "key_words": [
+            "vṛddhaṃ: grown",
+            "vṛddhiḥ: growth",
+            "satyaṃ: truth",
+            "śraddhā: faith",
+            "jagat: world",
+            "dhanaṃ: wealth",
+            "vaśaḥ: authority",
+            "tviṣiḥ: splendor",
+            "krīḍā: play",
+            "modaḥ: delight"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Born & Unborn, Judgment",
+          "sanskrit": "जातं च मे जनिष्यमाणं च मे सूक्तं च मे सुकृतं च मे वित्तं च मे वेद्यं च मे भूतं च मे भविष्यच्च मे सुगं च मे सुपथं च म ऋद्धं च म ऋद्धिश्च मे क्लृप्तं च मे क्लृप्तिश्च मे मतिश्च मे सुमतिश्च मे ॥ २ ॥",
+          "iast": "jātaṃ ca me janiṣyamāṇaṃ ca me sūktaṃ ca me sukṛtaṃ ca me vittaṃ ca me vedyaṃ ca me bhūtaṃ ca me bhaviṣyacca me sugaṃ ca me supathaṃ ca ma ṛddhaṃ ca ma ṛddhiśca me klṛptaṃ ca me klṛptiśca me matiśca me sumatiśca me || 2 ||",
+          "meaning": "This chunk requests what is born (jata) and yet to be born (janishyamana), well-spoken hymns (sukta) and good deeds (sukrita), wealth (vitta) and knowable lore (vedya), past (bhuta) and future (bhavishya), easy paths (suga) and good paths (supatha), prosperity (riddha), planning ability (klipti), and intelligence (mati) with good judgment (sumati).",
+          "key_words": [
+            "jātaṃ: that which is born",
+            "janiṣyamāṇaṃ: that yet to be born",
+            "sūktaṃ: well-spoken hymn",
+            "sukṛtaṃ: good deed",
+            "vittaṃ: wealth",
+            "vedyaṃ: knowable",
+            "bhūtaṃ: past/existing",
+            "bhaviṣyat: future",
+            "ṛddhaṃ: prosperous",
+            "kḷptiḥ: ability to plan",
+            "sumatiḥ: good judgment"
+          ]
+        }
+      ]
     },
     {
       "number": 3,
       "section": "chamakam",
-      "sanskrit": "शं च मे मयश्च मे प्रियं च मेऽनुकामश्च मे कामश्च मे सौमनसश्च मे भद्रं च मे श्रेयश्च मे वस्यश्च मे यशश्च मे भगश्च मे द्रविणं च मे यन्ता च मे धर्ता च मे क्षेमश्च मे धृतिश्च मे विश्वं च मे महश्च मे संविच्च मे ज्ञात्रं च मे सूश्च मे प्रसूश्च मे सीरं च मे लयश्च म ऋतं च मेऽमृतं च मेऽयक्ष्मं च मेऽनामयच्च मे जीवातुश्च मे दीर्घायुत्वं च मेऽनमित्रं च मेऽभयं च मे सुगं च मे शयनं च मे सूषा च मे सुदिनं च मे ॥ ३ ॥",
-      "transliteration": "śaṃ ca me mayaśca me priyaṃ ca me'nukāmaśca me kāmaśca me saumanasaśca me bhadraṃ ca me śreyaśca me vasyaśca me yaśaśca me bhagaśca me draviṇaṃ ca me yantā ca me dhartā ca me kṣemaśca me dhṛtiśca me viśvaṃ ca me mahaśca me saṃvicca me jñātraṃ ca me sūśca me prasūśca me sīraṃ ca me layaśca ma ṛtaṃ ca me'mṛtaṃ ca me'yakṣmaṃ ca me'nāmayacca me jīvātuśca me dīrghāyutvaṃ ca me'namitraṃ ca me'bhayaṃ ca me sugaṃ ca me śayanaṃ ca me sūṣā ca me sudinaṃ ca me || 3 ||",
       "theme": "Prayer for peace, happiness, and well-being",
       "meaning": "This anuvaka requests peace and happiness, the dear and desired, auspiciousness and welfare, prosperity and fame, fortune and wealth, a guide and a supporter. It asks for well-being and fortitude, the universe and greatness, knowledge and discernment, creative power and dissolution, cosmic order (rita) and immortality, freedom from disease and affliction, vitality and long life, absence of enemies, fearlessness, easy paths, comfortable sleep, beautiful dawns, and pleasant days.",
-      "youtubeTime": 992
+      "youtubeTime": 992,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Peace & Auspiciousness",
+          "sanskrit": "शं च मे मयश्च मे प्रियं च मेऽनुकामश्च मे कामश्च मे सौमनसश्च मे भद्रं च मे श्रेयश्च मे",
+          "iast": "śaṃ ca me mayaśca me priyaṃ ca me'nukāmaśca me kāmaśca me saumanasaśca me bhadraṃ ca me śreyaśca me",
+          "meaning": "This chunk asks for peace (sham), happiness (mayas), the dear (priya), fulfillment of desires (anukama), lawful desires (kama), mental tranquility (saumanasa), auspiciousness (bhadra), and excellence-welfare (shreyas) - the inner conditions of emotional and moral well-being.",
+          "key_words": [
+            "śaṃ: peace",
+            "mayaḥ: happiness",
+            "priyaṃ: that which is dear",
+            "anukāmaḥ: fulfillment of wishes",
+            "kāmaḥ: lawful desire",
+            "saumanasaḥ: tranquility of mind",
+            "bhadraṃ: auspicious",
+            "śreyaḥ: welfare"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Fame & Safety",
+          "sanskrit": "वस्यश्च मे यशश्च मे भगश्च मे द्रविणं च मे यन्ता च मे धर्ता च मे क्षेमश्च मे धृतिश्च मे विश्वं च मे महश्च मे",
+          "iast": "vasyaśca me yaśaśca me bhagaśca me draviṇaṃ ca me yantā ca me dhartā ca me kṣemaśca me dhṛtiśca me viśvaṃ ca me mahaśca me",
+          "meaning": "This chunk requests control (vasya), fame (yashas), good fortune (bhaga), wealth (dravina), a guide (yanta), a supporter (dharta), security (kshema), fortitude (dhriti), the universe (vishvam), and greatness (mahas) - qualities of outer success joined with stability and scope.",
+          "key_words": [
+            "vasyaḥ: control",
+            "yaśaḥ: fame",
+            "bhagaḥ: good fortune",
+            "draviṇaṃ: wealth",
+            "yantā: guide",
+            "dhartā: supporter",
+            "kṣemaḥ: security",
+            "dhṛtiḥ: fortitude",
+            "viśvaṃ: universe",
+            "mahaḥ: greatness"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Knowledge & Immortality",
+          "sanskrit": "संविच्च मे ज्ञात्रं च मे सूश्च मे प्रसूश्च मे सीरं च मे लयश्च म ऋतं च मेऽमृतं च",
+          "iast": "saṃvicca me jñātraṃ ca me sūśca me prasūśca me sīraṃ ca me layaśca ma ṛtaṃ ca me'mṛtaṃ ca",
+          "meaning": "This chunk prays for right understanding (samvit), intuitive knowledge (jnatra), creative power (su), productive power (prasu), firmness (sira), dissolution-rest (laya), cosmic truth (rita), and the nectar of immortality (amrita) - blending faculties of knowing, creating, and transcending.",
+          "key_words": [
+            "saṃvit: understanding",
+            "jñātraṃ: intuitive knowledge",
+            "sūḥ: creative power",
+            "prasūḥ: productive power",
+            "sīraṃ: firmness",
+            "layaḥ: dissolution",
+            "ṛtaṃ: cosmic truth",
+            "amṛtaṃ: immortality"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Health & Good Days",
+          "sanskrit": "मेऽयक्ष्मं च मेऽनामयच्च मे जीवातुश्च मे दीर्घायुत्वं च मेऽनमित्रं च मेऽभयं च मे सुगं च मे शयनं च मे सूषा च मे सुदिनं च मे ॥ ३ ॥",
+          "iast": "me'yakṣmaṃ ca me'nāmayacca me jīvātuśca me dīrghāyutvaṃ ca me'namitraṃ ca me'bhayaṃ ca me sugaṃ ca me śayanaṃ ca me sūṣā ca me sudinaṃ ca me || 3 ||",
+          "meaning": "This chunk seeks absence of disease (ayakshma), freedom from affliction (anamaya), vitality (jivatu), longevity (dirghayutva), absence of enemies (anamitra), fearlessness (abhaya), comfort (suga), restful sleep (shayana), beautiful dawns (susha), and auspicious days (sudina) - the foundations of a peaceful and healthy life.",
+          "key_words": [
+            "ayakṣmaṃ: freedom from disease",
+            "anāmayat: freedom from affliction",
+            "jīvātuḥ: vitality",
+            "dīrghāyutvaṃ: longevity",
+            "anamitraṃ: without enemies",
+            "abhayaṃ: fearlessness",
+            "sugaṃ: comfort",
+            "śayanaṃ: restful sleep",
+            "sūṣā: beautiful dawn",
+            "sudinaṃ: auspicious day"
+          ]
+        }
+      ]
     },
     {
       "number": 4,
       "section": "chamakam",
-      "sanskrit": "ऊर्क्च मे सूनृता च मे पयश्च मे रसश्च मे घृतं च मे मधु च मे सग्धिश्च मे सपीतिश्च मे कृषिश्च मे वृष्टिश्च मे जैत्रं च म औद्भिद्यं च मे रयिश्च मे रायश्च मे पुष्टं च मे पुष्टिश्च मे विभु च मे प्रभु च मे बहु च मे भूयश्च मे पूर्णं च मे पूर्णतरं च मेऽक्षितिश्च मे कूयवाश्च मेऽन्नं च मेऽक्षुच्च मे व्रीहयश्च मे यवाश्च मे माषाश्च मे तिलाश्च मे मुद्गाश्च मे खल्वाश्च मे गोधूमाश्च मे मसुराश्च मे प्रियङ्गवश्च मेऽणवश्च मे श्यामाकाश्च मे नीवाराश्च मे ॥ ४ ॥",
-      "transliteration": "ūrkca me sūnṛtā ca me payaśca me rasaśca me ghṛtaṃ ca me madhu ca me sagdhiśca me sapītiśca me kṛṣiśca me vṛṣṭiśca me jaitraṃ ca ma audbhidyaṃ ca me rayiśca me rāyaśca me puṣṭaṃ ca me puṣṭiśca me vibhu ca me prabhu ca me bahu ca me bhūyaśca me pūrṇaṃ ca me pūrṇataraṃ ca me'kṣitiśca me kūyavāśca me'nnaṃ ca me'kṣucca me vrīhayaśca me yavāśca me māṣāśca me tilāśca me mudgāśca me khalvāśca me godhūmāśca me masurāśca me priyaṅgavaśca me'ṇavaśca me śyāmākāśca me nīvārāśca me || 4 ||",
       "theme": "Prayer for food, nourishment, and grains",
       "meaning": "This anuvaka requests nourishment and pleasant speech, milk and sap, clarified butter and honey, the joy of eating together and drinking together, agriculture and rainfall, victory and spontaneous growth, wealth and treasures, fullness and abundance. It specifically enumerates the grains: rice and barley, black gram and sesame, green gram and pulses, wheat and lentils, priyangu and anu (tiny grains), shyamaka and nivara (wild rice) - a complete inventory of food crops for prosperity.",
-      "youtubeTime": 1030
+      "youtubeTime": 1030,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Milk, Ghee & Honey",
+          "sanskrit": "ऊर्क्च मे सूनृता च मे पयश्च मे रसश्च मे घृतं च मे मधु च मे सग्धिश्च मे सपीतिश्च मे",
+          "iast": "ūrkca me sūnṛtā ca me payaśca me rasaśca me ghṛtaṃ ca me madhu ca me sagdhiśca me sapītiśca me",
+          "meaning": "This chunk requests nourishment (urk), sweet truthful speech (sunrita), milk (payas), juice-essence (rasa), clarified butter (ghrita), honey (madhu), eating together (sagdhi), and drinking together (sapiti) - the nourishing joys of household sustenance.",
+          "key_words": [
+            "ūrk: nourishment",
+            "sūnṛtā: sweet truthful speech",
+            "payaḥ: milk",
+            "rasaḥ: essence",
+            "ghṛtaṃ: clarified butter",
+            "madhu: honey",
+            "sagdhiḥ: eating together",
+            "sapītiḥ: drinking together"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Agriculture & Rainfall",
+          "sanskrit": "कृषिश्च मे वृष्टिश्च मे जैत्रं च म औद्भिद्यं च मे रयिश्च मे रायश्च मे पुष्टं च मे पुष्टिश्च मे",
+          "iast": "kṛṣiśca me vṛṣṭiśca me jaitraṃ ca ma audbhidyaṃ ca me rayiśca me rāyaśca me puṣṭaṃ ca me puṣṭiśca me",
+          "meaning": "This chunk asks for agriculture (krishi), rainfall (vrishti), victory (jaitra), spontaneous growth (audbhidya), movable wealth (rayi), riches (raya), nourishment-fullness (pushta), and thriving (pushti) - the conditions that produce abundant harvests and wealth.",
+          "key_words": [
+            "kṛṣiḥ: agriculture",
+            "vṛṣṭiḥ: rainfall",
+            "jaitraṃ: victory",
+            "audbhidyaṃ: sprouting growth",
+            "rayiḥ: movable wealth",
+            "rāyaḥ: riches",
+            "puṣṭaṃ: fullness",
+            "puṣṭiḥ: thriving"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Abundance & Fullness",
+          "sanskrit": "विभु च मे प्रभु च मे बहु च मे भूयश्च मे पूर्णं च मे पूर्णतरं च मेऽक्षितिश्च मे कूयवाश्च मेऽन्नं च मेऽक्षुच्च मे",
+          "iast": "vibhu ca me prabhu ca me bahu ca me bhūyaśca me pūrṇaṃ ca me pūrṇataraṃ ca me'kṣitiśca me kūyavāśca me'nnaṃ ca me'kṣucca me",
+          "meaning": "This chunk requests abundance (vibhu), great plenty (prabhu), multitude (bahu), more (bhuyas), fullness (purna), greater fullness (purnatara), inexhaustible wealth (akshiti), rich storehouse (kuyava), food (anna), and freedom from hunger (akshut) - every grade of material abundance.",
+          "key_words": [
+            "vibhu: abundance",
+            "prabhu: great plenty",
+            "bahu: multitude",
+            "bhūyaḥ: more",
+            "pūrṇaṃ: fullness",
+            "pūrṇataraṃ: greater fullness",
+            "akṣitiḥ: inexhaustible",
+            "kūyavaḥ: rich storehouse",
+            "annaṃ: food",
+            "akṣut: freedom from hunger"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Grains & Wild Rice",
+          "sanskrit": "व्रीहयश्च मे यवाश्च मे माषाश्च मे तिलाश्च मे मुद्गाश्च मे खल्वाश्च मे गोधूमाश्च मे मसुराश्च मे प्रियङ्गवश्च मेऽणवश्च मे श्यामाकाश्च मे नीवाराश्च मे ॥ ४ ॥",
+          "iast": "vrīhayaśca me yavāśca me māṣāśca me tilāśca me mudgāśca me khalvāśca me godhūmāśca me masurāśca me priyaṅgavaśca me'ṇavaśca me śyāmākāśca me nīvārāśca me || 4 ||",
+          "meaning": "This chunk enumerates specific grains and pulses: rice (vrihi), barley (yava), black gram (masha), sesame (tila), green gram (mudga), pulses (khalva), wheat (godhuma), lentils (masura), long pepper/priyangu, small grains (anu), wild rice shyamaka, and nivara (coarse wild grain) - a complete inventory of food crops.",
+          "key_words": [
+            "vrīhayaḥ: rice",
+            "yavāḥ: barley",
+            "māṣāḥ: black gram",
+            "tilāḥ: sesame",
+            "mudgāḥ: green gram",
+            "khalvāḥ: pulses",
+            "godhūmāḥ: wheat",
+            "masurāḥ: lentils",
+            "priyaṅgavaḥ: priyangu",
+            "aṇavaḥ: small grains",
+            "śyāmākāḥ: wild rice",
+            "nīvārāḥ: nivara grain"
+          ]
+        }
+      ]
     },
     {
       "number": 5,
       "section": "chamakam",
-      "sanskrit": "अश्मा च मे मृत्तिका च मे गिरयश्च मे पर्वताश्च मे सिकताश्च मे वनस्पतयश्च मे हिरण्यं च मेऽयश्च मे सीसं च मे त्रपुश्च मे श्यामं च मे लोहं च मेऽग्निश्च म आपश्च मे वीरुधश्च म ओषधयश्च मे कृष्टपच्यं च मेऽकृष्टपच्यं च मे ग्राम्याश्च मे पशव आरण्याश्च यज्ञेन कल्पन्तां वित्तं च मे वित्तिश्च मे भूतं च मे भूतिश्च मे वसु च मे वसतिश्च मे कर्म च मे शक्तिश्च मेऽर्थश्च म एमश्च म इतिश्च मे गतिश्च मे ॥ ५ ॥",
-      "transliteration": "aśmā ca me mṛttikā ca me girayaśca me parvatāśca me sikatāśca me vanaspatayaśca me hiraṇyaṃ ca me'yaśca me sīsaṃ ca me trapuśca me śyāmaṃ ca me lohaṃ ca me'gniśca ma āpaśca me vīrudhaśca ma oṣadhayaśca me kṛṣṭapacyaṃ ca me'kṛṣṭapacyaṃ ca me grāmyāśca me paśava āraṇyāśca yajñena kalpantāṃ vittaṃ ca me vittiśca me bhūtaṃ ca me bhūtiśca me vasu ca me vasatiśca me karma ca me śaktiśca me'rthaśca ma emaśca ma itiśca me gatiśca me || 5 ||",
       "theme": "Prayer for materials, elements, and cattle",
       "meaning": "This anuvaka requests stone and clay, hills and mountains, sand and great trees, gold and iron, lead and tin, copper and steel. It asks that fire and water, creepers and medicinal herbs, cultivated crops and wild produce, village cattle and forest animals all prosper through yajna (sacrifice). The seeker prays for wealth and wealth-acquisition, being and prosperity, goods and dwelling, work and power, purpose and progress - the complete material foundation for life.",
-      "youtubeTime": 1074
+      "youtubeTime": 1074,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Stone, Mountains & Trees",
+          "sanskrit": "अश्मा च मे मृत्तिका च मे गिरयश्च मे पर्वताश्च मे सिकताश्च मे वनस्पतयश्च मे",
+          "iast": "aśmā ca me mṛttikā ca me girayaśca me parvatāśca me sikatāśca me vanaspatayaśca me",
+          "meaning": "This chunk asks for the natural elements of the terrain - stone (ashma), clay (mrittika), mountains (giri), hills (parvata), sand (sikata), and great forest trees (vanaspati) - the basic material foundations of the earth.",
+          "key_words": [
+            "aśmā: stone",
+            "mṛttikā: clay",
+            "girayaḥ: mountains",
+            "parvatāḥ: hills",
+            "sikatāḥ: sand",
+            "vanaspatayaḥ: forest trees"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Metals, Fire & Water",
+          "sanskrit": "हिरण्यं च मेऽयश्च मे सीसं च मे त्रपुश्च मे श्यामं च मे लोहं च मेऽग्निश्च म आपश्च मे",
+          "iast": "hiraṇyaṃ ca me'yaśca me sīsaṃ ca me trapuśca me śyāmaṃ ca me lohaṃ ca me'gniśca ma āpaśca me",
+          "meaning": "This chunk requests gold (hiranya), iron (ayas), lead (sisa), tin (trapu), black iron/steel (shyama), copper (loha), along with fire (agni) and water (apas) - the metals and primal elements essential for civilization and ritual.",
+          "key_words": [
+            "hiraṇyaṃ: gold",
+            "ayaḥ: iron",
+            "sīsaṃ: lead",
+            "trapuḥ: tin",
+            "śyāmaṃ: black iron",
+            "lohaṃ: copper",
+            "agniḥ: fire",
+            "āpaḥ: water"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Herbs & Cattle for Yajna",
+          "sanskrit": "वीरुधश्च म ओषधयश्च मे कृष्टपच्यं च मेऽकृष्टपच्यं च मे ग्राम्याश्च मे पशव आरण्याश्च यज्ञेन कल्पन्तां",
+          "iast": "vīrudhaśca ma oṣadhayaśca me kṛṣṭapacyaṃ ca me'kṛṣṭapacyaṃ ca me grāmyāśca me paśava āraṇyāśca yajñena kalpantāṃ",
+          "meaning": "This chunk prays for creepers (virudh), medicinal herbs (oshadhi), cultivated food (krishtapachya), uncultivated food (akrishtapachya), village animals (gramya), and forest animals (aranya) - and that all these be rendered fit through sacrifice (yajnena kalpantam).",
+          "key_words": [
+            "vīrudhaḥ: creepers",
+            "oṣadhayaḥ: medicinal herbs",
+            "kṛṣṭapacyaṃ: cultivated food",
+            "akṛṣṭapacyaṃ: uncultivated food",
+            "grāmyāḥ: village animals",
+            "āraṇyāḥ: forest animals",
+            "yajñena kalpantāṃ: may they be fit through sacrifice"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Wealth & Progress",
+          "sanskrit": "वित्तं च मे वित्तिश्च मे भूतं च मे भूतिश्च मे वसु च मे वसतिश्च मे कर्म च मे शक्तिश्च मेऽर्थश्च म एमश्च म इतिश्च मे गतिश्च मे ॥ ५ ॥",
+          "iast": "vittaṃ ca me vittiśca me bhūtaṃ ca me bhūtiśca me vasu ca me vasatiśca me karma ca me śaktiśca me'rthaśca ma emaśca ma itiśca me gatiśca me || 5 ||",
+          "meaning": "This chunk asks for wealth (vitta) and the means of acquiring it (vitti), existence (bhuta) and prosperity (bhuti), riches (vasu) and dwelling (vasati), action (karma) and strength (shakti), purpose (artha), attainment (ema), completion (iti), and forward movement (gati) - the full cycle of worldly accomplishment.",
+          "key_words": [
+            "vittaṃ: wealth",
+            "vittiḥ: means of wealth",
+            "bhūtaṃ: existence",
+            "bhūtiḥ: prosperity",
+            "vasu: riches",
+            "vasatiḥ: dwelling",
+            "karma: action",
+            "śaktiḥ: strength",
+            "arthaḥ: purpose",
+            "gatiḥ: forward progress"
+          ]
+        }
+      ]
     },
     {
       "number": 6,
       "section": "chamakam",
-      "sanskrit": "अग्निश्च म इन्द्रश्च मे सोमश्च म इन्द्रश्च मे सविता च म इन्द्रश्च मे सरस्वती च म इन्द्रश्च मे पूषा च म इन्द्रश्च मे बृहस्पतिश्च म इन्द्रश्च मे मित्रश्च म इन्द्रश्च मे वरुणश्च म इन्द्रश्च मे त्वष्टा च म इन्द्रश्च मे धाता च म इन्द्रश्च मे विष्णुश्च म इन्द्रश्च मेऽश्विनौ च म इन्द्रश्च मे मरुतश्च म इन्द्रश्च मे विश्वे च मे देवा इन्द्रश्च मे पृथिवी च म इन्द्रश्च मेऽन्तरिक्षं च म इन्द्रश्च मे द्यौश्च म इन्द्रश्च मे दिशश्च म इन्द्रश्च मे मूर्धा च म इन्द्रश्च मे प्रजापतिश्च म इन्द्रश्च मे ॥ ६ ॥",
-      "transliteration": "agniśca ma indraśca me somaśca ma indraśca me savitā ca ma indraśca me sarasvatī ca ma indraśca me pūṣā ca ma indraśca me bṛhaspatiśca ma indraśca me mitraśca ma indraśca me varuṇaśca ma indraśca me tvaṣṭā ca ma indraśca me dhātā ca ma indraśca me viṣṇuśca ma indraśca me'śvinau ca ma indraśca me marutaśca ma indraśca me viśve ca me devā indraśca me pṛthivī ca ma indraśca me'ntarikṣaṃ ca ma indraśca me dyauśca ma indraśca me diśaśca ma indraśca me mūrdhā ca ma indraśca me prajāpatiśca ma indraśca me || 6 ||",
       "theme": "Prayer for all deities paired with Indra",
       "meaning": "This anuvaka invokes a pantheon of Vedic deities, each paired with Indra - Agni and Indra, Soma and Indra, Savitr and Indra, Sarasvati and Indra, Pushan and Indra, Brihaspati, Mitra, Varuna, Tvashta, Dhata, Vishnu, the Ashwins, the Maruts, all the Vishvedevas, paired with Indra. It further asks that earth, mid-space, heavens, directions, zenith, and Prajapati all be granted alongside Indra - the totality of cosmic powers protected by the king of gods.",
-      "youtubeTime": 1109
+      "youtubeTime": 1109,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Agni, Soma & Sarasvati",
+          "sanskrit": "अग्निश्च म इन्द्रश्च मे सोमश्च म इन्द्रश्च मे सविता च म इन्द्रश्च मे सरस्वती च म इन्द्रश्च मे",
+          "iast": "agniśca ma indraśca me somaśca ma indraśca me savitā ca ma indraśca me sarasvatī ca ma indraśca me",
+          "meaning": "This chunk invokes Agni (fire) with Indra, Soma (the divine nectar/moon) with Indra, Savitri (the solar stimulator) with Indra, and Sarasvati (goddess of wisdom and speech) with Indra - each pairing the specific deity with the king of the gods for combined blessing.",
+          "key_words": [
+            "agniḥ: fire god",
+            "somaḥ: divine nectar/moon",
+            "savitā: solar stimulator",
+            "sarasvatī: goddess of wisdom",
+            "indraḥ: king of gods (paired)",
+            "ca me: and for me"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Pushan, Brihaspati & Varuna",
+          "sanskrit": "पूषा च म इन्द्रश्च मे बृहस्पतिश्च म इन्द्रश्च मे मित्रश्च म इन्द्रश्च मे वरुणश्च म इन्द्रश्च मे",
+          "iast": "pūṣā ca ma indraśca me bṛhaspatiśca ma indraśca me mitraśca ma indraśca me varuṇaśca ma indraśca me",
+          "meaning": "This chunk invokes Pushan (nourisher) with Indra, Brihaspati (teacher of the gods) with Indra, Mitra (god of friendship and contract) with Indra, and Varuna (lord of cosmic order and waters) with Indra - each sovereign force paired with Indra's strength.",
+          "key_words": [
+            "pūṣā: nourisher",
+            "bṛhaspatiḥ: teacher of gods",
+            "mitraḥ: god of friendship",
+            "varuṇaḥ: lord of cosmic order",
+            "indraḥ: paired deity"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Vishnu, Ashvins & All Gods",
+          "sanskrit": "त्वष्टा च म इन्द्रश्च मे धाता च म इन्द्रश्च मे विष्णुश्च म इन्द्रश्च मेऽश्विनौ च म इन्द्रश्च मे मरुतश्च म इन्द्रश्च मे विश्वे च मे देवा इन्द्रश्च मे",
+          "iast": "tvaṣṭā ca ma indraśca me dhātā ca ma indraśca me viṣṇuśca ma indraśca me'śvinau ca ma indraśca me marutaśca ma indraśca me viśve ca me devā indraśca me",
+          "meaning": "This chunk invokes Tvashtri (divine artisan) with Indra, Dhatri (sustainer) with Indra, Vishnu (preserver) with Indra, the Ashvin twin healers with Indra, the Maruts (storm gods) with Indra, and all the Vishvedevas with Indra - pairing every cosmic deity with the king of gods.",
+          "key_words": [
+            "tvaṣṭā: divine artisan",
+            "dhātā: sustainer",
+            "viṣṇuḥ: preserver",
+            "aśvinau: twin healers",
+            "marutaḥ: storm gods",
+            "viśve devāḥ: all the gods",
+            "indraḥ: paired deity"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Earth, Sky & Prajapati",
+          "sanskrit": "पृथिवी च म इन्द्रश्च मेऽन्तरिक्षं च म इन्द्रश्च मे द्यौश्च म इन्द्रश्च मे दिशश्च म इन्द्रश्च मे मूर्धा च म इन्द्रश्च मे प्रजापतिश्च म इन्द्रश्च मे ॥ ६ ॥",
+          "iast": "pṛthivī ca ma indraśca me'ntarikṣaṃ ca ma indraśca me dyauśca ma indraśca me diśaśca ma indraśca me mūrdhā ca ma indraśca me prajāpatiśca ma indraśca me || 6 ||",
+          "meaning": "This chunk invokes the cosmic spheres paired with Indra - earth (prithivi), atmosphere (antariksha), sky (dyauh), directions (dishah), cosmic zenith (murdha), and Prajapati (lord of creatures) - completing the pantheon of spatial and supreme rulers in union with Indra.",
+          "key_words": [
+            "pṛthivī: earth",
+            "antarikṣaṃ: atmosphere",
+            "dyauḥ: celestial sky",
+            "diśaḥ: directions",
+            "mūrdhā: cosmic zenith",
+            "prajāpatiḥ: lord of creatures",
+            "indraḥ: paired deity"
+          ]
+        }
+      ]
     },
     {
       "number": 7,
       "section": "chamakam",
-      "sanskrit": "अꣳशुश्च मे रश्मिश्च मेऽदाभ्यश्च मेऽधिपतिश्च म उपाꣳशुश्च मेऽन्तर्यामश्च म ऐन्द्रवायवश्च मे मैत्रावरुणश्च म आश्विनश्च मे प्रतिप्रस्थानश्च मे शुक्रश्च मे मन्थी च म आग्रयणश्च मे वैश्वदेवश्च मे ध्रुवश्च मे वैश्वानरश्च म ऋतुग्रहाश्च मेऽतिग्राह्याश्च म ऐन्द्राग्नश्च मे वैश्वदेवश्च मे मरुत्वतीयाश्च मे माहेन्द्रश्च म आदित्यश्च मे सावित्रश्च मे सारस्वतश्च मे पौष्णश्च मे पात्नीवतश्च मे हारियोजनश्च मे ॥ ७ ॥",
-      "transliteration": "aṃśuśca me raśmiśca me'dābhyaśca me'dhipatiśca ma upāṃśuśca me'ntaryāmaśca ma aindravāyavaśca me maitrāvaruṇaśca ma āśvinaśca me pratiprasthānaśca me śukraśca me manthī ca ma āgrayaṇaśca me vaiśvadevaśca me dhruvaśca me vaiśvānaraśca ma ṛtugrahāśca me'tigrāhyāśca ma aindrāgnaśca me vaiśvadevaśca me marutvatīyāśca me māhendraśca ma ādityaśca me sāvitraśca me sārasvataśca me pauṣṇaśca me pātnīvataśca me hāriyojanaśca me || 7 ||",
       "theme": "Prayer for Soma cups and ritual offerings",
       "meaning": "This anuvaka enumerates the technical components of Soma sacrifice - Amshu and Rashmi (rays/juice portions), Adabhya and Adhipati graha (cups), Upamshu and Antaryama, the Aindravayava, Maitravaruna, and Ashvina cups, Pratiprasthana and Shukra, Manthi and Agrayana. It asks for Vaishvadeva, Dhruva, Vaishvanara cups, the seasonal Ritugrahas, the Atigrahyas, and the graha offerings to Indra-Agni, Vishvedevas, Marutvatiya, Mahendra, Aditya, Savitr, Sarasvati, Pushan, the consort-goddesses, and Hariyojana - every ritual vessel for completeness.",
-      "youtubeTime": 1149
+      "youtubeTime": 1149,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Amshu & Rashmi Cups",
+          "sanskrit": "अꣳशुश्च मे रश्मिश्च मेऽदाभ्यश्च मेऽधिपतिश्च म उपाꣳशुश्च मेऽन्तर्यामश्च म",
+          "iast": "aṃśuśca me raśmiśca me'dābhyaśca me'dhipatiśca ma upāṃśuśca me'ntaryāmaśca ma",
+          "meaning": "This chunk requests the Soma ritual cups Amshu and Rashmi (small rays/juice vessels), the Adabhya and Adhipati grahas (unassailable and chief cups), and the Upamshu and Antaryama cups (silent-pouring and intermediate vessels) - the earliest Soma vessels in the yajna sequence.",
+          "key_words": [
+            "aṃśuḥ: small Soma cup",
+            "raśmiḥ: ray-vessel",
+            "adābhyaḥ: unassailable cup",
+            "adhipatiḥ: chief cup",
+            "upāṃśuḥ: silent-pouring cup",
+            "antaryāmaḥ: intermediate cup"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Shukra & Manthi Cups",
+          "sanskrit": "ऐन्द्रवायवश्च मे मैत्रावरुणश्च म आश्विनश्च मे प्रतिप्रस्थानश्च मे शुक्रश्च मे मन्थी च म",
+          "iast": "aindravāyavaśca me maitrāvaruṇaśca ma āśvinaśca me pratiprasthānaśca me śukraśca me manthī ca ma",
+          "meaning": "This chunk prays for the Aindravayava (Indra-Vayu) cup, the Maitravaruna (Mitra-Varuna) cup, the Ashvina cup for the Ashvins, the Pratiprasthana cup, the Shukra (pure) cup, and the Manthi (churned) cup - each dedicated to specific deities and ritual stages.",
+          "key_words": [
+            "aindravāyavaḥ: Indra-Vayu cup",
+            "maitrāvaruṇaḥ: Mitra-Varuna cup",
+            "āśvinaḥ: Ashvina cup",
+            "pratiprasthānaḥ: Pratiprasthana cup",
+            "śukraḥ: pure Soma cup",
+            "manthī: churned Soma cup"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Seasonal Ritu Cups",
+          "sanskrit": "आग्रयणश्च मे वैश्वदेवश्च मे ध्रुवश्च मे वैश्वानरश्च म ऋतुग्रहाश्च मेऽतिग्राह्याश्च म",
+          "iast": "āgrayaṇaśca me vaiśvadevaśca me dhruvaśca me vaiśvānaraśca ma ṛtugrahāśca me'tigrāhyāśca ma",
+          "meaning": "This chunk asks for the Agrayana (first-fruits) cup, the Vaishvadeva (all-gods) cup, the Dhruva (fixed) cup, the Vaishvanara (universal fire) cup, the seasonal Ritugraha cups, and the additional Atigrahya libation cups - covering the seasonal and supplementary offerings.",
+          "key_words": [
+            "āgrayaṇaḥ: first-fruits cup",
+            "vaiśvadevaḥ: all-gods cup",
+            "dhruvaḥ: fixed cup",
+            "vaiśvānaraḥ: universal fire cup",
+            "ṛtugrahāḥ: seasonal cups",
+            "atigrāhyāḥ: additional cups"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Aindragna & Hariyojana",
+          "sanskrit": "ऐन्द्राग्नश्च मे वैश्वदेवश्च मे मरुत्वतीयाश्च मे माहेन्द्रश्च म आदित्यश्च मे सावित्रश्च मे सारस्वतश्च मे पौष्णश्च मे पात्नीवतश्च मे हारियोजनश्च मे ॥ ७ ॥",
+          "iast": "aindrāgnaśca me vaiśvadevaśca me marutvatīyāśca me māhendraśca ma ādityaśca me sāvitraśca me sārasvataśca me pauṣṇaśca me pātnīvataśca me hāriyojanaśca me || 7 ||",
+          "meaning": "This chunk invokes the Aindragna (Indra-Agni) cup, the Vaishvadeva cup, the Marutvatiya (Indra-with-Maruts) cups, the Mahendra (great Indra) cup, the Aditya, Savitra, Sarasvata, Paushna, Patnivata (for consort-gods), and Hariyojana (golden-yoked) cups - the final set of graha offerings.",
+          "key_words": [
+            "aindrāgnaḥ: Indra-Agni cup",
+            "marutvatīyāḥ: Indra-Maruts cups",
+            "māhendraḥ: great Indra cup",
+            "ādityaḥ: Aditya cup",
+            "sāvitraḥ: Savitri cup",
+            "sārasvataḥ: Sarasvati cup",
+            "pauṣṇaḥ: Pushan cup",
+            "pātnīvataḥ: consort-gods cup",
+            "hāriyojanaḥ: golden-yoked cup"
+          ]
+        }
+      ]
     },
     {
       "number": 8,
       "section": "chamakam",
-      "sanskrit": "इध्मश्च मे बर्हिश्च मे वेदिश्च मे दिष्णियाश्च मे स्रुचश्च मे चमसाश्च मे ग्रावाणश्च मे स्वरवश्च म उपरवाश्च मेऽधिषवणे च मे द्रोणकलशश्च मे वायव्यानि च मे पूतभृच्च म आधवनीयश्च म आग्नीध्रं च मे हविर्धानं च मे गृहाश्च मे सदश्च मे पुरोडाशाश्च मे पचताश्च मेऽवभृथश्च मे स्वगाकारश्च मे ॥ ८ ॥",
-      "transliteration": "idhmaśca me barhiśca me vediśca me diṣṇiyāśca me srucaśca me camasāśca me grāvāṇaśca me svaravaśca ma uparavāśca me'dhiṣavaṇe ca me droṇakalaśaśca me vāyavyāni ca me pūtabhṛcca ma ādhavanīyaśca ma āgnīdhraṃ ca me havirdhānaṃ ca me gṛhāśca me sadaśca me puroḍāśāśca me pacatāśca me'vabhṛthaśca me svagākāraśca me || 8 ||",
       "theme": "Prayer for sacrificial implements and ritual structures",
       "meaning": "This anuvaka requests the physical components of the Vedic yajna - firewood and sacred grass, the altar and subsidiary fire-mounds, ladles and cups, pressing stones and wooden posts, sound-posts and pressing boards, the drona (trough) and the vayavya cups. It asks for the purifying vessel, the pouring cup, the Agnidhra fire, the Havirdhana cart, the sacrificial huts and Sadas hall, the purodasha cakes, the cooked offerings, the final avabhritha bath, and the Svagakara invocation - every element of ritual architecture.",
-      "youtubeTime": 1180
+      "youtubeTime": 1180,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Fuel, Altar & Ladles",
+          "sanskrit": "इध्मश्च मे बर्हिश्च मे वेदिश्च मे दिष्णियाश्च मे स्रुचश्च मे चमसाश्च मे",
+          "iast": "idhmaśca me barhiśca me vediśca me diṣṇiyāśca me srucaśca me camasāśca me",
+          "meaning": "This chunk requests the sacrificial firewood (idhma), kusha grass (barhi), altar (vedi), subsidiary fire-mounds (dhishniya), sacrificial ladles (sruch), and offering cups (chamasa) - the primary ritual implements that sustain the yajna flame and carry its offerings.",
+          "key_words": [
+            "idhmaḥ: fuel wood",
+            "barhiḥ: sacred grass",
+            "vediḥ: altar",
+            "dhiṣṇiyāḥ: subsidiary fire-mounds",
+            "sruchaḥ: sacrificial ladles",
+            "camasāḥ: offering cups"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Pressing Stones & Drona",
+          "sanskrit": "ग्रावाणश्च मे स्वरवश्च म उपरवाश्च मेऽधिषवणे च मे द्रोणकलशश्च मे",
+          "iast": "grāvāṇaśca me svaravaśca ma uparavāśca me'dhiṣavaṇe ca me droṇakalaśaśca me",
+          "meaning": "This chunk prays for the Soma pressing stones (gravan), the ritual sound-posts (svaravah), the lower altar posts (uparava), the pressing boards (adhishavana), and the large Drona-kalasha (trough-vessel) which holds the pressed Soma - the heart of the Soma-pressing apparatus.",
+          "key_words": [
+            "grāvāṇaḥ: pressing stones",
+            "svaravaḥ: sound-posts",
+            "uparavāḥ: lower altar posts",
+            "adhiṣavaṇe: pressing boards",
+            "droṇakalaśaḥ: trough-vessel"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Strainers & Agnidhra",
+          "sanskrit": "वायव्यानि च मे पूतभृच्च म आधवनीयश्च म आग्नीध्रं च मे हविर्धानं च मे",
+          "iast": "vāyavyāni ca me pūtabhṛcca ma ādhavanīyaśca ma āgnīdhraṃ ca me havirdhānaṃ ca me",
+          "meaning": "This chunk asks for the Vayavya (strainer) vessels, the Putabhrit (purifying vessel), the Adhavaniya (pouring vessel), the Agnidhra (fire-lighter's hearth), and the Havirdhana (oblation-cart/hut) - the instruments that filter, carry, and house the sacred offerings.",
+          "key_words": [
+            "vāyavyāni: strainer vessels",
+            "pūtabhṛt: purifying vessel",
+            "ādhavanīyaḥ: pouring vessel",
+            "āgnīdhraṃ: fire-lighter's hearth",
+            "havirdhānaṃ: oblation-cart"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Ritual House & Svagakara",
+          "sanskrit": "गृहाश्च मे सदश्च मे पुरोडाशाश्च मे पचताश्च मेऽवभृथश्च मे स्वगाकारश्च मे ॥ ८ ॥",
+          "iast": "gṛhāśca me sadaśca me puroḍāśāśca me pacatāśca me'vabhṛthaśca me svagākāraśca me || 8 ||",
+          "meaning": "This chunk prays for the sacrificial huts (griha), the Sadas hall, the purodasha (sacrificial cakes), the pachata (cooked offerings), the Avabhritha (final purification bath), and the Svagakara (concluding invocation of well-being) - completing the architectural and procedural elements of the yajna.",
+          "key_words": [
+            "gṛhāḥ: ritual huts",
+            "sadaḥ: Sadas hall",
+            "puroḍāśāḥ: sacrificial cakes",
+            "pacatāḥ: cooked offerings",
+            "avabhṛthaḥ: final purification bath",
+            "svagākāraḥ: concluding well-being invocation"
+          ]
+        }
+      ]
     },
     {
       "number": 9,
       "section": "chamakam",
-      "sanskrit": "अग्निश्च मे घर्मश्च मेऽर्कश्च मे सूर्यश्च मे प्राणश्च मेऽश्वमेधश्च मे पृथिवी च मेऽदितिश्च मे दितिश्च मे द्यौश्च मे शक्वरीरङ्गुलयो दिशश्च मे यज्ञेन कल्पन्तामृक्च मे साम च मे स्तोमश्च मे यजुश्च मे दीक्षा च मे तपश्च म ऋतुश्च मे व्रतं च मेऽहोरात्रयोर्वृष्ट्या बृहद्रथन्तरे च मे यज्ञेन कल्पेताम् ॥ ९ ॥",
-      "transliteration": "agniśca me gharmaśca me'rkaśca me sūryaśca me prāṇaśca me'śvamedhaśca me pṛthivī ca me'ditiśca me ditiśca me dyauśca me śakvarīraṅgulayo diśaśca me yajñena kalpantāmṛkca me sāma ca me stomaśca me yajuśca me dīkṣā ca me tapaśca ma ṛtuśca me vrataṃ ca me'horātrayorvṛṣṭyā bṛhadrathantare ca me yajñena kalpetām || 9 ||",
       "theme": "Prayer for cosmic forces and Vedic knowledge",
       "meaning": "This anuvaka requests fire and heat, the sun-ray and the sun itself, life-breath and the great Ashvamedha sacrifice, earth and Aditi and Diti, heaven and the fingers like Shakkaris, and the directions - all harmonized through yajna. It asks that the Rig, Sama, Stoma, and Yajus Vedic chants, initiation (diksha) and austerity (tapas), seasons and sacred vows, day and night's rainfall, and the great Brihad and Rathantara Samans all be fulfilled through sacrifice.",
-      "youtubeTime": 1216
+      "youtubeTime": 1216,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Fire, Sun & Ashvamedha",
+          "sanskrit": "अग्निश्च मे घर्मश्च मेऽर्कश्च मे सूर्यश्च मे प्राणश्च मेऽश्वमेधश्च मे",
+          "iast": "agniśca me gharmaśca me'rkaśca me sūryaśca me prāṇaśca me'śvamedhaśca me",
+          "meaning": "This chunk invokes fire (agni), sacrificial heat (gharma), the sun-ray (arka), the Sun himself (surya), life-breath (prana), and the great Ashvamedha (horse-sacrifice) - the luminous and life-giving forces that sustain both cosmos and ritual.",
+          "key_words": [
+            "agniḥ: fire",
+            "gharmaḥ: sacrificial heat",
+            "arkaḥ: sun-ray",
+            "sūryaḥ: Sun",
+            "prāṇaḥ: life-breath",
+            "aśvamedhaḥ: horse-sacrifice"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Earth, Sky & Vedas",
+          "sanskrit": "पृथिवी च मेऽदितिश्च मे दितिश्च मे द्यौश्च मे शक्वरीरङ्गुलयो दिशश्च मे यज्ञेन कल्पन्तामृक्च मे साम च मे स्तोमश्च मे यजुश्च मे",
+          "iast": "pṛthivī ca me'ditiśca me ditiśca me dyauśca me śakvarīraṅgulayo diśaśca me yajñena kalpantāmṛkca me sāma ca me stomaśca me yajuśca me",
+          "meaning": "This chunk prays that Prithvi (earth), Aditi (infinite mother of gods), Diti (material realm), Dyauh (sky), the Shakvari fingers (ritual gestures in the Shakvari meter), and the directions (dishah) be made fit through sacrifice - and also the Rik (Rig hymns), Sama (chants), Stoma (praises), and Yajuh (sacrificial formulas).",
+          "key_words": [
+            "pṛthivī: earth",
+            "aditiḥ: infinite mother",
+            "ditiḥ: material realm",
+            "dyauḥ: sky",
+            "śakvarīḥ: Shakvari meter",
+            "aṅgulayaḥ: ritual fingers",
+            "ṛk: Rig Veda",
+            "sāma: Sama chants",
+            "stomaḥ: praise",
+            "yajuḥ: Yajur formulas"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Diksha, Tapas & Vows",
+          "sanskrit": "दीक्षा च मे तपश्च म ऋतुश्च मे व्रतं च",
+          "iast": "dīkṣā ca me tapaśca ma ṛtuśca me vrataṃ ca",
+          "meaning": "This chunk asks for sacrificial initiation (diksha), austerity (tapas), the seasons (ritu), and sacred vows (vrata) - the inner disciplines that make the seeker worthy of the sacrifice.",
+          "key_words": [
+            "dīkṣā: initiation",
+            "tapaḥ: austerity",
+            "ṛtuḥ: seasons",
+            "vrataṃ: sacred vow"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Day, Night & Rain Cycles",
+          "sanskrit": "मेऽहोरात्रयोर्वृष्ट्या बृहद्रथन्तरे च मे यज्ञेन कल्पेताम् ॥ ९ ॥",
+          "iast": "me'horātrayorvṛṣṭyā bṛhadrathantare ca me yajñena kalpetām || 9 ||",
+          "meaning": "This chunk prays that day and night (ahoratra), the rains (vrishti), and the great Brihat and Rathantara Samans (cosmic chants representing ordered time-cycles) be fulfilled through sacrifice - aligning personal sadhana with cosmic rhythm.",
+          "key_words": [
+            "ahorātrayoḥ: of day and night",
+            "vṛṣṭyā: with rain",
+            "bṛhad-rathantare: Brihat and Rathantara Samans",
+            "yajñena kalpetām: may they be fulfilled through sacrifice"
+          ]
+        }
+      ]
     },
     {
       "number": 10,
       "section": "chamakam",
-      "sanskrit": "गर्भाश्च मे वत्साश्च मे त्र्यविश्च मे त्र्यवी च मे दित्यवाट् च मे दित्यौही च मे पञ्चाविश्च मे पञ्चावी च मे त्रिवत्सश्च मे त्रिवत्सा च मे तुर्यवाट् च मे तुर्यौही च मे पष्ठवाट् च मे पष्ठौही च म उक्षा च मे वशा च म ऋषभश्च मे वेहच्च मेऽनड्वाञ्च मे धेनुश्च म आयुर्यज्ञेन कल्पतां प्राणो यज्ञेन कल्पतामपानो यज्ञेन कल्पतां व्यानो यज्ञेन कल्पतां चक्षुर्यज्ञेन कल्पताꣳ श्रोत्रं यज्ञेन कल्पतां मनो यज्ञेन कल्पतां वाग्यज्ञेन कल्पतामात्मा यज्ञेन कल्पतां यज्ञो यज्ञेन कल्पताम् ॥ १० ॥",
-      "transliteration": "garbhāśca me vatsāśca me tryaviśca me tryavī ca me dityavāṭ ca me dityauhī ca me pañcāviśca me pañcāvī ca me trivatsaśca me trivatsā ca me turyavāṭ ca me turyauhī ca me paṣṭhavāṭ ca me paṣṭhauhī ca ma ukṣā ca me vaśā ca ma ṛṣabhaśca me vehacca me'naḍvāñca me dhenuśca ma āyuryajñena kalpatāṃ prāṇo yajñena kalpatāmapāno yajñena kalpatāṃ vyāno yajñena kalpatāṃ cakṣuryajñena kalpatāṃ śrotraṃ yajñena kalpatāṃ mano yajñena kalpatāṃ vāgyajñena kalpatāmātmā yajñena kalpatāṃ yajño yajñena kalpatām || 10 ||",
       "theme": "Prayer for livestock and harmonizing life through yajna",
       "meaning": "This anuvaka requests pregnant cows and calves, yearling bulls and heifers, two-year-olds and three-year-olds, four-year-olds and six-year-olds, bulls and barren cows, the mighty bull, the sterile cow, the draft ox and the milch cow. Then in a crescendo, it prays that life-span, prana, apana, vyana, sight, hearing, mind, speech, the Self, and the yajna itself all be perfectly harmonized through sacrifice - the complete alignment of body, senses, and soul through sacred ritual.",
-      "youtubeTime": 1245
+      "youtubeTime": 1245,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Pregnancies & Calves",
+          "sanskrit": "गर्भाश्च मे वत्साश्च मे त्र्यविश्च मे त्र्यवी च मे दित्यवाट् च मे दित्यौही च मे पञ्चाविश्च मे पञ्चावी च मे",
+          "iast": "garbhāśca me vatsāśca me tryaviśca me tryavī ca me dityavāṭ ca me dityauhī ca me pañcāviśca me pañcāvī ca me",
+          "meaning": "This chunk asks for fertility of livestock - pregnancies (garbha), calves (vatsa), one-and-a-half-year-old male (tryavi) and female (tryavi), two-year-old male (dityavat) and female (dityauhi), and two-and-a-half-year-old male (panchavi) and female (panchavi) - the detailed categories of young cattle.",
+          "key_words": [
+            "garbhāḥ: pregnancies",
+            "vatsāḥ: calves",
+            "tryaviḥ: one-and-a-half-year male",
+            "tryavī: one-and-a-half-year female",
+            "dityavāṭ: two-year male",
+            "dityauhī: two-year female",
+            "pañcāviḥ: two-and-a-half-year male",
+            "pañcāvī: two-and-a-half-year female"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Bulls, Cows & Dhenu",
+          "sanskrit": "त्रिवत्सश्च मे त्रिवत्सा च मे तुर्यवाट् च मे तुर्यौही च मे पष्ठवाट् च मे पष्ठौही च म उक्षा च मे वशा च म ऋषभश्च मे वेहच्च मेऽनड्वाञ्च मे धेनुश्च म",
+          "iast": "trivatsaśca me trivatsā ca me turyavāṭ ca me turyauhī ca me paṣṭhavāṭ ca me paṣṭhauhī ca ma ukṣā ca me vaśā ca ma ṛṣabhaśca me vehacca me'naḍvāñca me dhenuśca ma",
+          "meaning": "This chunk prays for cattle of mature ages - three-year-old male (trivatsa) and female (trivatsa), four-year-old male (turyavat) and female (turyauhi), six-year-old male (pashthavat) and female (pashthauhi), the bull (uksha), barren cow (vasha), leader bull (rishabha), strong male (vehat), draft ox (anadvan), and the milking cow (dhenu).",
+          "key_words": [
+            "trivatsaḥ: three-year male",
+            "turyavāṭ: four-year male",
+            "paṣṭhavāṭ: six-year male",
+            "ukṣā: bull",
+            "vaśā: barren cow",
+            "ṛṣabhaḥ: leader bull",
+            "vehat: strong male",
+            "anaḍvān: draft ox",
+            "dhenuḥ: milking cow"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Life & Pranas Through Yajna",
+          "sanskrit": "आयुर्यज्ञेन कल्पतां प्राणो यज्ञेन कल्पतामपानो यज्ञेन कल्पतां व्यानो यज्ञेन कल्पतां",
+          "iast": "āyuryajñena kalpatāṃ prāṇo yajñena kalpatāmapāno yajñena kalpatāṃ vyāno yajñena kalpatāṃ",
+          "meaning": "This chunk prays that lifespan (ayus), outgoing breath (prana), incoming breath (apana), and circulating breath (vyana) all be harmonized and fulfilled through sacrifice - offering the vital life-forces themselves into the yajna.",
+          "key_words": [
+            "āyuḥ: lifespan",
+            "yajñena kalpatāṃ: may it be fulfilled through sacrifice",
+            "prāṇaḥ: outgoing breath",
+            "apānaḥ: incoming breath",
+            "vyānaḥ: circulating breath"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Senses & Self Through Yajna",
+          "sanskrit": "चक्षुर्यज्ञेन कल्पताꣳ श्रोत्रं यज्ञेन कल्पतां मनो यज्ञेन कल्पतां वाग्यज्ञेन कल्पतामात्मा यज्ञेन कल्पतां यज्ञो यज्ञेन कल्पताम् ॥ १० ॥",
+          "iast": "cakṣuryajñena kalpatāṃ śrotraṃ yajñena kalpatāṃ mano yajñena kalpatāṃ vāgyajñena kalpatāmātmā yajñena kalpatāṃ yajño yajñena kalpatām || 10 ||",
+          "meaning": "This chunk prays that sight (chakshu), hearing (shrotra), mind (manas), speech (vak), the Self (atma), and the yajna itself (yajna) all be fulfilled through sacrifice - a total surrender of senses, faculties, and self into the sacred fire. The repetition 'yajno yajnena kalpatam' marks the self-referential perfection of offering itself.",
+          "key_words": [
+            "cakṣuḥ: sight",
+            "śrotraṃ: hearing",
+            "manaḥ: mind",
+            "vāk: speech",
+            "ātmā: Self",
+            "yajñaḥ: sacrifice itself",
+            "yajñena kalpatām: fulfilled through sacrifice"
+          ]
+        }
+      ]
     },
     {
       "number": 11,
       "section": "chamakam",
-      "sanskrit": "एका च मे तिस्रश्च मे पञ्च च मे सप्त च मे नव च म एकादश च मे त्रयोदश च मे पञ्चदश च मे सप्तदश च मे नवदश च म एकविꣳशतिश्च मे त्रयोविꣳशतिश्च मे पञ्चविꣳशतिश्च मे सप्तविꣳशतिश्च मे नवविꣳशतिश्च म एकत्रिꣳशच्च मे त्रयस्त्रिꣳशच्च मे चतस्रश्च मेऽष्टौ च मे द्वादश च मे षोडश च मे विꣳशतिश्च मे चतुर्विꣳशतिश्च मेऽष्टाविꣳशतिश्च मे द्वात्रिꣳशच्च मे षट्त्रिꣳशच्च मे चत्वरिꣳशच्च मे चतुश्चत्वारिꣳशच्च मेऽष्टाचत्वारिꣳशच्च मे वाजश्च प्रसवश्चापिजश्च क्रतुश्च सुवश्च मूर्धा च व्यश्नियश्चान्त्यायनश्चान्त्यश्च भौवनश्च भुवनश्चाधिपतिश्च ॥\nॐ इडा देवहूर्मनुर्यज्ञनीर्बृहस्पतिरुक्थामदानि शꣳसिषद्विश्वेदेवाः सूक्तवाचः पृथिवीमातर्मा मा हिꣳसीर्मधु मनिष्ये मधु जनिष्ये मधु वक्ष्यामि मधु वदिष्यामि मधुमतीं देवेभ्यो वाचमुद्यासꣳ शुश्रूषेण्यां मनुष्येभ्यस्तं मा देवा अवन्तु शोभायै पितरोऽनुमदन्तु ॥\nॐ शान्तिः शान्तिः शान्तिः ॥ ११ ॥",
-      "transliteration": "ekā ca me tisraśca me pañca ca me sapta ca me nava ca ma ekādaśa ca me trayodaśa ca me pañcadaśa ca me saptadaśa ca me navadaśa ca ma ekaviṃśatiśca me trayoviṃśatiśca me pañcaviṃśatiśca me saptaviṃśatiśca me navaviṃśatiśca ma ekatriṃśacca me trayastriṃśacca me catasraśca me'ṣṭau ca me dvādaśa ca me ṣoḍaśa ca me viṃśatiśca me caturviṃśatiśca me'ṣṭāviṃśatiśca me dvātriṃśacca me ṣaṭtriṃśacca me catvariṃśacca me catuścatvāriṃśacca me'ṣṭācatvāriṃśacca me vājaśca prasavaścāpijaśca kratuśca suvaśca mūrdhā ca vyaśniyaścāntyāyanaścāntyaśca bhauvanaśca bhuvanaścādhipatiśca ||\noṃ iḍā devahūrmanuryajñanīrbṛhaspatirukthāmadāni śaṃsiṣadviśvedevāḥ sūktavācaḥ pṛthivīmātarmā mā hiṃsīrmadhu maniṣye madhu janiṣye madhu vakṣyāmi madhu vadiṣyāmi madhumatīṃ devebhyo vācamudyāsaṃ śuśrūṣeṇyāṃ manuṣyebhyastaṃ mā devā avantu śobhāyai pitaro'numadantu ||\noṃ śāntiḥ śāntiḥ śāntiḥ || 11 ||",
       "theme": "Odd and even numbers series with final benediction",
       "meaning": "The concluding anuvaka contains the famous numerical series - odd numbers (1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33) and even numbers (4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48) - representing completeness in every dimension. It ends with the Idadevahuh invocation, the Madhuvidya prayer (may I think, produce, speak, and declare sweetness), and the triple peace invocation, asking the mother earth not to harm, and that the gods protect and the ancestors rejoice.",
-      "youtubeTime": 1290
+      "youtubeTime": 1290,
+      "mantras": [
+        {
+          "id": 1,
+          "label": "Odd Number Series",
+          "sanskrit": "एका च मे तिस्रश्च मे पञ्च च मे सप्त च मे नव च म एकादश च मे त्रयोदश च मे पञ्चदश च मे सप्तदश च मे नवदश च म एकविꣳशतिश्च मे त्रयोविꣳशतिश्च मे पञ्चविꣳशतिश्च मे सप्तविꣳशतिश्च मे नवविꣳशतिश्च म एकत्रिꣳशच्च मे त्रयस्त्रिꣳशच्च मे",
+          "iast": "ekā ca me tisraśca me pañca ca me sapta ca me nava ca ma ekādaśa ca me trayodaśa ca me pañcadaśa ca me saptadaśa ca me navadaśa ca ma ekaviṃśatiśca me trayoviṃśatiśca me pañcaviṃśatiśca me saptaviṃśatiśca me navaviṃśatiśca ma ekatriṃśacca me trayastriṃśacca me",
+          "meaning": "This chunk contains the celebrated odd-number series - requesting 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33 (ekā, tisra, pancha, sapta, nava, etc. each with 'cha me'). The odd numbers traditionally symbolize the active, ascending, individual aspects in Vedic cosmology.",
+          "key_words": [
+            "ekā: one",
+            "tisraḥ: three",
+            "pañca: five",
+            "sapta: seven",
+            "nava: nine",
+            "ekādaśa: eleven",
+            "trayodaśa: thirteen",
+            "pañcadaśa: fifteen",
+            "ekaviṃśatiḥ: twenty-one",
+            "trayastriṃśat: thirty-three",
+            "ca me: and for me"
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Even Number Series",
+          "sanskrit": "चतस्रश्च मेऽष्टौ च मे द्वादश च मे षोडश च मे विꣳशतिश्च मे चतुर्विꣳशतिश्च मेऽष्टाविꣳशतिश्च मे द्वात्रिꣳशच्च मे षट्त्रिꣳशच्च मे चत्वरिꣳशच्च मे चतुश्चत्वारिꣳशच्च मेऽष्टाचत्वारिꣳशच्च मे",
+          "iast": "catasraśca me'ṣṭau ca me dvādaśa ca me ṣoḍaśa ca me viṃśatiśca me caturviṃśatiśca me'ṣṭāviṃśatiśca me dvātriṃśacca me ṣaṭtriṃśacca me catvariṃśacca me catuścatvāriṃśacca me'ṣṭācatvāriṃśacca me",
+          "meaning": "This chunk contains the even-number series - requesting 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48 (chatasra, ashtau, dvadasha, etc. each with 'cha me'). The even numbers traditionally symbolize the receptive, stable, paired aspects of creation.",
+          "key_words": [
+            "catasraḥ: four",
+            "aṣṭau: eight",
+            "dvādaśa: twelve",
+            "ṣoḍaśa: sixteen",
+            "viṃśatiḥ: twenty",
+            "caturviṃśatiḥ: twenty-four",
+            "aṣṭāviṃśatiḥ: twenty-eight",
+            "dvātriṃśat: thirty-two",
+            "catvāriṃśat: forty",
+            "aṣṭācatvāriṃśat: forty-eight",
+            "ca me: and for me"
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Final Benediction",
+          "sanskrit": "वाजश्च प्रसवश्चापिजश्च क्रतुश्च सुवश्च मूर्धा च व्यश्नियश्चान्त्यायनश्चान्त्यश्च भौवनश्च भुवनश्चाधिपतिश्च ॥",
+          "iast": "vājaśca prasavaścāpijaśca kratuśca suvaśca mūrdhā ca vyaśniyaścāntyāyanaścāntyaśca bhauvanaśca bhuvanaścādhipatiśca ||",
+          "meaning": "This concluding benediction chunk asks for strength (vaja), progeny (prasava), productive agency (apija), willpower (kratu), heaven (suvah), the cosmic summit (murdha), pervasiveness (vyashniya), the final resting place (antyayana), the ultimate state (antya), cosmic birth (bhauvana), the world (bhuvana), and sovereign lordship (adhipati) - the culmination of all Chamakam requests.",
+          "key_words": [
+            "vājaḥ: strength",
+            "prasavaḥ: progeny",
+            "apijaḥ: productive agency",
+            "kratuḥ: willpower",
+            "suvaḥ: heaven",
+            "mūrdhā: cosmic summit",
+            "vyaśniyaḥ: pervasiveness",
+            "antyāyanaḥ: final resting place",
+            "bhauvanaḥ: cosmic origin",
+            "bhuvanaḥ: the world",
+            "adhipatiḥ: sovereign lord"
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Madhu Vidyā & Shānti",
+          "sanskrit": "ॐ इडा देवहूर्मनुर्यज्ञनीर्बृहस्पतिरुक्थामदानि शꣳसिषद्विश्वेदेवाः सूक्तवाचः पृथिवीमातर्मा मा हिꣳसीर्मधु मनिष्ये मधु जनिष्ये मधु वक्ष्यामि मधु वदिष्यामि मधुमतीं देवेभ्यो वाचमुद्यासꣳ शुश्रूषेण्यां मनुष्येभ्यस्तं मा देवा अवन्तु शोभायै पितरोऽनुमदन्तु ॥\nॐ शान्तिः शान्तिः शान्तिः ॥ ११ ॥",
+          "iast": "oṃ iḍā devahūrmanuryajñanīrbṛhaspatirukthāmadāni śaṃsiṣadviśvedevāḥ sūktavācaḥ pṛthivīmātarmā mā hiṃsīrmadhu maniṣye madhu janiṣye madhu vakṣyāmi madhu vadiṣyāmi madhumatīṃ devebhyo vācamudyāsaṃ śuśrūṣeṇyāṃ manuṣyebhyastaṃ mā devā avantu śobhāyai pitaro'numadantu ||\noṃ śāntiḥ śāntiḥ śāntiḥ || 11 ||",
+          "meaning": "The closing shanti-chunk invokes Ida as the caller of the gods, Manu as leader of sacrifice, Brihaspati reciting Ukthas (hymns), the Vishvedevas, and Mother Earth - praying 'do not harm me.' It contains the beautiful Madhu Vidya vow: may I think sweet thoughts (madhu manishye), beget sweetness (madhu janishye), speak sweet words (madhu vakshyami), and declare sweet truths (madhu vadishyami); may I speak honey-filled speech to the gods and pleasing words to humans. It ends with the gods protecting, ancestors rejoicing, and the triple invocation 'Om Shanti Shanti Shanti' - peace at personal, environmental, and cosmic levels.",
+          "key_words": [
+            "iḍā devahūḥ: Ida the caller of gods",
+            "manuḥ: Manu the sacrifice-leader",
+            "bṛhaspatiḥ: lord of prayer",
+            "viśve devāḥ: all the gods",
+            "pṛthivī-mātaḥ: O Mother Earth",
+            "mā hiṃsīḥ: do not harm",
+            "madhu maniṣye: may I think sweetness",
+            "madhu vakṣyāmi: may I speak sweetness",
+            "pitaraḥ anumadantu: may ancestors rejoice",
+            "oṃ śāntiḥ śāntiḥ śāntiḥ: Om peace peace peace"
+          ]
+        }
+      ]
     }
   ],
   "meta": {
