@@ -3384,3 +3384,323 @@ body.chant-fullscreen .chant-text-stage .mantra-item .mantra-sanskrit {
     font-size: 0.75rem;
   }
 }
+
+/* ========================================
+   Sages View - Dedicated rishi/sadhana section
+   ======================================== */
+
+.sages-hero {
+  padding: var(--space-xl) 0 var(--space-lg);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: var(--space-xl);
+}
+
+.sages-hero h2 {
+  font-size: clamp(1.7rem, 3.6vw, 2.3rem);
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 var(--space-sm);
+  letter-spacing: -0.01em;
+}
+
+.sages-lede {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  max-width: 720px;
+  margin: 0;
+}
+
+.sages-section {
+  padding: var(--space-lg) 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: var(--space-md);
+}
+
+.sages-section:last-of-type {
+  border-bottom: none;
+}
+
+.sages-section h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 var(--space-md);
+  letter-spacing: -0.005em;
+}
+
+.sages-intro {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin: 0 0 var(--space-md);
+  max-width: 720px;
+}
+
+.dhara-framing {
+  padding: var(--space-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.dhara-line {
+  display: flex;
+  gap: var(--space-md);
+  padding: var(--space-md) 0;
+  border-bottom: 1px dashed var(--border);
+  align-items: flex-start;
+}
+
+.dhara-line:first-child {
+  padding-top: 0;
+}
+
+.dhara-line-final {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.dhara-label {
+  flex-shrink: 0;
+  width: 80px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gold);
+  padding-top: 3px;
+}
+
+.dhara-text {
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+}
+
+.dhara-text strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.origin-card {
+  padding: var(--space-md) var(--space-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin-bottom: var(--space-lg);
+}
+
+.origin-card p {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  margin: 0 0 var(--space-sm);
+}
+
+.origin-card p:last-child {
+  margin-bottom: 0;
+}
+
+.origin-card strong {
+  color: var(--text-primary);
+}
+
+.transmission-chain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  padding: var(--space-lg) var(--space-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.chain-node {
+  padding: var(--space-sm) var(--space-md);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  text-align: center;
+  max-width: 440px;
+  width: 100%;
+}
+
+.chain-node-final {
+  background: var(--gold);
+  color: var(--gold-on-bg);
+  border-color: var(--gold);
+  font-weight: 600;
+}
+
+.chain-arrow {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  padding: 6px 0;
+  opacity: 0.5;
+}
+
+.rudra-forms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+}
+
+.rudra-form {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.rudra-form-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: var(--gold);
+  color: var(--gold-on-bg);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.rudra-form-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.rudra-form-name {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.rudra-form-desc {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.whats-next-card {
+  padding: var(--space-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.whats-next-intro {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin: 0 0 var(--space-md);
+}
+
+.whats-next-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: var(--space-sm) 0;
+  border-bottom: 1px dashed var(--border);
+}
+
+.whats-next-row:first-of-type {
+  border-top: 1px dashed var(--border);
+}
+
+.whats-next-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--gold);
+}
+
+.whats-next-value {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.whats-next-close {
+  font-size: 0.95rem;
+  font-style: italic;
+  line-height: 1.7;
+  color: var(--text-primary);
+  margin: var(--space-md) 0;
+}
+
+.whats-next-card .cta-btn {
+  display: inline-block;
+  margin-top: var(--space-xs);
+}
+
+.sages-footer {
+  padding: var(--space-lg) 0 var(--space-xl);
+  text-align: center;
+}
+
+.sages-footer p {
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .sages-hero {
+    padding: var(--space-lg) 0 var(--space-md);
+    margin-bottom: var(--space-lg);
+  }
+
+  .chain-node {
+    font-size: 0.85rem;
+    padding: var(--space-sm);
+  }
+
+  .rudra-forms-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .whats-next-card {
+    padding: var(--space-md);
+  }
+
+  .dhara-framing {
+    padding: var(--space-md);
+  }
+
+  .dhara-line {
+    flex-direction: column;
+    gap: 4px;
+    padding: var(--space-sm) 0;
+  }
+
+  .dhara-label {
+    width: auto;
+    padding-top: 0;
+  }
+
+  .dhara-text {
+    font-size: 0.95rem;
+  }
+}

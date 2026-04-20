@@ -210,7 +210,7 @@
   }
 
   // ---- Router ----
-  const ALLOWED_VIEWS = ['home', 'namakam', 'chamakam', 'chant', 'about'];
+  const ALLOWED_VIEWS = ['home', 'namakam', 'chamakam', 'sages', 'chant', 'about'];
   function getHash() {
     const h = window.location.hash.replace('#', '').trim();
     return ALLOWED_VIEWS.includes(h) ? h : 'home';
@@ -228,8 +228,8 @@
     if (view === 'home') renderHome();
     else if (view === 'namakam') renderAnuvakaList('namakam');
     else if (view === 'chamakam') renderAnuvakaList('chamakam');
+    else if (view === 'sages') renderSagesView();
     else if (view === 'chant') initChant();
-    else if (view === 'about') renderAboutSadhana();
 
     // Stop polling when leaving chant
     if (view !== 'chant') stopYtPolling();
@@ -251,16 +251,17 @@
     renderSadhana();
   }
 
-  // ---- About View: Maharudra Sadhana ----
-  function renderAboutSadhana() {
+  // ---- Sages View: Maharudra Sadhana + 11 Forms ----
+  function renderSagesView() {
+    renderSadhanaDays();
+    renderRudraForms();
+  }
+
+  function renderSadhanaDays() {
     const host = document.getElementById('sadhana-days');
-    if (!host) return;
-    if (host.dataset.rendered === '1') return;
-    const sadhana = (DATA.meta && DATA.meta.maharudra_sadhana) || null;
-    if (!sadhana) return;
+    if (!host || host.dataset.rendered === '1') return;
 
     // Collect rishi data from namakam anuvaka-level rishi_info.sadhana_sages
-    // Dedup across anuvakas by rishi name
     const seen = {};
     NAMAKAM.forEach(function (a) {
       if (!a.rishi_info || !Array.isArray(a.rishi_info.sadhana_sages)) return;
@@ -289,6 +290,30 @@
         '</div>' +
         '<div class="sadhana-day-invocations">' + escHtml(d.invocations.join(' • ')) + '</div>' +
         '<div class="sadhana-day-purpose">' + escHtml(d.purpose) + '</div>' +
+      '</div>';
+    });
+    host.innerHTML = html;
+    host.dataset.rendered = '1';
+  }
+
+  function renderRudraForms() {
+    const host = document.getElementById('rudra-forms-grid');
+    if (!host || host.dataset.rendered === '1') return;
+    const forms = (DATA.meta && DATA.meta.eleven_forms_of_rudra) || [];
+    if (!forms.length) return;
+
+    let html = '';
+    forms.forEach(function (f, i) {
+      // Format is "Name (description)" - split if present
+      const m = String(f).match(/^(.+?)\s*\((.+)\)\s*$/);
+      const name = m ? m[1].trim() : String(f);
+      const desc = m ? m[2].trim() : '';
+      html += '<div class="rudra-form">' +
+        '<span class="rudra-form-num">' + (i + 1) + '</span>' +
+        '<div class="rudra-form-body">' +
+          '<span class="rudra-form-name">' + escHtml(name) + '</span>' +
+          (desc ? '<span class="rudra-form-desc">' + escHtml(desc) + '</span>' : '') +
+        '</div>' +
       '</div>';
     });
     host.innerHTML = html;
