@@ -10,8 +10,9 @@
    (the doc id under users/{uid}/apps/), and `fields` maps this
    app's localStorage keys onto how each one merges across devices.
 
-   While apiKey/projectId are still REPLACE_ME, sync.js stays fully
-   dormant and the app runs exactly as it did before, offline-first.
+   Sync is live against the shared 'Sadhana Apps' Firebase project.
+   Blanking apiKey/projectId puts sync back to sleep without
+   touching anything else - the app stays fully usable offline.
    ======================================== */
 
 window.SADHANA_SYNC_CONFIG = {
@@ -23,11 +24,11 @@ window.SADHANA_SYNC_CONFIG = {
     { name: 'chantPos', key: 'sr_chant_pos',      merge: 'bookmark'  },
   ],
   firebase: {
-    apiKey: 'REPLACE_ME',
-    authDomain: 'REPLACE_ME.firebaseapp.com',
-    projectId: 'REPLACE_ME',
-    storageBucket: 'REPLACE_ME.firebasestorage.app',
-    messagingSenderId: 'REPLACE_ME',
-    appId: 'REPLACE_ME',
+    apiKey: 'AIzaSyDjhN4HagHlUt0EvTMJd5T-g5N01Ntv95M',
+    authDomain: 'sadhana-apps-hd.firebaseapp.com',
+    projectId: 'sadhana-apps-hd',
+    storageBucket: 'sadhana-apps-hd.firebasestorage.app',
+    messagingSenderId: '555145234754',
+    appId: '1:555145234754:web:d3bee0ad4b693b06ba60db',
   },
 };
