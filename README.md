@@ -2,7 +2,26 @@
 
 Interactive website for learning and chanting Sri Rudram (Rudra Prashna / Shatarudriya) - the most revered Vedic hymn to Lord Shiva, from Krishna Yajurveda, Taittiriya Samhita.
 
-**Live site**: [shri-rudram.vercel.app](https://shri-rudram.vercel.app)
+**Live site**: [shri-rudram.com](https://shri-rudram.com)
+
+
+## Accounts and sync
+
+Signing in is **optional**. The site is local-first: everything works offline
+and without an account, exactly as it did before accounts existed.
+
+Sign in with Google or an email address and your progress follows you across
+devices in realtime, with no reload. Signing in for the first time on a device
+**merges** what is already on that device into the account rather than
+replacing it, and every merge rule only ever adds - union or maximum, never
+overwrite. Progress cannot be lost by signing in, signing out, or two devices
+being offline at the same time.
+
+Theme, font size and chant display settings deliberately stay per-device. The
+Export / Import buttons in the footer still work as a manual backup.
+
+One account covers all six sadhana sites. See [`SYNC_SETUP.md`](SYNC_SETUP.md)
+for the architecture, the merge rules, and the Firebase setup.
 
 ## What's inside
 

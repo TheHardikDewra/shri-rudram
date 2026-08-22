@@ -3951,3 +3951,18 @@ body.auth-modal-open {
   color: var(--text-secondary);
   line-height: 1.5;
 }
+
+.account-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.account-icon {
+  flex: none;
+}
+
+/* display:inline-flex above would defeat the hidden attribute without this */
+.account-btn[hidden] {
+  display: none;
+}

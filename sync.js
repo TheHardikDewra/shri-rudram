@@ -461,12 +461,15 @@
     var btn = document.getElementById('account-btn');
     if (!btn) return;
     btn.hidden = false;
+    // The button also holds an icon, so only the label span is
+    // rewritten. Falls back to the button for older markup.
+    var label = document.getElementById('account-label') || btn;
     if (user) {
-      btn.textContent = firstName(user);
+      label.textContent = firstName(user);
       btn.classList.add('signed-in');
       btn.setAttribute('aria-label', 'Account and sync settings');
     } else {
-      btn.textContent = 'Sign in';
+      label.textContent = 'Sign in';
       btn.classList.remove('signed-in');
       btn.setAttribute('aria-label', 'Sign in to sync progress');
     }
