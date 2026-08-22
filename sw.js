@@ -1,10 +1,12 @@
-const CACHE_NAME = 'sri-rudram-v6';
+const CACHE_NAME = 'sri-rudram-v7';
 const CORE_ASSETS = [
   './',
   './index.html',
   './style.css',
   './app.js',
   './data.js',
+  './firebase-config.js',
+  './sync.js',
   './manifest.json',
   './icon.svg'
 ];

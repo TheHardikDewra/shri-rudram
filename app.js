@@ -5,6 +5,11 @@
 (function () {
   'use strict';
 
+  // Tells sync.js a synced key just changed. Harmless when sync.js is absent.
+  function syncNotify(key) {
+    document.dispatchEvent(new CustomEvent('sync:local-change', { detail: { key } }));
+  }
+
   // ---- Data ----
   if (typeof RUDRAM_DATA === 'undefined') {
     console.error('RUDRAM_DATA not loaded');
@@ -96,7 +101,7 @@
     if (Array.isArray(arr)) STATE.completed = new Set(arr);
   }
   function saveCompleted() {
-    lsSetJSON(KEYS.completed, Array.from(STATE.completed));
+    lsSetJSON(KEYS.completed, Array.from(STATE.completed)); syncNotify(KEYS.completed);
   }
   function isCompleted(id) { return STATE.completed.has(id); }
   function toggleCompleted(id) {
@@ -111,7 +116,7 @@
     if (data && typeof data.total === 'number' && Array.isArray(data.log)) return data;
     return { total: 0, log: [], streak: 0 };
   }
-  function saveSadhana(data) { lsSetJSON(KEYS.sadhana, data); }
+  function saveSadhana(data) { lsSetJSON(KEYS.sadhana, data); syncNotify(KEYS.sadhana); }
   function todayStr() { return new Date().toISOString().slice(0, 10); }
   function calcStreak(log) {
     if (!log.length) return 0;
@@ -533,7 +538,7 @@
   }
 
   // ---- Chant View ----
-  function saveChantPos() { lsSet(KEYS.chantPos, String(STATE.chantIdx)); }
+  function saveChantPos() { lsSet(KEYS.chantPos, String(STATE.chantIdx)); syncNotify(KEYS.chantPos); }
   function loadChantPos() {
     const raw = lsGet(KEYS.chantPos);
     const n = raw ? parseInt(raw, 10) : 0;
@@ -907,6 +912,18 @@
       else if (e.key === 'f' || e.key === 'F') { toggleChantFullscreen(); e.preventDefault(); }
     });
   }
+
+
+  // Progress arrived from another device - repaint in place, no reload.
+  // Mirrors navigate()'s dispatch without its scroll / fullscreen effects.
+  document.addEventListener('sync:remote-applied', () => {
+    loadCompleted();
+    if (STATE.currentView === 'home') renderHome();
+    else if (STATE.currentView === 'namakam') renderAnuvakaList('namakam');
+    else if (STATE.currentView === 'chamakam') renderAnuvakaList('chamakam');
+    else if (STATE.currentView === 'sages') renderSagesView();
+    // chant view: position is only read on entry, never yanked mid-chant
+  });
 
   function init() {
     initTheme();
