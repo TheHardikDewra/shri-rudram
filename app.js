@@ -204,6 +204,28 @@
   }
 
   // ---- Escape HTML ----
+
+  /* ---- Verse + commentary formatting ---- */
+
+  // A shloka is written as two half-lines separated by a danda. The source
+  // keeps both on one line, so break after each danda that a new half-verse
+  // actually follows. The lookahead names what may start that next line -
+  // a Devanagari or Latin letter, or an opening bracket - which is what keeps
+  // the three things that trip this up intact: a verse number (॥२४॥) is not
+  // split at its digits, a run of dandas (।।) is not split down the middle,
+  // and a trailing danda before a closing bracket (इति ।) does not strand it
+  // on a line of its own. A danda that opens a line is left where it is.
+  function dandaBreak(text) {
+    if (text == null) return '';
+    return String(text).split('\n').map(function (line) {
+      return line.replace(/(\S[ \t]*[।॥]+)[ \t]*(?=[\u0900-\u0963\u0970-\u097FA-Za-z(\u201c\u2018"])/g, '$1\n');
+    }).join('\n')
+      // a few source strings carry a stray blank line, which this container
+      // would otherwise render as a gap in the middle of a verse
+      .replace(/\n[ \t]*\n+/g, '\n')
+      .trim();
+  }
+
   function escHtml(s) {
     if (s == null) return '';
     return String(s)
@@ -373,7 +395,7 @@
             '<span class="mantra-num">' + m.id + '</span>' +
             '<span class="mantra-label">' + escHtml(m.label || '') + '</span>' +
           '</div>' +
-          '<div class="mantra-sanskrit">' + escHtml(swaraText) + '</div>' +
+          '<div class="mantra-sanskrit">' + escHtml(dandaBreak(swaraText)) + '</div>' +
           '<div class="mantra-iast">' + escHtml(m.iast) + '</div>' +
           '<div class="mantra-meaning">' + escHtml(m.meaning) + '</div>' +
           keyWordsHtml +
