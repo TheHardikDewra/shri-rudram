@@ -1437,6 +1437,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: var(--space-sm);
   padding: var(--space-sm) var(--space-md);
   background: var(--surface);
   border: 1px solid var(--border);
@@ -1464,6 +1465,7 @@ main {
   font-size: 0.82rem;
   color: var(--text-secondary);
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .chant-settings {
